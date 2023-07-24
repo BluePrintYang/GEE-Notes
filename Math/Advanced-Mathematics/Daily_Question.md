@@ -192,3 +192,6 @@ $f(x)=x^2(1-x)^2,f''(x)=0在(0,1)上有几个实根$
 
 $k \gt 0, f(x)=lnx-\frac{x}{e}+k在(0,+\infty)零点个数为$
 
+### [Day 77](https://www.bilibili.com/video/BV1tP4y1C7Vf)
+
+$证明当x>0时，有不等式ln(1+\frac{1}{x}) \gt \frac{1}{1+x}$
