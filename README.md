@@ -4,7 +4,7 @@ Study notes of Graduate Entrance Examination.
 
 ## Math
 
-- [Advanced-Mathematics](./Math/Advanced-mathematics/index.md)
+- [Advanced-Mathematics](./Math/Advanced-Mathematics/index.md)
 - [Linear-Algebra](./Math/Linear-Algebra/index.md)
 - [Probability-And-Statistics](./Math/Probability-And-Statistics/index.md)
 
