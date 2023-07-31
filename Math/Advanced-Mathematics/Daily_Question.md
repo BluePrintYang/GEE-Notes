@@ -195,3 +195,11 @@ $k \gt 0, f(x)=lnx-\frac{x}{e}+k在(0,+\infty)零点个数为$
 ### [Day 77](https://www.bilibili.com/video/BV1tP4y1C7Vf)
 
 $证明当x>0时，有不等式ln(1+\frac{1}{x}) \gt \frac{1}{1+x}$
+
+### [Day 78](https://www.bilibili.com/video/BV1eG4y1C7RH)
+
+$证明当x>0时，有不等式arctanx + \frac{1}{x} \gt \frac{\pi}{2}$
+
+### [Day 79](https://www.bilibili.com/video/BV1nG4y1w7jN)
+
+$p,q是大于1的常数，并且\frac{1}{p}+\frac{1}{q}=1，证明对于任意x \gt 0, 有\frac{1}{p} x^p+\frac{1}{q} \ge x$
