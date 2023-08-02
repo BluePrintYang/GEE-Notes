@@ -87,20 +87,28 @@ $\alpha = [a_1,a_2,a_3]^T, \beta = [b_1,b_2,b_3]^T,关于\alpha\beta^T,\beta\alp
 运算法则：
 
 1. 加法 **A，B，C**是同型矩阵，则
-   $\boldsymbol{A} + \boldsymbol{B} = \boldsymbol{B} + \boldsymbol{A}\space交换律$
-   $(\boldsymbol{A} + \boldsymbol{B}) +\boldsymbol{C} = \boldsymbol{A} + (\boldsymbol{B} + \boldsymbol{C})\space结合律$
-   $\boldsymbol{A} + \boldsymbol{0} = \boldsymbol{A}$
-   $\boldsymbol{A} - (-\boldsymbol{A}) = \boldsymbol{0}$
+   $$
+   \boldsymbol{A} + \boldsymbol{B} = \boldsymbol{B} + \boldsymbol{A}\space交换律 \\
+   (\boldsymbol{A} + \boldsymbol{B}) +\boldsymbol{C} = \boldsymbol{A} + (\boldsymbol{B} + \boldsymbol{C})\space结合律 \\
+   \boldsymbol{A} + \boldsymbol{0} = \boldsymbol{A} \\
+   \boldsymbol{A} - (-\boldsymbol{A}) = \boldsymbol{0}
+   $$
 2. 数乘矩阵
-   $k(m\boldsymbol{A}) = (km)\boldsymbol{A} = m(k\boldsymbol{A});(k+m)\boldsymbol{A} = k\boldsymbol{A} + m\boldsymbol{A}$
-   $k(\boldsymbol{A} + \boldsymbol{B}) = k\boldsymbol{A} + k\boldsymbol{B};1\boldsymbol{A}=\boldsymbol{A},0\boldsymbol{A}=\boldsymbol{0}$
+   $$
+   k(m\boldsymbol{A}) = (km)\boldsymbol{A} = m(k\boldsymbol{A});(k+m)\boldsymbol{A} = k\boldsymbol{A} + m\boldsymbol{A} \\
+   k(\boldsymbol{A} + \boldsymbol{B}) = k\boldsymbol{A} + k\boldsymbol{B};1\boldsymbol{A}=\boldsymbol{A},0\boldsymbol{A}=\boldsymbol{0}
+   $$
 3. 乘法
-   $(\boldsymbol{A}\boldsymbol{B})\boldsymbol{C} = \boldsymbol{A}(\boldsymbol{B}\boldsymbol{C})$
-   $\boldsymbol{A}(\boldsymbol{B} + \boldsymbol{C}) = \boldsymbol{A}\boldsymbol{B} + \boldsymbol{A}\boldsymbol{C}$
-   $(\boldsymbol{B} + \boldsymbol{C})\boldsymbol{A} = \boldsymbol{B}\boldsymbol{A} + \boldsymbol{C}\boldsymbol{A}$
+   $$
+   (\boldsymbol{A}\boldsymbol{B})\boldsymbol{C} = \boldsymbol{A}(\boldsymbol{B}\boldsymbol{C}) \\
+   \boldsymbol{A}(\boldsymbol{B} + \boldsymbol{C}) = \boldsymbol{A}\boldsymbol{B} + \boldsymbol{A}\boldsymbol{C} \\
+   (\boldsymbol{B} + \boldsymbol{C})\boldsymbol{A} = \boldsymbol{B}\boldsymbol{A} + \boldsymbol{C}\boldsymbol{A}
+   $$
 4. 转置
-   $(\boldsymbol{A} + \boldsymbol{B})^T = \boldsymbol{A}^T + \boldsymbol{B}^T;(k\boldsymbol{A})^T = k\boldsymbol{A}^T$
-   $(\boldsymbol{A}\boldsymbol{B})^T = \boldsymbol{B}^T\boldsymbol{A}^T;(\boldsymbol{A}^T)^T=\boldsymbol{A}$
+   $$
+   (\boldsymbol{A} + \boldsymbol{B})^T = \boldsymbol{A}^T + \boldsymbol{B}^T;(k\boldsymbol{A})^T = k\boldsymbol{A}^T \\
+   (\boldsymbol{A}\boldsymbol{B})^T = \boldsymbol{B}^T\boldsymbol{A}^T;(\boldsymbol{A}^T)^T=\boldsymbol{A}
+   $$
 
 ### 常见的矩阵
 
@@ -127,12 +135,14 @@ $$\begin{bmatrix}
 的矩阵，称为**A**的伴随矩阵，记为$\boldsymbol{A}^*$
 
 :star:伴随矩阵的公式：
-$\boldsymbol{A}\boldsymbol{A}^* = \boldsymbol{A}^* \boldsymbol{A} = |\boldsymbol{A}|\boldsymbol{E}$
-$(\boldsymbol{A}^*)^{-1} = (\boldsymbol{A}^{-1})^* = \frac{1}{|\boldsymbol{A}|}\boldsymbol{A} (|\boldsymbol{A}| \ne 0)$
-$(k\boldsymbol{A})^* = k^{n-1}\boldsymbol{A}^*$
-$(\boldsymbol{A}^*)^T = (\boldsymbol{A}^T)^*$
-$|\boldsymbol{A}^*| = |\boldsymbol{A}|^{n-1}$
-$(\boldsymbol{A}^*)^* = |\boldsymbol{A}|^{n-2}\boldsymbol{A} (n \ge 2)$
+$$
+\boldsymbol{A}\boldsymbol{A}^* = \boldsymbol{A}^* \boldsymbol{A} = |\boldsymbol{A}|\boldsymbol{E} \\
+(\boldsymbol{A}^*)^{-1} = (\boldsymbol{A}^{-1})^* = \frac{1}{|\boldsymbol{A}|}\boldsymbol{A} (|\boldsymbol{A}| \ne 0) \\
+(k\boldsymbol{A})^* = k^{n-1}\boldsymbol{A}^* \\
+(\boldsymbol{A}^*)^T = (\boldsymbol{A}^T)^* \\
+|\boldsymbol{A}^*| = |\boldsymbol{A}|^{n-1} \\
+(\boldsymbol{A}^*)^* = |\boldsymbol{A}|^{n-2}\boldsymbol{A} (n \ge 2)
+$$
 
 ### 可逆矩阵的概念与定理
 
@@ -154,8 +164,14 @@ $(\boldsymbol{A}^*)^* = |\boldsymbol{A}|^{n-2}\boldsymbol{A} (n \ge 2)$
 
 ### 逆矩阵的运算性质
 
-$若k \ne 0, \boldsymbol{A} 可逆，则(k\boldsymbol{A})^{-1} = \frac{1}{k}\boldsymbol{A}^{-1};若\boldsymbol{A,B}可逆，则(\boldsymbol{A}\boldsymbol{B})^{-1} = \boldsymbol{B}^{-1}\boldsymbol{A}^{-1},特别地(\boldsymbol{A}^2)^{-1} = (\boldsymbol{A}^{-1})^2$
-$若\boldsymbol{A}^T可逆，则(\boldsymbol{A}^{T})^{-1} = (\boldsymbol{A}^{-1})^T; (\boldsymbol{A}^{-1})^{-1} = \boldsymbol{A};|\boldsymbol{A}^{-1}| = \frac{1}{|\boldsymbol{A}|}$
+$$
+若k \ne 0, \boldsymbol{A} 可逆，则(k\boldsymbol{A})^{-1} = \frac{1}{k}\boldsymbol{A}^{-1}; \\
+若\boldsymbol{A,B}可逆，则(\boldsymbol{A}\boldsymbol{B})^{-1} = \boldsymbol{B}^{-1}\boldsymbol{A}^{-1}, \\
+特别地(\boldsymbol{A}^2)^{-1} = (\boldsymbol{A}^{-1})^2 \\
+若\boldsymbol{A}^T可逆，则(\boldsymbol{A}^{T})^{-1} = (\boldsymbol{A}^{-1})^T;
+(\boldsymbol{A}^{-1})^{-1} = \boldsymbol{A};
+|\boldsymbol{A}^{-1}| = \frac{1}{|\boldsymbol{A}|}
+$$
 
 > :bangbang: 即使 $\boldsymbol{A},\boldsymbol{B},\boldsymbol{A} + \boldsymbol{B} 都可逆，一般的(\boldsymbol{A} + \boldsymbol{B})^{-1} \ne \boldsymbol{A}^{-1} + \boldsymbol{B} ^{-1}$
 

@@ -7,7 +7,9 @@
 > n个数$a_1,a_2,\cdots,a_n$所组成的有序数组叫做n维向量
 
 **列向量**：$\boldsymbol{\alpha}=(a_1,a_2,\cdots,a_n)^T$
+
 **行向量**：$\boldsymbol{\alpha}=(a_1,a_2,\cdots,a_n)$
+
 向量$\alpha$的**分量**（或**坐标**）：$a_1,a_2,\cdots,a_n$
 
 相等：$\boldsymbol{\alpha} = \boldsymbol{\beta} \Leftrightarrow \boldsymbol{\alpha}, \boldsymbol{\beta}同维且对应分量 a_i = b_i,i=1,2,\cdots,n$
@@ -19,16 +21,13 @@
 
 若干个同维数的行向量(或同维数的列向量)所组成的集合叫做**向量组**
 
-向量组
-
-$\boldsymbol{\alpha_1}=[a_{11},a_{21},\cdots,a_{r1}]^T, \boldsymbol{\alpha_2}=[a_{12},a_{22},\cdots,a_{r2}]^T, \boldsymbol{\alpha_m}=[a_{1m},a_{2m},\cdots,a_{rm}]^T$
-及
-$\tilde{\boldsymbol{\alpha_1}}=[a_{11},a_{21},\cdots,a_{r1},\cdots,a_{s1}]^T, \tilde{\boldsymbol{\alpha_2}}=[a_{12},a_{22},\cdots,a_{r2},\cdots,a_{s2}]^T, \tilde{\boldsymbol{\alpha_m}}=[a_{1m},a_{2m},\cdots,a_{rm},\cdots,a_{sm}]^T$
-其中 $s \ge r$，则称
-$\tilde{\boldsymbol{\alpha_1}},\tilde{\boldsymbol{\alpha_2}},\cdots,\tilde{\boldsymbol{\alpha_m}}$
-为向量组
-$\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_m}$
-的**延伸组**，反之为**缩短组**
+$$
+向量组 \\
+\boldsymbol{\alpha_1}=[a_{11},a_{21},\cdots,a_{r1}]^T, \boldsymbol{\alpha_2}=[a_{12},a_{22},\cdots,a_{r2}]^T, \boldsymbol{\alpha_m}=[a_{1m},a_{2m},\cdots,a_{rm}]^T \\
+及 \\
+\tilde{\boldsymbol{\alpha_1}}=[a_{11},a_{21},\cdots,a_{r1},\cdots,a_{s1}]^T, \tilde{\boldsymbol{\alpha_2}}=[a_{12},a_{22},\cdots,a_{r2},\cdots,a_{s2}]^T, \tilde{\boldsymbol{\alpha_m}}=[a_{1m},a_{2m},\cdots,a_{rm},\cdots,a_{sm}]^T，\\
+其中 s \ge r，则称 \tilde{\boldsymbol{\alpha_1}},\tilde{\boldsymbol{\alpha_2}},\cdots,\tilde{\boldsymbol{\alpha_m}} 为向量组 \boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_m}的 \bold{延伸组}，反之为\bold{缩短组}
+$$
 
 ## 线性表出、线性相关
 
@@ -100,14 +99,16 @@ $向量组\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_
 
 **定理6**
 
-$向量组\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s} 线性无关，而向量组\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s},\boldsymbol{\beta} 线性相关，则 \boldsymbol{\beta} 可以由\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s}线性表出，且表出法唯一$
+$向量组\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s} 线性无关，而向量组\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s},\boldsymbol{\beta} 线性相关， \\
+则 \boldsymbol{\beta} 可以由\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s}线性表出，且表出法唯一$
 
 **定理7**
 
-设有两个向量组$(I)\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s}，(II)\boldsymbol{\beta_1},\boldsymbol{\beta_2},\cdots,\boldsymbol{\beta_t}$
-$(1)若\boldsymbol{\beta_i}(i=1,2,\cdots,t)均可由(I)线性表出，且t \gt s，则(II)线性相关$
-
-$(2)若\boldsymbol{\beta_i}(i=1,2,\cdots,t)均可由(I)线性表出，且(II)线性无关，则t \le s$
+$$
+设有两个向量组(I)\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s}，(II)\boldsymbol{\beta_1},\boldsymbol{\beta_2},\cdots,\boldsymbol{\beta_t} \\
+(1)若\boldsymbol{\beta_i}(i=1,2,\cdots,t)均可由(I)线性表出，且t \gt s，则(II)线性相关 \\
+(2)若\boldsymbol{\beta_i}(i=1,2,\cdots,t)均可由(I)线性表出，且(II)线性无关，则t \le s
+$$
 
 ## 向量组的秩、矩阵的秩
 
@@ -129,7 +130,7 @@ $向量组(I)\boldsymbol{\alpha_{i_1}},\boldsymbol{\alpha_{i_2}},\cdots,\boldsym
 >
 > 一个线性无关向量组的极大线性无关组就是该向量组本身
 
-**向量组的秩：**向量组的极大线性无关组的==向量个数==，记为$r(\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s})$
+**向量组的秩**：向量组的极大线性无关组的==向量个数==，记为$r(\boldsymbol{\alpha_1},\boldsymbol{\alpha_2},\cdots,\boldsymbol{\alpha_s})$
 
 #### 等价向量组定义
 
