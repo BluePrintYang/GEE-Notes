@@ -203,3 +203,7 @@ $证明当x>0时，有不等式arctanx + \frac{1}{x} \gt \frac{\pi}{2}$
 ### [Day 79](https://www.bilibili.com/video/BV1nG4y1w7jN)
 
 $p,q是大于1的常数，并且\frac{1}{p}+\frac{1}{q}=1，证明对于任意x \gt 0, 有\frac{1}{p} x^p+\frac{1}{q} \ge x$
+
+### [Day 273](https://www.bilibili.com/video/BV1eV411G7ro)
+
+$可导函数y=y(x)由方程 sinx - \int_x^y\varphi(u)du = 0所确定，其中可导函数\varphi(X) \gt 0，且 \varphi(0) = \varphi'(0) = 1，则y''(0)=$
