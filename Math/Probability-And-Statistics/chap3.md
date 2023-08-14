@@ -83,7 +83,7 @@ $F(x,y) = \int_{-\infty}^x\int_{-\infty}^yf(u,v)dudv,$
 
 #### 概率的计算
 
-$P\set{(X, Y) \in D} = \displaystyle\iint_{D}f(x,y)dxdy$
+$P\set{(X, Y) \in D} = \displaystyle\iint\limits_{D}f(x,y)dxdy$
 
 #### 二维连续型随机变量的边缘密度函数
 
@@ -151,7 +151,7 @@ $已知(X,Y)的概率密度为f(x,y)，则Z=g(X,Y)可能为离散型，也可能
 
 $设Z=g(X,Y)的分布函数为F_Z(z),则有$
 
-$F_Z(z) = P\set{Z \le z} = P\set{g(X,Y) \lt z} = \displaystyle\iint_{g(x,y) \le z}f(x,y)dxdy, -\infty \lt z \lt +\infty$
+$F_Z(z) = P\set{Z \le z} = P\set{g(X,Y) \lt z} = \displaystyle\iint\limits_{g(x,y) \le z}f(x,y)dxdy, -\infty \lt z \lt +\infty$
 
 $当Z=g(X,Y)为连续型随机变量时，其密度函数为f_Z(z) = F'_Z(z)$
 
