@@ -207,3 +207,39 @@ $p,q是大于1的常数，并且\frac{1}{p}+\frac{1}{q}=1，证明对于任意x 
 ### [Day 273](https://www.bilibili.com/video/BV1eV411G7ro)
 
 $可导函数y=y(x)由方程 sinx - \int_x^y\varphi(u)du = 0所确定，其中可导函数\varphi(X) \gt 0，且 \varphi(0) = \varphi'(0) = 1，则y''(0)=$
+
+### [Day 274](https://www.bilibili.com/video/BV1u94y1C7ut)
+
+$设 x = x(y) 是函数 y = lnx + e^x 的反函数，则\frac{d^2x}{dy^2}=$
+
+### [Day 275](https://www.bilibili.com/video/BV1xV411G7NR)
+
+$设 y = y(x) 由 e^ysint -y + 1 = 0 和x = \begin{dcases}
+    \frac{e^t-1}{t}, t \ne 1, \\
+    1, t = 0.
+\end{dcases}，则\frac{d^2y}{dx^2}|_{t=0}=$
+
+### [Day 276](https://www.bilibili.com/video/BV1tN411h7ri)
+
+$f(x)=x^2ln(1-x),当n \ge 3时，f^{(n)}(0)=$
+
+### [Day 277](https://www.bilibili.com/video/BV1Qu4y1R7kP)
+
+$f(x)=\frac{1}{1+2x+4x^2},则f^{(100)}(0)=$
+
+### [Day 278](https://www.bilibili.com/video/BV1zj411z71E)
+
+$设y=\frac{arcsinx}{\sqrt{1-x^2}}\\
+(1)证明(1-x^2)y^{(n+1)}-(2n+1)xy^{(n)-n^2y^{(n-1)}}=0(n \ge 1); \\
+(2)求y^{(n)}(0)$
+
+### [Day 279](https://www.bilibili.com/video/BV1Z44y1F7Uc)
+
+$设f(x)=\begin{cases}
+    x|x|, x \le 0, \\
+    xlnx, x \gt0,
+\end{cases}则x=0是f(x)的$
+
+A. 可导点，极值点   B. 不可导点，极值点
+
+C. 可导点，非极值点 D. 不可导点，非极值点
