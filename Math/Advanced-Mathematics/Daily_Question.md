@@ -184,6 +184,22 @@ $\lim \limits_{x \to 0} \frac{(1-\sqrt{cosx})(1-\sqrt[3]{cosx})...(1-\sqrt[n]{co
 
 $\lim \limits_{x \to 0} \frac{ln(sin^2x+e^x)-x}{ln(x^2+e^{2x})-2x}$
 
+### [Day 41](https://www.bilibili.com/video/BV1Zg411J7Lr)
+
+$\lim \limits_{x \to 0} \frac{x - arctanx}{x^k} = c, k,c为常数，且c \ne 0$，则
+
+A. $k=2, c=-\frac{1}{2}$   B. $k=2, c=\frac{1}{2}$
+
+C. $k=3, c=-\frac{1}{3}$ D. $k=3, c=\frac{1}{3}$
+
+### [Day 42](https://www.bilibili.com/video/BV1nW4y1M7aU)
+
+$\lim \limits_{x \to 0} (\frac{sinx^3}{x^4} - \frac{f(x)}{x^3}) = 2, 则 x \to 0 时，f(x) 是 x 的$
+
+A. 等价无穷小   B. 同阶但非等价无穷小
+
+C. 高阶无穷小 D. 低阶无穷小
+
 ### [Day 75](https://www.bilibili.com/video/BV1KM411h7C9)
 
 $f(x)=x^2(1-x)^2,f''(x)=0在(0,1)上有几个实根$
@@ -243,3 +259,27 @@ $设f(x)=\begin{cases}
 A. 可导点，极值点   B. 不可导点，极值点
 
 C. 可导点，非极值点 D. 不可导点，非极值点
+
+### [Day 280](https://www.bilibili.com/video/BV1x14y1v7Uj)
+
+$设f(x)=\int_{-1}^{x}tln|t|dt,则x=0是f(x)的$
+
+A. 可导点，极值点   B. 不可导点，极值点
+
+C. 可导点，非极值点 D. 不可导点，非极值点
+
+### [Day 281](https://www.bilibili.com/video/BV1cN411h7GM)
+
+$f(x)=(x+1)|x^2-1|$
+
+A. 1个驻点，1个极值点   B. 1个驻点，2个极值点
+
+C. 2个驻点，1个极值点 D. 2个驻点，2个极值点
+
+### [Day 282](https://www.bilibili.com/video/BV1nz4y1g7mX)
+
+$f(x)具有二阶连续导数，且f'(0) = 0,\lim \limits_ { x \rightarrow 0 } \frac { f ^ { \prime \prime } ( x ) + f ( x ) - f ( - x ) } { | x | } = 1,则$
+
+A. f(0)是f(x)极大值   B. $f''(x) \gt 0$，f(0)是f(x)极小值 
+
+C. (0,f(0))是曲线y=f(x)拐点 D. f(0)是f(x)极值，(0,f(0))不是曲线y=f(x)拐点

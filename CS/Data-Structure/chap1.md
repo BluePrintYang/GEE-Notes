@@ -103,6 +103,11 @@ for (i = 0; i < n; i++)
 }
 ```
 
+<details>
+  <summary>点击查看答案</summary>
+  n(n+1)
+</details>
+
 ```c
 int sum = 0;
 for (int i = 1; i < n; i *= 2)
@@ -113,4 +118,7 @@ for (int i = 1; i < n; i *= 2)
   }
 }
 ```
-
+<details>
+  <summary>点击查看答案</summary>
+  n
+</details>
