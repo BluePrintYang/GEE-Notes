@@ -1,8 +1,8 @@
-#include <ElemType.h>
+typedef int ElemType;
 
 typedef struct DNode
 {
     ElemType data;
     struct DNode *prior, *next;
-    
-}DNode, *DLinklist;
+
+} DNode, *DLinklist;

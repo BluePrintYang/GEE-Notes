@@ -1,5 +1,5 @@
-#include<ElemType.h>
 #define InitSize 100
+typedef int ElemType;
 
 /*
 #define MaxSize 50
@@ -57,7 +57,7 @@ int LocateElem(SqList L, ElemType e)
     int i;
     for (i = 0; i < L.length; i++)
     {
-        if (isEqual(L.data[i], e))
+        if (L.data[i] == e)
         {
             return i + 1;
         }
