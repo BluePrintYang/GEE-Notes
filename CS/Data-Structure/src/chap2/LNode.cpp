@@ -19,7 +19,7 @@ LinkList List_HeadInsert(LinkList &L)
     while (x != 9999)
     {
         s = (LNode *)malloc(sizeof(LNode));
-        s->data = {x};
+        s->data = x;
         s->next = L->next;
         L->next = s;
         scanf("%d", &x);
@@ -36,7 +36,7 @@ LinkList List_TailInsert(LinkList &L)
     while (x != 9999)
     {
         s = (LNode *)malloc(sizeof(LNode));
-        s->data = {x};
+        s->data = x;
         r->next = s;
         r = s;
         scanf("%d", &x);
@@ -69,4 +69,9 @@ LNode *LocateElem(LinkList L, ElemType e)
         p = p->next;
     }
     return p;
+}
+
+int main()
+{
+    return 0;
 }

@@ -6,3 +6,8 @@ typedef struct DNode
     struct DNode *prior, *next;
 
 } DNode, *DLinklist;
+
+int main()
+{
+    return 0;
+}

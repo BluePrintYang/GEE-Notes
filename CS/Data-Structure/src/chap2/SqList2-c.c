@@ -83,9 +83,9 @@ void test()
     int maxSize = 50;
     initList(&mylist, maxSize);
 
-    ElemType element1 = {10};
-    ElemType element2 = {20};
-    ElemType element3 = {30};
+    ElemType element1 = 10;
+    ElemType element2 = 20;
+    ElemType element3 = 30;
 
     ListInsert(&mylist, 1, element1);
     ListInsert(&mylist, 2, element2);
@@ -98,7 +98,7 @@ void test()
     }
     printf("\n");
 
-    ElemType searchElement = {20};
+    ElemType searchElement = 20;
     int position = LocateElem(&mylist, searchElement);
 
     if (position != 0)
@@ -129,6 +129,7 @@ void test()
 
 int main()
 {
+    printf("123\n");
     test();
     return 0;
 }

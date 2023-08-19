@@ -80,9 +80,9 @@ void test()
     int maxSize = 50;
     List mylist(maxSize);
 
-    ElemType element1 = {10};
-    ElemType element2 = {20};
-    ElemType element3 = {30};
+    ElemType element1 = 10;
+    ElemType element2 = 20;
+    ElemType element3 = 30;
 
     mylist.ListInsert(1, element1);
     mylist.ListInsert(2, element2);
@@ -95,7 +95,7 @@ void test()
     mylist.ListDelete(2, deletedElement);
     std::cout << "Deleted element: " << deletedElement << std::endl;
 
-    ElemType searchElement = {20};
+    ElemType searchElement = 20;
     int position = mylist.LocateElem(searchElement);
 
     if (position != 0)

@@ -65,13 +65,13 @@ int LocateElem(SqList L, ElemType e)
     return 0;
 }
 
-int main(int argc, char const *argv[])
+int main()
 {
     SqList L;
     // C 初始动态分配
     // L.data = (ElemType *)malloc(sizeof(ElemType) * InitSize);
 
     // C++ 初始动态分配
-    L.data = new ElemType[InitSize];
+    // L.data = new ElemType[InitSize];
     return 0;
 }
