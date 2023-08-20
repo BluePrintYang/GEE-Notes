@@ -43,7 +43,7 @@ $\lim\limits_{x \to x_{0}}f(x)=A \Leftrightarrow \lim\limits_{x \to x_{0}^{+}}f(
 
 $\lim\limits_{x \to \infty}f(x)=A \Leftrightarrow \lim\limits_{x \to +\infty}f(x) = \lim\limits_{x \to -\infty}f(x) = A$
 
-:star: 左右极限不相同的函数
+:star2: 左右极限不相同的函数
 
 - ==$e^{x}$== [graph](https://www.wolframalpha.com/input?i=y%3De%5Ex)
   - $\lim\limits_{x \to +\infty}e^{x}=e^{+\infty}=+\infty(\text{不存在})$
@@ -60,9 +60,9 @@ $\lim\limits_{x \to \infty}f(x)=A \Leftrightarrow \lim\limits_{x \to +\infty}f(x
   - $x \to 0^{+} = \lim\limits_{x \to +\infty}\arctan x = +\frac{\Pi}{2}$
   - $x \to 0^{-} = \lim\limits_{x \to -\infty}\arctan x = -\frac{\Pi}{2}$
 
-:star: (4) 无穷小量 x 有界量 = 无穷小
+:star2: (4) 无穷小量 x 有界量 = 无穷小
 
-:star: (5) $\lim\limits_{x \to 0}x\sin \frac{1}{x}=0$
+:star2: (5) $\lim\limits_{x \to 0}x\sin \frac{1}{x}=0$
 
 注: $x=\lim\limits_{x \to 0}x\cdot\lim\limits_{x \to 0} \sin \frac{1}{x}$ 不成立, 因为$\lim\limits_{x \to 0} \sin \frac{1}{x}$ 不存在
 

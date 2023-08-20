@@ -134,7 +134,7 @@ $$\begin{bmatrix}
    \end{bmatrix}$$
 的矩阵，称为**A**的伴随矩阵，记为$\boldsymbol{A}^*$
 
-:star:伴随矩阵的公式：
+:star2:伴随矩阵的公式：
 $$
 \boldsymbol{A}\boldsymbol{A}^* = \boldsymbol{A}^* \boldsymbol{A} = |\boldsymbol{A}|\boldsymbol{E} \\
 (\boldsymbol{A}^*)^{-1} = (\boldsymbol{A}^{-1})^* = \frac{1}{|\boldsymbol{A}|}\boldsymbol{A} (|\boldsymbol{A}| \ne 0) \\
@@ -178,7 +178,7 @@ $$
 ### 求逆矩阵的方法
 
 1. $若|\boldsymbol{A}| \ne 0, \frac{1}{|\boldsymbol{A}|}\boldsymbol{A}^*$
-2. :star:初等变换法 $(\boldsymbol{A} \vdots \boldsymbol{E}) \underrightarrow{初等行变化}(\boldsymbol{E} \vdots \boldsymbol{A}^{-1})$
+2. :star2:初等变换法 $(\boldsymbol{A} \vdots \boldsymbol{E}) \underrightarrow{初等行变化}(\boldsymbol{E} \vdots \boldsymbol{A}^{-1})$
 3. 用定义求**B**，使**AB**=**E**
 4. 用分块矩阵
    设**B，C**都是可逆矩阵，则

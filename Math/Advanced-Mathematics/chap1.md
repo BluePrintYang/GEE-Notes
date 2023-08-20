@@ -75,7 +75,7 @@ $R_f=f(D)=\set{y|y=f(x),x \in D}$
 3. ==连续==的奇函数其原函数==都是==偶函数；
    连续的偶函数其原函数==之一==是奇函数；
 
-:star: 设f(x)连续
+:star2: 设f(x)连续
 
 1. 若f(x)是奇函数，则$\int_0^xf(t)dt$是偶函数；($\int_a^xf(t)dt$也是偶函数，$因为\int_a^0f(t)dt是常数$)
 2. 若f(x)是偶函数，则$\int_0^xf(t)dt$是奇函数；（$\int_0^xf(t)dt$不成立）
@@ -93,7 +93,7 @@ $R_f=f(D)=\set{y|y=f(x),x \in D}$
 2. 可导的周期函数其导函数也是周期函数，且周期相同
 3. 周期函数的原函数不一定是周期函数
 
-:star:
+:star2:
 
 1. $设f(x)连续且以T为周期，则F(x) = \int_0^xf(t)dt是以T为周期的周期函数 \Leftrightarrow \int_0^Tf(x)dx = 0$
 2. 周期函数的原函数是周期函数的充要条件是其在一个周期上的积分为零
@@ -109,4 +109,4 @@ $|sinx| \le 1, |cosx| \le 1, |arcsinx| \le \frac{\pi}{2}, |arctanx| \le \frac{\p
 1. 定义
 2. $f(x) 在[a,b]上连续 \Rightarrow f(x) 在[a,b]上有界$
 3. $f(x) 在(a,b)上连续，且f(a^+),f(b^-)存在 \Rightarrow f(x) 在[a,b]上有界$
-4. :star:$f'(x)在区间I(有限)上有界 \Rightarrow f(x)在I上有界$
+4. :star2:$f'(x)在区间I(有限)上有界 \Rightarrow f(x)在I上有界$
