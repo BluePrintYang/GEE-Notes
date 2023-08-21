@@ -283,3 +283,19 @@ $f(x)具有二阶连续导数，且f'(0) = 0,\lim \limits_ { x \rightarrow 0 } \
 A. f(0)是f(x)极大值   B. $f''(x) \gt 0$，f(0)是f(x)极小值 
 
 C. (0,f(0))是曲线y=f(x)拐点 D. f(0)是f(x)极值，(0,f(0))不是曲线y=f(x)拐点
+
+### [Day 283](https://www.bilibili.com/video/BV1fV41137oy)
+
+$f ( x ) = \frac { x | x | } { 1 + x }$求凹凸区间及渐近线
+
+### [Day 284](https://www.bilibili.com/video/BV1wr4y1o7q3)
+
+$y = x ( 1 + \arcsin \frac { 2 } { x } )$斜渐近线方程
+
+### [Day 285](https://www.bilibili.com/video/BV1Uu4y197uP/)
+
+$y = e ^ { \frac {1} {x} } \sqrt { 1 + x ^ { 2 } }$的渐近线所围区域面积为
+
+### [Day 286](https://www.bilibili.com/video/BV1994y167Js)
+
+ $y = \frac { x ^ { 1 + x } } { ( 1 + x ) ^ { x } } ( x > 0 )$斜渐近线方程
