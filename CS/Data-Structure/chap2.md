@@ -37,7 +37,7 @@
 地址连续，逻辑上相邻的物理上也相邻。即逻辑顺序与物理顺序相同。
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 #define MaxSize 50
@@ -78,7 +78,7 @@ L.data = new ElemType[InitSize];
 1. 插入操作
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 bool ListInsert(SqList &L, int i, ElemType e)
@@ -103,18 +103,16 @@ bool ListInsert(SqList &L, int i, ElemType e)
 
 </details>
 
-最好情况：在表尾插入，不执行后移语句，时间复杂度为`O(1)`
-
-最坏情况：在表头插入，后移语句执行n次，时间复杂度为`O(n)`
-
-平均情况：移动次数$\frac{n}{2}$，时间复杂度为`O(n)`
+> 最好情况：在表尾插入，不执行后移语句，时间复杂度为`O(1)`
+> 最坏情况：在表头插入，后移语句执行n次，时间复杂度为`O(n)`
+> 平均情况：移动次数$\frac{n}{2}$，时间复杂度为`O(n)`
 
 因此，顺序性插入算法平均时间复杂度为`O(n)`
 
 2. 删除操作
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 bool ListDelete(SqList &L, int i, ElemType &e)
@@ -135,18 +133,18 @@ bool ListDelete(SqList &L, int i, ElemType &e)
 
 </details>
 
-最好情况：删除表尾元素，无需移动元素，时间复杂度为`O(1)`
-
-最坏情况：删除表头元素，移动所有元素，时间复杂度为`O(n)`
-
-平均情况：移动次数$\frac{n-1}{2}$，时间复杂度为`O(n)`
+> 最好情况：删除表尾元素，无需移动元素，时间复杂度为`O(1)`
+>
+> 最坏情况：删除表头元素，移动所有元素，时间复杂度为`O(n)`
+>
+> 平均情况：移动次数$\frac{n-1}{2}$，时间复杂度为`O(n)`
 
 因此，顺序表删除算法平均时间复杂度为`O(n)`
 
 3. 按值查找（顺序查找）
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 int LocateElem(SqList L, ElemType e)
@@ -165,11 +163,9 @@ int LocateElem(SqList L, ElemType e)
 
 </details>
 
-最好情况：查找表头元素，比较一次，时间复杂度为`O(1)`
-
-最坏情况：查找表尾元素（或不存在），比较所有元素，时间复杂度为`O(n)`
-
-平均情况：比较次数$\frac{n+1}{2}$，时间复杂度为`O(n)`
+> 最好情况：查找表头元素，比较一次，时间复杂度为`O(1)`
+> 最坏情况：查找表尾元素（或不存在），比较所有元素，时间复杂度为`O(n)`
+> 平均情况：比较次数$\frac{n+1}{2}$，时间复杂度为`O(n)`
 
 因此，顺序表按值查找平均时间复杂度为`O(n)`
 
@@ -180,7 +176,7 @@ int LocateElem(SqList L, ElemType e)
 > 线性表的链式存储。通过一组任意的存储单元来存储线性表中的数据元素。包含数据域和指针域
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -206,7 +202,7 @@ int LocateElem(SqList L, ElemType e)
 > 新结点插入到当前链表的表头
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -221,7 +217,7 @@ int LocateElem(SqList L, ElemType e)
 > 新结点插入到当前链表的表尾
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -234,7 +230,7 @@ int LocateElem(SqList L, ElemType e)
 > 从第一个结点出发，找到第1个结点为止，否则返回最后一个结点指针域`NULL`
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -249,7 +245,7 @@ int LocateElem(SqList L, ElemType e)
 > 从第一个结点出发，找到结点数据域为指定值为止，返回该结点指针，没有则返回NULL`
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -261,17 +257,74 @@ int LocateElem(SqList L, ElemType e)
 
 #### 插入结点操作
 
+> 将值为x的结点插入到单链表的第`i`个位置上。
+>
+> 先检查插入位置合法性，然后找到待插入位置的前驱结点，再在其后插入新结点
+
+<details>
+  <summary>code</summary>
+
+```c++
+
+```
+
+</details>
+
+时间复杂度为`O(n)`，主要开销为找到第`i-1`个元素。如果在给定的结点后面插入，则时间复杂度为`O(1)`
+
 #### 删除结点操作
 
+> 将单链表的第`i`个结点删除。
+
+<details>
+  <summary>code</summary>
+
+```c++
+
+```
+
+</details>
+
 #### 求表长操作
+
+时间复杂度`O(n)`
+
+:bangbang: 不包括头结点
 
 ### 双链表
 
 在单链表的基础上增加了一个前驱指针
 
+<details>
+  <summary>code</summary>
+
+```c++
+
+```
+
+</details>
+
 #### 双链表的插入操作
 
+<details>
+  <summary>code</summary>
+
+```c++
+
+```
+
+</details>
+
 #### 双链表的删除操作
+
+<details>
+  <summary>code</summary>
+
+```c++
+
+```
+
+</details>
 
 ### 循环链表
 

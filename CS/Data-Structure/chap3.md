@@ -30,7 +30,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 > 顺序存储，一组地址连续的存储单元存放自栈底到栈顶的数据元素
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c
 
@@ -38,20 +38,17 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 </details>
 
-栈顶指针：`S.top`，初始设置`S.top=-1`；栈顶元素：`S.data[S.top]`
-
-进栈操作：栈不满时，先栈顶指针加1，再送值到栈顶元素
-
-出栈操作：栈非空时，先取栈顶元素值，再将栈顶指针减1
-
-栈空条件：`S.top==-1`；栈满条件：`S.top==MaxSize-1`；栈长：`S.top+1`
+> 栈顶指针：`S.top`，初始设置`S.top=-1`；栈顶元素：`S.data[S.top]`
+> 进栈操作：栈不满时，先栈顶指针加1，再送值到栈顶元素
+> 出栈操作：栈非空时，先取栈顶元素值，再将栈顶指针减1
+> 栈空条件：`S.top==-1`；栈满条件：`S.top==MaxSize-1`；栈长：`S.top+1`
 
 #### 顺序栈的基本运算
 
 1. 初始化
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -62,7 +59,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 2. 判栈空
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -73,7 +70,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 3. 进栈
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -84,7 +81,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 4. 出栈
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -95,7 +92,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 5. 读栈顶元素
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -117,7 +114,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 通常采用单链表实现，规定所有操作都在表头进行
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -150,7 +147,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 > 分配一块连续的存储单元存放队列的元素，并附设两个指针：队首指针`front`指向队首元素，队尾指针`rear`指向队尾元素的下一个位置
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -158,11 +155,9 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 </details>
 
-初始时：`Q.front=Q.rear=0`
-
-进队操作：队不满时，先送值到队尾元素，再将队尾指针加1
-
-出队操作：队不空时，先取队头元素值，再将队头指针加1
+> 初始时：`Q.front=Q.rear=0`
+> 进队操作：队不满时，先送值到队尾元素，再将队尾指针加1
+> 出队操作：队不空时，先取队头元素值，再将队头指针加1
 
 假溢出
 
@@ -170,35 +165,27 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 > 将顺序队列臆造成一个环状结构。队首指针`Q.front=MaxSize-1`后，再前进一个位置就自动到0。
 
-初始时：`Q.front=Q.rear=0`
+> 初始时：`Q.front=Q.rear=0`
+> 队首指针进1：`Q.front=(Q.front+1)%MaxSize`
+> 队尾指针进1：`Q.rear=(Q.rear+1)%MaxSize`
+> 队列长度：`(Q.rear+MaxSize-Q.front)%MaxSize`
+> 出队入队时：指针都按顺时针方向进1
 
-队首指针进1：`Q.front=(Q.front+1)%MaxSize`
-
-队尾指针进1：`Q.rear=(Q.rear+1)%MaxSize`
-
-队列长度：`(Q.rear+MaxSize-Q.front)%MaxSize`
-
-出队入队时：指针都按顺时针方向进1
-
-队空：`Q.front==Q.rear`
-
-队满：`Q.front==Q.rear`
+> 队空：`Q.front==Q.rear`
+> 队满：`Q.front==Q.rear`
 
 如何区分：
 
 1. 牺牲一个单元来区分，入队时少用一个队列单元。“队头指针在队尾的下一个位置作为队满的标志”
 
-队满条件：`(Q.rear+1)%MaxSize==Q.front`
-
-队空条件：`Q.front==Q.rear`
-
-队列中元素的个数：`(Q.rear-Q.front+MaxSize)%MaxSize`
+> 队满条件：`(Q.rear+1)%MaxSize==Q.front`
+> 队空条件：`Q.front==Q.rear`
+> 队列中元素的个数：`(Q.rear-Q.front+MaxSize)%MaxSize`
 
 2. 类型中增设表示元素个数的数据成员。（队空队满都有`Q.front==Q.rear`）
 
-队空：`Q.size==0`
-
-队满：`Q.size==MaxSize`
+> 队空：`Q.size==0`
+> 队满：`Q.size==MaxSize`
 
 3. 类型中增设`tag`数据成员。`tag=0`时，若因删除导致`Q.front==Q.rear`，则为队空；`tag=1`时，若因插入导致`Q.front==Q.rear`，则为队满
 
@@ -207,7 +194,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 1. 初始化
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -218,7 +205,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 2. 判队空
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -229,7 +216,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 3. 入队
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```C++
 
@@ -240,7 +227,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 4. 出队
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```C++
 
@@ -255,7 +242,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 > 同时带有队头指针和队尾指针的单链表
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -278,7 +265,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 1. 初始化
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -289,7 +276,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 2. 判队空
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -300,7 +287,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 3. 入队
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```C++
 
@@ -311,7 +298,7 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 4. 出队
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```C++
 
@@ -345,6 +332,10 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 后缀表达式算法过程：顺序扫描表达式的每一项，若是操作数，则压入栈中；若是操作符`<op>`，则连续从栈中取出两个操作数`Y`和`X`，形成运算指令`X <op> Y`，并将结果重新压入栈中。当表达式顶部都扫描并处理完后，栈顶存放的就是最后的计算结果。
 
+:star2: 中缀表达式转后缀表达式
+
+![image-20230821202600536](https://p.ipic.vip/edxsbm.png)
+
 ### 栈在递归中的应用
 
 > 一个函数、过程或数据结构的定义中有应用了它自身，则这个函数、过程或数据结构称为`是递归定义的`
@@ -361,7 +352,7 @@ Fib(n) = \begin{dcases}
 $$
 
 <details>
-  <summary>点击查看代码</summary>
+  <summary>code</summary>
 
 ```c++
 
@@ -395,14 +386,92 @@ $$
 
 ### 数组的定义
 
+> `n`个相同类型数据元素构成的有限序列。
+
+数组元素；下标；维界
+
 ### 数组的存储结构
+
+$$
+LOC(a_i) = LOC(a_0) + i \times L （ 0 \le i \lt n）
+$$
+
+L是每个数组元素所占的存储单元
+
+多维数组，<u>两种映射方式</u>：行优先和列优先
 
 ### 特殊矩阵的压缩存储
 
+压缩存储：多个值相同的元素只分配一个存储空间，对零元素不分配存储空间
+
 #### 对称矩阵
+
+> $a_{ij} = a{ji}$
+>
+
+上三角元素与下三角相同，采用一维数组`B[n(n+1)/2]`存放
+
+下标对应关系：
+$$
+k = \begin{dcases}
+    \frac{i(i-1)}{2} + j -1, & i \ge j （下三角区和主对角线元素）\\
+    \frac{j(j-1)}{2} + i -1, & i \lt j （上三角区元素a_{ij} = a{ji}）
+\end{dcases}
+$$
 
 #### 三角矩阵
 
+> 上三角区为同一常量
+
+下三角
+
+采用一维数组`B[n(n+1)/2 + 1]`存放
+
+对应关系：
+$$
+k = \begin{dcases}
+    \frac{i(i-1)}{2} + j -1, & i \ge j （下三角区和主对角线元素）\\
+    \frac{n(n+1)}{2}, & i \lt j （上三角区元素）
+\end{dcases}
+$$
+上三角
+
+对应关系：
+$$
+k = \begin{dcases}
+    \frac{(i-1)(2n-i+2)}{2} + (j - i), & i \le j （上三角区和主对角线元素）\\
+    \frac{n(n+1)}{2}, & i \gt j （下三角区元素）
+\end{dcases}
+$$
+
+
 #### 三对角矩阵
 
+$|i-j| \gt 1时，a_{ij} = 0(1 \le i, j \le n)$
+
+将三条对角线上的元素按行优先方式存储在一维数组中
+
+下标$k = 2i + j -3$
+
 ### 稀疏矩阵
+
+非零元素个数t，矩阵元素个数s $s \gg t$
+
+使用三元组存储
+
+$$
+\boldsymbol{M} = \begin{bmatrix}
+    4 & 0 & 0 & 0\\
+    0 & 0 & 6 & 0\\
+    0 & 9 & 0 & 0\\
+    0 & 23 & 0 & 0
+\end{bmatrix}
+$$
+
+| i    | j    | v    |
+| ---- | ---- | ---- |
+| 0    | 0    | 4    |
+| 1    | 2    | 6    |
+| 2    | 1    | 9    |
+| 3    | 1    | 23   |
+
