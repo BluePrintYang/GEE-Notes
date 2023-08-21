@@ -231,8 +231,8 @@ $设 x = x(y) 是函数 y = lnx + e^x 的反函数，则\frac{d^2x}{dy^2}=$
 ### [Day 275](https://www.bilibili.com/video/BV1xV411G7NR)
 
 $设 y = y(x) 由 e^ysint -y + 1 = 0 和x = \begin{dcases}
-    \frac{e^t-1}{t}, t \ne 1, \\
-    1, t = 0.
+    \frac{e^t-1}{t}, & t \ne 1, \\
+    1, & t = 0.
 \end{dcases}，则\frac{d^2y}{dx^2}|_{t=0}=$
 
 ### [Day 276](https://www.bilibili.com/video/BV1tN411h7ri)
@@ -252,8 +252,8 @@ $设y=\frac{arcsinx}{\sqrt{1-x^2}}\\
 ### [Day 279](https://www.bilibili.com/video/BV1Z44y1F7Uc)
 
 $设f(x)=\begin{cases}
-    x|x|, x \le 0, \\
-    xlnx, x \gt0,
+    x|x|, & x \le 0, \\
+    xlnx, & x \gt0,
 \end{cases}则x=0是f(x)的$
 
 A. 可导点，极值点   B. 不可导点，极值点

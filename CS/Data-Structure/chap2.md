@@ -4,7 +4,7 @@
 
 ### 线性表的定义
 
-==相同==数据类型的n个数据元素的<u>有序列表</u>
+> ==相同==数据类型的n个数据元素的<u>有序列表</u>
 
 特点
 
@@ -36,6 +36,9 @@
 
 地址连续，逻辑上相邻的物理上也相邻。即逻辑顺序与物理顺序相同。
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 #define MaxSize 50
 typedef struct
@@ -61,6 +64,8 @@ L.data = (ElemType *)malloc(sizeof(ElemType) * InitSize);
 // C++ 初始动态分配
 L.data = new ElemType[InitSize];
 ```
+
+</details>
 
 最主要特点：随机访问。（通过首地址以及元素序号可在O(1)时间内找到指定元素）
 
@@ -100,6 +105,9 @@ bool ListInsert(SqList &L, int i, ElemType e)
 
 2. 删除操作
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 bool ListDelete(SqList &L, int i, ElemType &e)
 {
@@ -117,12 +125,17 @@ bool ListDelete(SqList &L, int i, ElemType &e)
 }
 ```
 
+</details>
+
 最好情况：删除表尾元素，无需移动元素，时间复杂度为O(1)
 最坏情况：删除表头元素，移动所有元素，时间复杂度为O(n)
 平均情况：移动次数$\frac{n-1}{2}$，时间复杂度为O(n)
 因此，顺序表删除算法平均时间复杂度为O(n)
 
 3. 按值查找（顺序查找）
+
+<details>
+  <summary>点击查看代码</summary>
 
 ```c++
 int LocateElem(SqList L, ElemType e)
@@ -139,6 +152,8 @@ int LocateElem(SqList L, ElemType e)
 }
 ```
 
+</details>
+
 最好情况：查找表头元素，比较一次，时间复杂度为O(1)
 最坏情况：查找表尾元素（或不存在），比较所有元素，时间复杂度为O(n)
 平均情况：比较次数$\frac{n+1}{2}$，时间复杂度为O(n)
@@ -148,19 +163,87 @@ int LocateElem(SqList L, ElemType e)
 
 ### 单链表的定义
 
+> 线性表的链式存储。通过一组任意的存储单元来存储线性表中的数据元素。包含数据域和指针域
+
+<details>
+  <summary>点击查看代码</summary>
+
+```c++
+
+```
+
+</details>
+
+可以解决顺序表需要大量连续存储单元的缺点，但存在浪费存储空间的缺点。
+
+**非随机存取**：不能直接找到某个特点结点，需要从头遍历
+
+头结点与头指针：头指针始终指向链表第一个结点。头结点是带头结点链表的第一个结点，通常不存储信息。
+
+引入头结点的好处：
+
+1. 在链表第一个位置上的操作与其他位置一致，无序特殊处理
+2. 无论链表是否为空，头指针都是指向头结点的非空指针。因此空表和非空表的处理也得到了统一
+
 ### 单链表上基本操作的实现
 
 #### 采用头插法建立单链表
 
-新结点插入到当前链表的表头
+> 新结点插入到当前链表的表头
+
+<details>
+  <summary>点击查看代码</summary>
+
+```c++
+
+```
+
+</details>
+
+每个结点插入时间为`O(1)`，设表长为`n`，总时间复杂度为`O(n)`
 
 #### 采用尾插法建立单链表
 
-新结点插入到当前链表的表尾
+> 新结点插入到当前链表的表尾
+
+<details>
+  <summary>点击查看代码</summary>
+
+```c++
+
+```
+
+</details>
 
 #### 按序号查找结点
 
+> 从第一个结点出发，找到第1个结点为止，否则返回最后一个结点指针域`NULL`
+
+<details>
+  <summary>点击查看代码</summary>
+
+```c++
+
+```
+
+</details>
+
+时间复杂度`O(n)`
+
 #### 按值查找表结点
+
+> 从第一个结点出发，找到结点数据域为指定值为止，返回该结点指针，没有则返回NULL`
+
+<details>
+  <summary>点击查看代码</summary>
+
+```c++
+
+```
+
+</details>
+
+时间复杂度`O(n)`
 
 #### 插入结点操作
 

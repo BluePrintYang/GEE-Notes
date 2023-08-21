@@ -72,6 +72,10 @@
 
 #### CSMA/CA协议
 
+![image-20230821133618446](https://p.ipic.vip/o6sdw0.png) 
+
+![image-20230821135126273](https://p.ipic.vip/he5r2s.png)
+
 ### 轮训访问：令牌传递协议
 
 ## 局域网

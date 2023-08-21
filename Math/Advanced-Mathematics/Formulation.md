@@ -10,3 +10,7 @@
 
 
 ## 积分相关
+
+## Tips
+
+$\int ln(x+1) dx = \int ln(x+1) d (x+1) = (x+1)ln(x+1) - x$
