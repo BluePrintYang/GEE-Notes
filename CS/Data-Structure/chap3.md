@@ -29,46 +29,79 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 > 顺序存储，一组地址连续的存储单元存放自栈底到栈顶的数据元素
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c
 
 ```
 
+</details>
+
 栈顶指针：`S.top`，初始设置`S.top=-1`；栈顶元素：`S.data[S.top]`
+
 进栈操作：栈不满时，先栈顶指针加1，再送值到栈顶元素
+
 出栈操作：栈非空时，先取栈顶元素值，再将栈顶指针减1
+
 栈空条件：`S.top==-1`；栈满条件：`S.top==MaxSize-1`；栈长：`S.top+1`
 
 #### 顺序栈的基本运算
 
 1. 初始化
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 2. 判栈空
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 3. 进栈
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 4. 出栈
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 5. 读栈顶元素
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 #### 共享栈
 
@@ -83,9 +116,14 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 通常采用单链表实现，规定所有操作都在表头进行
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 ## 队列
 
@@ -111,11 +149,19 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 > 分配一块连续的存储单元存放队列的元素，并附设两个指针：队首指针`front`指向队首元素，队尾指针`rear`指向队尾元素的下一个位置
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
+
 ```
 
+</details>
+
 初始时：`Q.front=Q.rear=0`
+
 进队操作：队不满时，先送值到队尾元素，再将队尾指针加1
+
 出队操作：队不空时，先取队头元素值，再将队头指针加1
 
 假溢出
@@ -125,12 +171,17 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 > 将顺序队列臆造成一个环状结构。队首指针`Q.front=MaxSize-1`后，再前进一个位置就自动到0。
 
 初始时：`Q.front=Q.rear=0`
+
 队首指针进1：`Q.front=(Q.front+1)%MaxSize`
+
 队尾指针进1：`Q.rear=(Q.rear+1)%MaxSize`
+
 队列长度：`(Q.rear+MaxSize-Q.front)%MaxSize`
+
 出队入队时：指针都按顺时针方向进1
 
 队空：`Q.front==Q.rear`
+
 队满：`Q.front==Q.rear`
 
 如何区分：
@@ -138,12 +189,15 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 1. 牺牲一个单元来区分，入队时少用一个队列单元。“队头指针在队尾的下一个位置作为队满的标志”
 
 队满条件：`(Q.rear+1)%MaxSize==Q.front`
+
 队空条件：`Q.front==Q.rear`
+
 队列中元素的个数：`(Q.rear-Q.front+MaxSize)%MaxSize`
 
 2. 类型中增设表示元素个数的数据成员。（队空队满都有`Q.front==Q.rear`）
 
 队空：`Q.size==0`
+
 队满：`Q.size==MaxSize`
 
 3. 类型中增设`tag`数据成员。`tag=0`时，若因删除导致`Q.front==Q.rear`，则为队空；`tag=1`时，若因插入导致`Q.front==Q.rear`，则为队满
@@ -152,26 +206,47 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 1. 初始化
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 2. 判队空
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
+
 ```
+
+</details>
 
 3. 入队
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```C++
 
 ```
+
+</details>
 
 4. 出队
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```C++
 
 ```
+
+</details>
 
 ### 队列的链式存储结构
 
@@ -179,8 +254,14 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 > 同时带有队头指针和队尾指针的单链表
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
+
 ```
+
+</details>
 
 队列为空：`Q.front==NULL && Q.rear==NULL`
 
@@ -196,33 +277,54 @@ n个不同元素进栈，出栈元素不同排列个数为$\frac{1}{n+1}C_{2n}^{
 
 1. 初始化
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
+
+</details>
 
 2. 判队空
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
 
 ```
 
+</details>
+
 3. 入队
+
+<details>
+  <summary>点击查看代码</summary>
 
 ```C++
 
 ```
+
+</details>
 
 4. 出队
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```C++
 
 ```
+
+</details>
 
 ### 双端队列
 
 > 允许两端都可以进行入队和出队操作的队列
 
 输出受限的双端队列：允许在一端进行插入和删除，但在另一端只允许插入
+
 输入受限的双端队列：允许在一端进行插入和删除，但在另一端只允许删除
 
 ## 栈和队列的应用
@@ -258,8 +360,14 @@ Fib(n) = \begin{dcases}
 \end{dcases}
 $$
 
+<details>
+  <summary>点击查看代码</summary>
+
 ```c++
+
 ```
+
+</details>
 
 递归模型是不能循环定义的，必须满足两个条件：
 
