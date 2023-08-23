@@ -40,7 +40,7 @@ $代数余子式(记为\boldsymbol{A_{ij}})：(-1)^{(i+j)}M_{ij}$
 ### 特殊行列式
 
 1. 上（下）三角行列式的值等于主对角线元素的乘积
-2. 副对角线行列式=$(-1)^{\frac{n(n-1)}{2}a_{1n}a_{2.n-1} \dots a_{n1}}$
+2. 副对角线行列式=$(-1)^{\cfrac{n(n-1)}{2}a_{1n}a_{2.n-1} \dots a_{n1}}$
 3. 两个特殊的拉普拉斯展开式
    如果*A*和*B*分别是m阶和n阶矩阵，则
    $\begin{vmatrix} \boldsymbol{A} & \boldsymbol{*}\\ \boldsymbol{0} & \boldsymbol{B}\end{vmatrix} =
@@ -70,7 +70,7 @@ $$
 $$
 
 定理：n个方程n个未知量构成的非齐次线性方程组（1）的系数行列式｜**A**｜≠ 0，则方程组有唯一解，且
-$$x_i=\frac{|\boldsymbol{A_i}|}{\boldsymbol{A}},i=1,2,\dotsb,n$$
+$$x_i=\cfrac{|\boldsymbol{A_i}|}{\boldsymbol{A}},i=1,2,\dotsb,n$$
 其中｜**A~i~**｜是｜**A**｜中第i列元素替换成方程组右端的常数项b~1~,b~2~,···,b~n~所构成的行列式
 $$
 \tag{2}\begin{dcases}

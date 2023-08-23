@@ -61,7 +61,7 @@ $R_f=f(D)=\set{y|y=f(x),x \in D}$
 
 **定义**：偶函数 $f(-x) = f(x)$；奇函数 $f(-x) = -f(x)$
 
-常见奇函数：$sinx, tanx, arcsinx, arctanx, ln\frac{1-x}{1+x}, ln(x+\sqrt{1+x^2}), \frac{e^x-1}{e^x+1}, f(x)-f(-x)$
+常见奇函数：$sinx, tanx, arcsinx, arctanx, ln\cfrac{1-x}{1+x}, ln(x+\sqrt{1+x^2}), \cfrac{e^x-1}{e^x+1}, f(x)-f(-x)$
 常见偶函数：$x^2, |x|, cosx, f(x)+f(-x)$
 
 奇函数图像关于原点对称，若在x=0处有定义则f(0)=0；偶函数关于y轴对称
@@ -85,7 +85,7 @@ $R_f=f(D)=\set{y|y=f(x),x \in D}$
 **定义**：$f(x+T) = f(x)$
 
 1. $sinx,cosx周期为2\pi; sin2x, |sinx|周期\pi$
-2. $若f(x)以T为周期，则f(ax+b)以\frac{T}{|a|}为周期$
+2. $若f(x)以T为周期，则f(ax+b)以\cfrac{T}{|a|}为周期$
 
 **判定**：
 
@@ -102,7 +102,7 @@ $R_f=f(D)=\set{y|y=f(x),x \in D}$
 
 **定义**：$若 \exist M \gt 0, \forall x \in I, |f(x)| \le M; 则称f(x)在I上有界$
 
-$|sinx| \le 1, |cosx| \le 1, |arcsinx| \le \frac{\pi}{2}, |arctanx| \le \frac{\pi}{2}, |arccosx| \le \pi$
+$|sinx| \le 1, |cosx| \le 1, |arcsinx| \le \cfrac{\pi}{2}, |arctanx| \le \cfrac{\pi}{2}, |arccosx| \le \pi$
 
 **判定**：
 

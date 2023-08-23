@@ -30,7 +30,7 @@ $$
 1. 比较判别法。对于两个函数f(x)与g(x)
    1. 大的收敛，小的收敛
    2. 小的发散，大的发散
-2. 比较法极限形式。$\lim\limits_{x \to +\infty}\frac{f(x)}{g(x)}=\lambda$
+2. 比较法极限形式。$\lim\limits_{x \to +\infty}\cfrac{f(x)}{g(x)}=\lambda$
    1. $\lambda \ne 0，同敛散$
    2. $\lambda = 0，g(x)大，大的收敛，小的收敛$
    3. $\lambda = +\infty，g(x)小，小的发散，大的发散$
@@ -38,7 +38,7 @@ $$
 :star2::star2::star2:常用结论（P积分）
 
 $$
-\int_a^{+\infty}\frac{1}{x^p}dx=
+\int_a^{+\infty}\cfrac{1}{x^p}dx=
 \tag{a > 0}\begin{cases}
     p \gt 1, 收敛 \\
     p \le 1, 发散
@@ -46,7 +46,7 @@ $$
 $$
 
 $$
-例：\int_a^{+\infty}\frac{1}{x^2}dx收敛；\int_a^{+\infty}\frac{1}{x}dx发散
+例：\int_a^{+\infty}\cfrac{1}{x^2}dx收敛；\int_a^{+\infty}\cfrac{1}{x}dx发散
 $$
 
 **无穷区间反常p积分：p大于1收敛，小于等于1发散**
@@ -70,12 +70,12 @@ $$
 :star2::star2::star2:常用结论（P积分）
 
 $$
-\int_a^b\frac{1}{(x-a)^p}dx=
+\int_a^b\cfrac{1}{(x-a)^p}dx=
 \begin{cases}
     p \lt 1, 收敛, \\
     p \ge 1, 发散;
 \end{cases} \\
-\int_a^b\frac{1}{(b-x)^p}dx=
+\int_a^b\cfrac{1}{(b-x)^p}dx=
 \begin{cases}
     p \lt 1, 收敛, \\
     p \ge 1, 发散.
@@ -83,9 +83,9 @@ $$
 $$
 
 $$
-例：\int_1^2\frac{1}{(x-1)^{0.5}}dx收敛；\int_1^2\frac{1}{x-1}dx发散\\
+例：\int_1^2\cfrac{1}{(x-1)^{0.5}}dx收敛；\int_1^2\cfrac{1}{x-1}dx发散\\
 \\
-\int_1^2\frac{1}{(2-x)^{0.5}}dx收敛；\int_1^2\frac{1}{2-x}dx发散
+\int_1^2\cfrac{1}{(2-x)^{0.5}}dx收敛；\int_1^2\cfrac{1}{2-x}dx发散
 $$
 
 **瑕点p积分：p小于1收敛，大于等于1发散**
@@ -104,7 +104,7 @@ S=\iint\limits_{D}1d\sigma=\int_a^bdx\int_{g(x)}^{f(x)}1dy=\int_a^b[f(x)-g(x)]dx
 
 (2)
 $平面域D由曲线r=r(\theta),\theta=\alpha, \theta=\beta围成，则\\
-S=\iint\limits_{D}1d\sigma=\int_{\alpha}^{\beta}d\theta\int_0^{r(\theta)}rdr=\frac{1}{2}\int_{\alpha}^{\beta}r^2(\theta)d\theta$
+S=\iint\limits_{D}1d\sigma=\int_{\alpha}^{\beta}d\theta\int_0^{r(\theta)}rdr=\cfrac{1}{2}\int_{\alpha}^{\beta}r^2(\theta)d\theta$
 
 #### 空间体的体积
 
@@ -116,7 +116,7 @@ S=\iint\limits_{D}1d\sigma=\int_{\alpha}^{\beta}d\theta\int_0^{r(\theta)}rdr=\fr
 
 $dV=2\pi r(x,y)d\sigma$
 
-其中r(x,y)为点(x,y)到直线L距离，即$r(x,y)=\frac{|ax+by+c|}{\sqrt{a^2+b^2}}$，则
+其中r(x,y)为点(x,y)到直线L距离，即$r(x,y)=\cfrac{|ax+by+c|}{\sqrt{a^2+b^2}}$，则
 
 $V=2\pi \iint\limits_Dr(x,y)d\sigma$
 

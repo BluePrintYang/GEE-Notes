@@ -59,7 +59,7 @@ $X \sim B(n,p): P\set{X=k}=C_n^kp^k(1-p)^{n-k}, k=0,1,...,n$
 
 #### 泊松分布
 
-$X \sim P(\lambda): P\set{X=k}= \frac{\lambda^k}{k!}e^{-\lambda}, k = 0,1,2,...,\lambda > 0$
+$X \sim P(\lambda): P\set{X=k}= \cfrac{\lambda^k}{k!}e^{-\lambda}, k = 0,1,2,...,\lambda > 0$
 
 #### 几何分布
 
@@ -100,14 +100,14 @@ $X \sim U(a,b)$
 
 $$概率密度为f(x)=
 \begin{dcases}
-  \frac{1}{b-a}, & a \leq x \leq b \\
+  \cfrac{1}{b-a}, & a \leq x \leq b \\
   0, & 其他
 \end{dcases}$$
 
 $$分布函数为F(x)=
 \begin{dcases}
   0, & x \lt a, \\
-  \frac{x-a}{b-a}, & a \leq x \lt b, \\
+  \cfrac{x-a}{b-a}, & a \leq x \lt b, \\
   1, & x \geq b
 \end{dcases}$$
 
@@ -133,9 +133,9 @@ $$分布函数F(x)=
 
 $X \sim N(\mu,\sigma^2)$
 
-$$密度函数f(x)=\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}$$
+$$密度函数f(x)=\cfrac{1}{\sqrt{2\pi}\sigma}e^{-\cfrac{(x-\mu)^2}{2\sigma^2}}$$
 
-$$分布函数F(x)=\int_{-\infty}^x\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{(t-\mu)^2}{2\sigma^2}}dt$$
+$$分布函数F(x)=\int_{-\infty}^x\cfrac{1}{\sqrt{2\pi}\sigma}e^{-\cfrac{(t-\mu)^2}{2\sigma^2}}dt$$
 
 性质
 
@@ -143,11 +143,11 @@ $f(x)关于 x=\mu对称；F(x)为单调增加的函数$
 
 $若\mu=0,\sigma=1,即X \sim N(0,1),称X服从标准正态分布$
 
-$概率密度:\varphi(x)=\frac{1}{\sqrt{2\pi}}e^{-\frac{x^2}{2}},分布函数\varPhi(x)=\int_{-\infty}^x\frac{1}{\sqrt{2\pi}}e^{-\frac{t^2}{2}}dt$
+$概率密度:\varphi(x)=\cfrac{1}{\sqrt{2\pi}}e^{-\cfrac{x^2}{2}},分布函数\varPhi(x)=\int_{-\infty}^x\cfrac{1}{\sqrt{2\pi}}e^{-\cfrac{t^2}{2}}dt$
 
 $\varPhi(-x) = 1 - \varPhi(x)$
 
-$若X \sim N(\mu,\sigma^2)，则\frac{X-\mu}{\sigma} \sim N(0,1)，从而有 P\set{a \lt X\leq b}=\varPhi(\frac{b-\mu}{\sigma})-\varPhi(\frac{a-\mu}{\sigma})$
+$若X \sim N(\mu,\sigma^2)，则\cfrac{X-\mu}{\sigma} \sim N(0,1)，从而有 P\set{a \lt X\leq b}=\varPhi(\cfrac{b-\mu}{\sigma})-\varPhi(\cfrac{a-\mu}{\sigma})$
 
 ## 随机变量函数的分布
 

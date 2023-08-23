@@ -2,8 +2,8 @@
 
 ## 三角函数相关
 
-1. $arcsinx+arccosx=\frac{\pi}{2}$
-2. $arctanx+arccotx=\frac{\pi}{2}(x \gt 0)$
+1. $arcsinx+arccosx=\cfrac{\pi}{2}$
+2. $arctanx+arccotx=\cfrac{\pi}{2}(x \gt 0)$
 
 ## 导数相关
 

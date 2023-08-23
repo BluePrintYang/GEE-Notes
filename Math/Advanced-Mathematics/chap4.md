@@ -42,9 +42,9 @@ $\int g(y)dy = \int f(x)dx$
 
 ### 齐次方程
 
-> 能化成$\frac{dy}{dx} = \varphi(\frac{y}{x})$的方程
+> 能化成$\cfrac{dy}{dx} = \varphi(\cfrac{y}{x})$的方程
 
-求解方法，令$u=\frac{y}{x},则y'=u+xu'，从而原方程化为 xu' = \varphi(u) - u$，此方程为可分离变量方程
+求解方法，令$u=\cfrac{y}{x},则y'=u+xu'，从而原方程化为 xu' = \varphi(u) - u$，此方程为可分离变量方程
 
 ### 线性方程
 
@@ -80,7 +80,7 @@ P(x,y)dx + Q(x,y)dy = 0
 $$
 是全微分方程的充要条件是
 $$
-\frac{\partial P}{\partial y} = \frac{\partial Q}{\partial x}
+\cfrac{\partial P}{\partial y} = \cfrac{\partial Q}{\partial x}
 $$
 
 ### 其他方程
@@ -102,7 +102,7 @@ $$
 
 ### 3. $y'' = f(y, y')$
 
-令$y' = p, y'' = p \frac{dp}{dy}$ 化为一阶微分方程
+令$y' = p, y'' = p \cfrac{dp}{dy}$ 化为一阶微分方程
 
 ## 高阶线性微分方程
 

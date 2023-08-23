@@ -84,7 +84,7 @@ A. 偶函数   B. 无界函数     C. 周期函数     D. 单调函数
 
 ### [Day 7](https://www.bilibili.com/video/BV1Y14y1V7Yh)
 
-函数$f(x) = \frac{|x|sin(x-2)}{x(x-1)(x-2)^2},在下列哪个区间有界$
+函数$f(x) = \cfrac{|x|sin(x-2)}{x(x-1)(x-2)^2},在下列哪个区间有界$
 A. (-1,0)   B. (0,1)    C. (1,2)    D. (2,3)
 
 
@@ -107,7 +107,7 @@ $\lim \limits_{n \to \infty}[\sqrt{1+2+ \dotsb + n} - \sqrt{1+2+ \dotsb (n-1)}]$
 
 ### [Day 9](https://www.bilibili.com/video/BV1xP4y127hP)
 
-求极限 $\lim \limits_{x \to -\infty} \frac{\sqrt{4x^2+x-1} + x + 1}{\sqrt{x^2 + sinx}}$
+求极限 $\lim \limits_{x \to -\infty} \cfrac{\sqrt{4x^2+x-1} + x + 1}{\sqrt{x^2 + sinx}}$
 
 
 
@@ -118,7 +118,7 @@ $\lim \limits_{n \to \infty}[\sqrt{1+2+ \dotsb + n} - \sqrt{1+2+ \dotsb (n-1)}]$
 
 ### [Day 10](https://www.bilibili.com/video/BV1x84y1v7du)
 
-求极限 $\lim \limits_{x \to 0} (\frac{2 + e ^ \frac{1}{x}}{1 + e ^ \frac{4}{x}} + \frac{\sin x}{\lvert x \rvert})$
+求极限 $\lim \limits_{x \to 0} (\cfrac{2 + e ^ \cfrac{1}{x}}{1 + e ^ \cfrac{4}{x}} + \cfrac{\sin x}{\lvert x \rvert})$
 
 
 
@@ -140,7 +140,7 @@ $\lim \limits_{n \to \infty}[\sqrt{1+2+ \dotsb + n} - \sqrt{1+2+ \dotsb (n-1)}]$
 
 ### [Day 12](https://www.bilibili.com/video/BV17g411q7uk)
 
-求极限  $\lim \limits_{x \to 0} \frac{\sqrt{1 + \tan x} - \sqrt{1 + \sin x}}{x (1 - \cos x)}$
+求极限  $\lim \limits_{x \to 0} \cfrac{\sqrt{1 + \tan x} - \sqrt{1 + \sin x}}{x (1 - \cos x)}$
 
 
 
@@ -151,7 +151,7 @@ $\lim \limits_{n \to \infty}[\sqrt{1+2+ \dotsb + n} - \sqrt{1+2+ \dotsb (n-1)}]$
 
 ### [Day 13](https://www.bilibili.com/video/BV1M14y1W7QZ)
 
-已知 $\lim \limits_{x \to 0} \frac{e^{x^2} - \cos 2x}{ax^b} = 1$ ，求a，b
+已知 $\lim \limits_{x \to 0} \cfrac{e^{x^2} - \cos 2x}{ax^b} = 1$ ，求a，b
 
 
 
@@ -164,9 +164,9 @@ $\lim \limits_{n \to \infty}[\sqrt{1+2+ \dotsb + n} - \sqrt{1+2+ \dotsb (n-1)}]$
 
 已知 $\lim \limits_{x \to x_{o}} \varphi(x) = 0$，则下列结论正确的个数为_____.
 
-(A) $\lim \limits_{x \to x_{o}} \frac{\sin \varphi (x)}{ \varphi(x)} = 1$
+(A) $\lim \limits_{x \to x_{o}} \cfrac{\sin \varphi (x)}{ \varphi(x)} = 1$
 
-(B) $\lim \limits_{x \to x_{o}} [1 + \varphi(x)]^{\frac{1}{\varphi (x)}}= e$
+(B) $\lim \limits_{x \to x_{o}} [1 + \varphi(x)]^{\cfrac{1}{\varphi (x)}}= e$
 
 (C) $当 x \to x_0 时，\sin \varphi(x) \backsim \varphi(x);$
 
@@ -181,7 +181,7 @@ $\lim \limits_{n \to \infty}[\sqrt{1+2+ \dotsb + n} - \sqrt{1+2+ \dotsb (n-1)}]$
 
 ### [Day 15](https://www.bilibili.com/video/BV1ZW4y14734)
 
-$\lim \limits_{x \to 0} \frac{arcsinx-arctanx}{sinx-tanx}$
+$\lim \limits_{x \to 0} \cfrac{arcsinx-arctanx}{sinx-tanx}$
 
 
 
@@ -192,7 +192,7 @@ $\lim \limits_{x \to 0} \frac{arcsinx-arctanx}{sinx-tanx}$
 
 ### [Day 16](https://www.bilibili.com/video/BV1b84y1y7gH)
 
-$\lim \limits_{x \to 0} \frac{ln\frac{x}{ln(1+x)}}{x}$
+$\lim \limits_{x \to 0} \cfrac{ln\cfrac{x}{ln(1+x)}}{x}$
 
 
 
@@ -203,7 +203,7 @@ $\lim \limits_{x \to 0} \frac{ln\frac{x}{ln(1+x)}}{x}$
 
 ### [Day 17](https://www.bilibili.com/video/BV1jW4y1x74F)
 
-$\lim \limits_{x \to +\infty} \frac{e^x}{(1+\frac{1}{x})^{x^2}}$
+$\lim \limits_{x \to +\infty} \cfrac{e^x}{(1+\cfrac{1}{x})^{x^2}}$
 
 
 
@@ -214,7 +214,7 @@ $\lim \limits_{x \to +\infty} \frac{e^x}{(1+\frac{1}{x})^{x^2}}$
 
 ### [Day 18](https://www.bilibili.com/video/BV1G84y117nn)
 
-$\lim \limits_{x \to 0} \frac{cosx-cos(sinx)}{x^4}$
+$\lim \limits_{x \to 0} \cfrac{cosx-cos(sinx)}{x^4}$
 
 
 
@@ -236,7 +236,7 @@ $\lim \limits_{x \to +\infty} x^2[arctan(x+1)-arctanx]$
 
 ### [Day 20](https://www.bilibili.com/video/BV15D4y1s7kG)
 
-$\lim \limits_{n \to \infty} n^2[arctan\frac{a}{n}-arctan\frac{a}{n+1}]$
+$\lim \limits_{n \to \infty} n^2[arctan\cfrac{a}{n}-arctan\cfrac{a}{n+1}]$
 
 
 
@@ -258,7 +258,7 @@ $\lim \limits_{x \to +\infty} [sin\sqrt{x+1}-sin\sqrt{x}]$
 
 ### [Day 22](https://www.bilibili.com/video/BV1VG4y1Z77x)
 
-$\lim \limits_{x \to 0} [\frac{1}{ln(1+x^2)}-\frac{1}{ln(1+tanx^2)}]$
+$\lim \limits_{x \to 0} [\cfrac{1}{ln(1+x^2)}-\cfrac{1}{ln(1+tanx^2)}]$
 
 
 
@@ -269,7 +269,7 @@ $\lim \limits_{x \to 0} [\frac{1}{ln(1+x^2)}-\frac{1}{ln(1+tanx^2)}]$
 
 ### [Day 23](https://www.bilibili.com/video/BV1Ev4y127gy)
 
-$\lim \limits_{x \to 0} [\frac{1}{ln(1+x^2)}-\frac{1}{sin^2x)}]$
+$\lim \limits_{x \to 0} [\cfrac{1}{ln(1+x^2)}-\cfrac{1}{sin^2x)}]$
 
 
 
@@ -280,7 +280,7 @@ $\lim \limits_{x \to 0} [\frac{1}{ln(1+x^2)}-\frac{1}{sin^2x)}]$
 
 ### [Day 24](https://www.bilibili.com/video/BV1424y117nY)
 
-$\lim \limits_{x \to 0} (x+2^x)^{\frac{2}{x}}$
+$\lim \limits_{x \to 0} (x+2^x)^{\cfrac{2}{x}}$
 
 
 
@@ -291,7 +291,7 @@ $\lim \limits_{x \to 0} (x+2^x)^{\frac{2}{x}}$
 
 ### [Day 25](https://www.bilibili.com/video/BV1Ed4y1t7gB)
 
-$\lim \limits_{x \to 0} (\frac{1-tanx}{1+tanx})^{\frac{1}{sinkx}}=e, k=$
+$\lim \limits_{x \to 0} (\cfrac{1-tanx}{1+tanx})^{\cfrac{1}{sinkx}}=e, k=$
 
 
 
@@ -302,7 +302,7 @@ $\lim \limits_{x \to 0} (\frac{1-tanx}{1+tanx})^{\frac{1}{sinkx}}=e, k=$
 
 ### [Day 26](https://www.bilibili.com/video/BV1CY411R7LT)
 
-$\lim \limits_{x \to 0} (e^x+ax^2+bx)^{\frac{1}{x^2}}=1, a=,b=$
+$\lim \limits_{x \to 0} (e^x+ax^2+bx)^{\cfrac{1}{x^2}}=1, a=,b=$
 
 
 
@@ -313,7 +313,7 @@ $\lim \limits_{x \to 0} (e^x+ax^2+bx)^{\frac{1}{x^2}}=1, a=,b=$
 
 ### [Day 27](https://www.bilibili.com/video/BV1W3411f7dj)
 
-$\lim \limits_{x \to 0} (\frac{arctanx}{x})^{\frac{1}{1-cosx}}$
+$\lim \limits_{x \to 0} (\cfrac{arctanx}{x})^{\cfrac{1}{1-cosx}}$
 
 
 
@@ -324,7 +324,7 @@ $\lim \limits_{x \to 0} (\frac{arctanx}{x})^{\frac{1}{1-cosx}}$
 
 ### [Day 28](https://www.bilibili.com/video/BV1rD4y1s7oy)
 
-$\lim \limits_{x \to \infty} (ntan\frac{1}{n})^{n^2}$
+$\lim \limits_{x \to \infty} (ntan\cfrac{1}{n})^{n^2}$
 
 
 
@@ -335,7 +335,7 @@ $\lim \limits_{x \to \infty} (ntan\frac{1}{n})^{n^2}$
 
 ### [Day 29](https://www.bilibili.com/video/BV1524y1y7YX)
 
-$\lim \limits_{x \to \infty} tan^n(\frac{\pi}{4} + \frac{1}{n})$
+$\lim \limits_{x \to \infty} tan^n(\cfrac{\pi}{4} + \cfrac{1}{n})$
 
 
 
@@ -346,7 +346,7 @@ $\lim \limits_{x \to \infty} tan^n(\frac{\pi}{4} + \frac{1}{n})$
 
 ### [Day 30](https://www.bilibili.com/video/BV1TR4y1y71y)
 
-$\lim \limits_{x \to 0} (\frac{ln(1+x)}{x})^\frac{1}{e^x-1}$
+$\lim \limits_{x \to 0} (\cfrac{ln(1+x)}{x})^\cfrac{1}{e^x-1}$
 
 
 
@@ -357,7 +357,7 @@ $\lim \limits_{x \to 0} (\frac{ln(1+x)}{x})^\frac{1}{e^x-1}$
 
 ### [Day 31](https://www.bilibili.com/video/BV1J8411j7Va)
 
-$\lim \limits_{x \to 0} (\frac{(1+x)^\frac{1}{x}}{e})^\frac{1}{x}$
+$\lim \limits_{x \to 0} (\cfrac{(1+x)^\cfrac{1}{x}}{e})^\cfrac{1}{x}$
 
 
 
@@ -368,7 +368,7 @@ $\lim \limits_{x \to 0} (\frac{(1+x)^\frac{1}{x}}{e})^\frac{1}{x}$
 
 ### [Day 32](https://www.bilibili.com/video/BV1ke4y1g7Q8)
 
-$\lim \limits_{x \to 0} (cos2x+2xsinx)^\frac{1}{x^4}$
+$\lim \limits_{x \to 0} (cos2x+2xsinx)^\cfrac{1}{x^4}$
 
 
 
@@ -379,7 +379,7 @@ $\lim \limits_{x \to 0} (cos2x+2xsinx)^\frac{1}{x^4}$
 
 ### [Day 33](https://www.bilibili.com/video/BV1dD4y1a71t)
 
-$\lim \limits_{x \to \frac{\pi}{4}} (tanx)^\frac{1}{cosx-sinx}$
+$\lim \limits_{x \to \cfrac{\pi}{4}} (tanx)^\cfrac{1}{cosx-sinx}$
 
 
 
@@ -390,7 +390,7 @@ $\lim \limits_{x \to \frac{\pi}{4}} (tanx)^\frac{1}{cosx-sinx}$
 
 ### [Day 34](https://www.bilibili.com/video/BV1f24y1r7mH)
 
-$\lim \limits_{x \to 0} (\frac{e^x+e^{2x}+...+e^{nx}}{n})^\frac{1}{x}$
+$\lim \limits_{x \to 0} (\cfrac{e^x+e^{2x}+...+e^{nx}}{n})^\cfrac{1}{x}$
 
 
 
@@ -401,7 +401,7 @@ $\lim \limits_{x \to 0} (\frac{e^x+e^{2x}+...+e^{nx}}{n})^\frac{1}{x}$
 
 ### [Day 35](https://www.bilibili.com/video/BV1D14y1E7bB)
 
-$\lim \limits_{x \to \infty} (\frac{x^n}{(x+1)(x+2)+...+(x+n)})^x$
+$\lim \limits_{x \to \infty} (\cfrac{x^n}{(x+1)(x+2)+...+(x+n)})^x$
 
 
 
@@ -412,7 +412,7 @@ $\lim \limits_{x \to \infty} (\frac{x^n}{(x+1)(x+2)+...+(x+n)})^x$
 
 ### [Day 36](https://www.bilibili.com/video/BV1Ye411N76H)
 
-$\lim \limits_{x \to +\infty} (sin\frac{1}{x}+cos\frac{1}{x})^x$
+$\lim \limits_{x \to +\infty} (sin\cfrac{1}{x}+cos\cfrac{1}{x})^x$
 
 
 
@@ -423,7 +423,7 @@ $\lim \limits_{x \to +\infty} (sin\frac{1}{x}+cos\frac{1}{x})^x$
 
 ### [Day 37](https://www.bilibili.com/video/BV1UV4y1A72Y)
 
-$\lim \limits_{n \to \infty} [e(1+\frac{1}{n})^{-n}-1]$
+$\lim \limits_{n \to \infty} [e(1+\cfrac{1}{n})^{-n}-1]$
 
 
 
@@ -434,7 +434,7 @@ $\lim \limits_{n \to \infty} [e(1+\frac{1}{n})^{-n}-1]$
 
 ### [Day 38](https://www.bilibili.com/video/BV1aR4y1C7DP)
 
-$a \gt 0, a \ne 1,\lim \limits_{x \to +\infty} x^p(a^\frac{1}{x}-a^\frac{1}{x+1})=lna,p=$
+$a \gt 0, a \ne 1,\lim \limits_{x \to +\infty} x^p(a^\cfrac{1}{x}-a^\cfrac{1}{x+1})=lna,p=$
 
 
 
@@ -445,7 +445,7 @@ $a \gt 0, a \ne 1,\lim \limits_{x \to +\infty} x^p(a^\frac{1}{x}-a^\frac{1}{x+1}
 
 ### [Day 39](https://www.bilibili.com/video/BV1SD4y1h7wk)
 
-$\lim \limits_{x \to 0} \frac{(1-\sqrt{cosx})(1-\sqrt[3]{cosx})...(1-\sqrt[n]{cosx})}{(1-cosx)^{n-1}}$
+$\lim \limits_{x \to 0} \cfrac{(1-\sqrt{cosx})(1-\sqrt[3]{cosx})...(1-\sqrt[n]{cosx})}{(1-cosx)^{n-1}}$
 
 
 
@@ -456,7 +456,7 @@ $\lim \limits_{x \to 0} \frac{(1-\sqrt{cosx})(1-\sqrt[3]{cosx})...(1-\sqrt[n]{co
 
 ### [Day 40](https://www.bilibili.com/video/BV1bP411K7ki)
 
-$\lim \limits_{x \to 0} \frac{ln(sin^2x+e^x)-x}{ln(x^2+e^{2x})-2x}$
+$\lim \limits_{x \to 0} \cfrac{ln(sin^2x+e^x)-x}{ln(x^2+e^{2x})-2x}$
 
 
 
@@ -467,11 +467,11 @@ $\lim \limits_{x \to 0} \frac{ln(sin^2x+e^x)-x}{ln(x^2+e^{2x})-2x}$
 
 ### [Day 41](https://www.bilibili.com/video/BV1Zg411J7Lr)
 
-$\lim \limits_{x \to 0} \frac{x - arctanx}{x^k} = c, k,c为常数，且c \ne 0$，则
+$\lim \limits_{x \to 0} \cfrac{x - arctanx}{x^k} = c, k,c为常数，且c \ne 0$，则
 
-A. $k=2, c=-\frac{1}{2}$   B. $k=2, c=\frac{1}{2}$
+A. $k=2, c=-\cfrac{1}{2}$   B. $k=2, c=\cfrac{1}{2}$
 
-C. $k=3, c=-\frac{1}{3}$ D. $k=3, c=\frac{1}{3}$
+C. $k=3, c=-\cfrac{1}{3}$ D. $k=3, c=\cfrac{1}{3}$
 
 
 
@@ -482,7 +482,7 @@ C. $k=3, c=-\frac{1}{3}$ D. $k=3, c=\frac{1}{3}$
 
 ### [Day 42](https://www.bilibili.com/video/BV1nW4y1M7aU)
 
-$\lim \limits_{x \to 0} (\frac{sinx^3}{x^4} - \frac{f(x)}{x^3}) = 2, 则 x \to 0 时，f(x) 是 x 的$
+$\lim \limits_{x \to 0} (\cfrac{sinx^3}{x^4} - \cfrac{f(x)}{x^3}) = 2, 则 x \to 0 时，f(x) 是 x 的$
 
 A. 等价无穷小   B. 同阶但非等价无穷小
 
@@ -508,7 +508,7 @@ $f(x)=x^2(1-x)^2,f''(x)=0在(0,1)上有几个实根$
 
 ### [Day 76](https://www.bilibili.com/video/BV1dG4y1y7G4)
 
-$k \gt 0, f(x)=lnx-\frac{x}{e}+k在(0,+\infty)零点个数为$
+$k \gt 0, f(x)=lnx-\cfrac{x}{e}+k在(0,+\infty)零点个数为$
 
 
 
@@ -519,7 +519,7 @@ $k \gt 0, f(x)=lnx-\frac{x}{e}+k在(0,+\infty)零点个数为$
 
 ### [Day 77](https://www.bilibili.com/video/BV1tP4y1C7Vf)
 
-$证明当x>0时，有不等式ln(1+\frac{1}{x}) \gt \frac{1}{1+x}$
+$证明当x>0时，有不等式ln(1+\cfrac{1}{x}) \gt \cfrac{1}{1+x}$
 
 
 
@@ -530,7 +530,7 @@ $证明当x>0时，有不等式ln(1+\frac{1}{x}) \gt \frac{1}{1+x}$
 
 ### [Day 78](https://www.bilibili.com/video/BV1eG4y1C7RH)
 
-$证明当x>0时，有不等式arctanx + \frac{1}{x} \gt \frac{\pi}{2}$
+$证明当x>0时，有不等式arctanx + \cfrac{1}{x} \gt \cfrac{\pi}{2}$
 
 
 
@@ -541,7 +541,7 @@ $证明当x>0时，有不等式arctanx + \frac{1}{x} \gt \frac{\pi}{2}$
 
 ### [Day 79](https://www.bilibili.com/video/BV1nG4y1w7jN)
 
-$p,q是大于1的常数，并且\frac{1}{p}+\frac{1}{q}=1，证明对于任意x \gt 0, 有\frac{1}{p} x^p+\frac{1}{q} \ge x$
+$p,q是大于1的常数，并且\cfrac{1}{p}+\cfrac{1}{q}=1，证明对于任意x \gt 0, 有\cfrac{1}{p} x^p+\cfrac{1}{q} \ge x$
 
 
 
@@ -563,7 +563,7 @@ $可导函数y=y(x)由方程 sinx - \int_x^y\varphi(u)du = 0所确定，其中�
 
 ### [Day 274](https://www.bilibili.com/video/BV1u94y1C7ut)
 
-$设 x = x(y) 是函数 y = lnx + e^x 的反函数，则\frac{d^2x}{dy^2}=$
+$设 x = x(y) 是函数 y = lnx + e^x 的反函数，则\cfrac{d^2x}{dy^2}=$
 
 
 
@@ -575,9 +575,9 @@ $设 x = x(y) 是函数 y = lnx + e^x 的反函数，则\frac{d^2x}{dy^2}=$
 ### [Day 275](https://www.bilibili.com/video/BV1xV411G7NR)
 
 $设 y = y(x) 由 e^ysint -y + 1 = 0 和x = \begin{dcases}
-    \frac{e^t-1}{t}, & t \ne 1, \\
+    \cfrac{e^t-1}{t}, & t \ne 1, \\
     1, & t = 0.
-\end{dcases}，则\frac{d^2y}{dx^2}|_{t=0}=$
+\end{dcases}，则\cfrac{d^2y}{dx^2}|_{t=0}=$
 
 
 
@@ -599,7 +599,7 @@ $f(x)=x^2ln(1-x),当n \ge 3时，f^{(n)}(0)=$
 
 ### [Day 277](https://www.bilibili.com/video/BV1Qu4y1R7kP)
 
-$f(x)=\frac{1}{1+2x+4x^2},则f^{(100)}(0)=$
+$f(x)=\cfrac{1}{1+2x+4x^2},则f^{(100)}(0)=$
 
 
 
@@ -610,7 +610,7 @@ $f(x)=\frac{1}{1+2x+4x^2},则f^{(100)}(0)=$
 
 ### [Day 278](https://www.bilibili.com/video/BV1zj411z71E)
 
-$设y=\frac{arcsinx}{\sqrt{1-x^2}}\\
+$设y=\cfrac{arcsinx}{\sqrt{1-x^2}}\\
 (1)证明(1-x^2)y^{(n+1)}-(2n+1)xy^{(n)-n^2y^{(n-1)}}=0(n \ge 1); \\
 (2)求y^{(n)}(0)$
 
@@ -671,7 +671,7 @@ C. 2个驻点，1个极值点 D. 2个驻点，2个极值点
 
 ### [Day 282](https://www.bilibili.com/video/BV1nz4y1g7mX)
 
-$f(x)具有二阶连续导数，且f'(0) = 0,\lim \limits_ { x \rightarrow 0 } \frac { f ^ { \prime \prime } ( x ) + f ( x ) - f ( - x ) } { | x | } = 1,则$
+$f(x)具有二阶连续导数，且f'(0) = 0,\lim \limits_ { x \rightarrow 0 } \cfrac { f ^ { \prime \prime } ( x ) + f ( x ) - f ( - x ) } { | x | } = 1,则$
 
 A. f(0)是f(x)极大值   B. $f''(x) \gt 0$，f(0)是f(x)极小值 
 
@@ -686,7 +686,7 @@ C. (0,f(0))是曲线y=f(x)拐点 D. f(0)是f(x)极值，(0,f(0))不是曲线y=f(
 
 ### [Day 283](https://www.bilibili.com/video/BV1fV41137oy)
 
-$f ( x ) = \frac { x | x | } { 1 + x }$求凹凸区间及渐近线
+$f ( x ) = \cfrac { x | x | } { 1 + x }$求凹凸区间及渐近线
 
 
 
@@ -697,7 +697,7 @@ $f ( x ) = \frac { x | x | } { 1 + x }$求凹凸区间及渐近线
 
 ### [Day 284](https://www.bilibili.com/video/BV1wr4y1o7q3)
 
-$y = x ( 1 + \arcsin \frac { 2 } { x } )$斜渐近线方程
+$y = x ( 1 + \arcsin \cfrac { 2 } { x } )$斜渐近线方程
 
 
 
@@ -708,7 +708,7 @@ $y = x ( 1 + \arcsin \frac { 2 } { x } )$斜渐近线方程
 
 ### [Day 285](https://www.bilibili.com/video/BV1Uu4y197uP/)
 
-$y = e ^ { \frac {1} {x} } \sqrt { 1 + x ^ { 2 } }$的渐近线所围区域面积为
+$y = e ^ { \cfrac {1} {x} } \sqrt { 1 + x ^ { 2 } }$的渐近线所围区域面积为
 
 
 
@@ -719,4 +719,19 @@ $y = e ^ { \frac {1} {x} } \sqrt { 1 + x ^ { 2 } }$的渐近线所围区域面�
 
 ### [Day 286](https://www.bilibili.com/video/BV1994y167Js)
 
- $y = \frac { x ^ { 1 + x } } { ( 1 + x ) ^ { x } } ( x > 0 )$斜渐近线方程
+ $y = \cfrac { x ^ { 1 + x } } { ( 1 + x ) ^ { x } } ( x > 0 )$斜渐近线方程
+
+
+
+
+
+
+
+### [Day 287](https://www.bilibili.com/video/BV1jN4y1d7Vk/)
+
+ $x ^ { 5 } - 5 x + k = 0$ 有三个不同实根，求k取值范围
+
+
+
+
+

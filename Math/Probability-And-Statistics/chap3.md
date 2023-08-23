@@ -51,20 +51,20 @@ $P\set{Y = y_j} = P\set{X \lt +\infty, Y = y_i} = \displaystyle\sum_{i} p_{ij} \
 #### 二维离散型随机变量的条件分布律
 
 $在 Y = y_i(p_{\cdot j} \gt 0) 的条件下， X的条件分布律为$
-$P\set{X = x_i | Y = y_i} = \frac{p_{ij}}{p_{\cdot j}},i=1,2,\dotsb,也记为$
+$P\set{X = x_i | Y = y_i} = \cfrac{p_{ij}}{p_{\cdot j}},i=1,2,\dotsb,也记为$
 
 $$(X|Y=y_j) \sim
 \begin{pmatrix}
    x_1 & x_2 & \cdots & x_i & \cdots \\
-   \frac{p_{1j}}{p_{\cdot j}} & \frac{p_{2j}}{p_{\cdot j}} & \cdots & \frac{p_{ij}}{p_{\cdot j}} & \cdots
+   \cfrac{p_{1j}}{p_{\cdot j}} & \cfrac{p_{2j}}{p_{\cdot j}} & \cdots & \cfrac{p_{ij}}{p_{\cdot j}} & \cdots
 \end{pmatrix} 或$$
 
 | X                    | $x_1$                        | $x_2$                        | $\cdots$ | $x_i$                        | $\cdots$ |
 | -------------------- | ---------------------------- | ---------------------------- | -------- | ---------------------------- | -------- |
-| $P\set{\cdot\|Y=y_j}$ | $\frac{p_{1j}}{p_{\cdot j}}$ | $\frac{p_{2j}}{p_{\cdot j}}$ | $\cdots$ | $\frac{p_{ij}}{p_{\cdot j}}$ | $\cdots$ |
+| $P\set{\cdot\|Y=y_j}$ | $\cfrac{p_{1j}}{p_{\cdot j}}$ | $\cfrac{p_{2j}}{p_{\cdot j}}$ | $\cdots$ | $\cfrac{p_{ij}}{p_{\cdot j}}$ | $\cdots$ |
 
 $同理在X = x_i(p_{i\cdot} \gt 0) 的条件下， Y的条件分布律为$
-$P\set{Y = y_j | X = x_i} = \frac{p_{ij}}{p_{i\cdot }},j=1,2,\dotsb$
+$P\set{Y = y_j | X = x_i} = \cfrac{p_{ij}}{p_{i\cdot }},j=1,2,\dotsb$
 
 ### 理解二维连续型随机变量的概率密度、边缘密度和条件密度.会求与二维随机变量相关事件的概率
 
@@ -93,7 +93,7 @@ $f_Y(y) = \int_{-\infty}^{+\infty}f(x,y)dx, -\infty \lt y \lt +\infty$
 #### 二维连续型随机变量的条件概率密度
 
 $在Y=y(f_Y(y) \gt 0) 的条件下，X的条件概率密度为$
-$f_{X|Y}(x|y) = \frac{f(x,y)}{f_Y(y)}, -\infty \lt x \lt +\infty$
+$f_{X|Y}(x|y) = \cfrac{f(x,y)}{f_Y(y)}, -\infty \lt x \lt +\infty$
 
 ## 随机变量的独立性及不相关性
 
@@ -121,7 +121,7 @@ $P\set{X \le x, Y \lt y} = P\set{X \le x}P\set{Y \le y} 即 F(x,y) = F_X(x)F_Y(y
 密度函数为
 
 $$f(x,y) = \begin{dcases}
-    \frac{1}{A}, & (x,y) \in G,\\
+    \cfrac{1}{A}, & (x,y) \in G,\\
     0, &  (x,y) \notin G.
 \end{dcases}$$
 
@@ -131,7 +131,7 @@ $$f(x,y) = \begin{dcases}
 
 密度函数
 
-$f(x,y) =\frac{1}{2\pi\sigma_1\sigma_2\sqrt{1-\rho^2}}e^{-\frac{1}{2(1-\rho^2)}[\frac{(x-\mu_1)^2}{\sigma_1^2}-2\rho\frac{(x-\mu_1)(y-\mu_2)}{\sigma_1\sigma_2}+\frac{(y-\mu_2)^2}{\sigma_2^2}]}$
+$f(x,y) =\cfrac{1}{2\pi\sigma_1\sigma_2\sqrt{1-\rho^2}}e^{-\cfrac{1}{2(1-\rho^2)}[\cfrac{(x-\mu_1)^2}{\sigma_1^2}-2\rho\cfrac{(x-\mu_1)(y-\mu_2)}{\sigma_1\sigma_2}+\cfrac{(y-\mu_2)^2}{\sigma_2^2}]}$
 
 ## 随机变量简单函数的分布
 
