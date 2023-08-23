@@ -118,7 +118,7 @@ $\lim \limits_{n \to \infty}[\sqrt{1+2+ \dotsb + n} - \sqrt{1+2+ \dotsb (n-1)}]$
 
 ### [Day 10](https://www.bilibili.com/video/BV1x84y1v7du)
 
-求极限 $\lim \limits_{x \to 0} (\cfrac{2 + e ^ \cfrac{1}{x}}{1 + e ^ \cfrac{4}{x}} + \cfrac{\sin x}{\lvert x \rvert})$
+求极限 $\lim \limits_{x \to 0} (\cfrac{2 + e ^ \frac{1}{x}}{1 + e ^ \frac{4}{x}} + \cfrac{\sin x}{\lvert x \rvert})$
 
 
 
@@ -346,7 +346,7 @@ $\lim \limits_{x \to \infty} tan^n(\cfrac{\pi}{4} + \cfrac{1}{n})$
 
 ### [Day 30](https://www.bilibili.com/video/BV1TR4y1y71y)
 
-$\lim \limits_{x \to 0} (\cfrac{ln(1+x)}{x})^\cfrac{1}{e^x-1}$
+$\lim \limits_{x \to 0} (\cfrac{ln(1+x)}{x})^\frac{1}{e^x-1}$
 
 
 
@@ -357,7 +357,7 @@ $\lim \limits_{x \to 0} (\cfrac{ln(1+x)}{x})^\cfrac{1}{e^x-1}$
 
 ### [Day 31](https://www.bilibili.com/video/BV1J8411j7Va)
 
-$\lim \limits_{x \to 0} (\cfrac{(1+x)^\cfrac{1}{x}}{e})^\cfrac{1}{x}$
+$\lim \limits_{x \to 0} (\cfrac{(1+x)^\frac{1}{x}}{e})^\frac{1}{x}$
 
 
 
@@ -368,7 +368,7 @@ $\lim \limits_{x \to 0} (\cfrac{(1+x)^\cfrac{1}{x}}{e})^\cfrac{1}{x}$
 
 ### [Day 32](https://www.bilibili.com/video/BV1ke4y1g7Q8)
 
-$\lim \limits_{x \to 0} (cos2x+2xsinx)^\cfrac{1}{x^4}$
+$\lim \limits_{x \to 0} (cos2x+2xsinx)^\frac{1}{x^4}$
 
 
 
@@ -379,7 +379,7 @@ $\lim \limits_{x \to 0} (cos2x+2xsinx)^\cfrac{1}{x^4}$
 
 ### [Day 33](https://www.bilibili.com/video/BV1dD4y1a71t)
 
-$\lim \limits_{x \to \cfrac{\pi}{4}} (tanx)^\cfrac{1}{cosx-sinx}$
+$\lim \limits_{x \to \frac{\pi}{4}} (tanx)^\frac{1}{cosx-sinx}$
 
 
 
@@ -390,7 +390,7 @@ $\lim \limits_{x \to \cfrac{\pi}{4}} (tanx)^\cfrac{1}{cosx-sinx}$
 
 ### [Day 34](https://www.bilibili.com/video/BV1f24y1r7mH)
 
-$\lim \limits_{x \to 0} (\cfrac{e^x+e^{2x}+...+e^{nx}}{n})^\cfrac{1}{x}$
+$\lim \limits_{x \to 0} (\cfrac{e^x+e^{2x}+...+e^{nx}}{n})^\frac{1}{x}$
 
 
 
@@ -434,7 +434,7 @@ $\lim \limits_{n \to \infty} [e(1+\cfrac{1}{n})^{-n}-1]$
 
 ### [Day 38](https://www.bilibili.com/video/BV1aR4y1C7DP)
 
-$a \gt 0, a \ne 1,\lim \limits_{x \to +\infty} x^p(a^\cfrac{1}{x}-a^\cfrac{1}{x+1})=lna,p=$
+$a \gt 0, a \ne 1,\lim \limits_{x \to +\infty} x^p(a^\frac{1}{x}-a^\frac{1}{x+1})=lna,p=$
 
 
 
