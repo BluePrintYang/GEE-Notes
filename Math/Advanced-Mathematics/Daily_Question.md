@@ -735,6 +735,25 @@ $y = e ^ { \cfrac {1} {x} } \sqrt { 1 + x ^ { 2 } }$的渐近线所围区域面�
 
 
 
+
+
 ### [Day 288](https://www.bilibili.com/video/BV1fp4y1J7CL)
 
 $函数 f ( x ) = a x - b \ln x ( a > 0 ) 有两个零点，则 \cfrac{b}{a} 的取值范围是$
+
+
+
+
+
+
+
+### [Day 289](https://www.bilibili.com/video/BV1mr4y197oT)
+
+$已知方程\frac { 1 } { \ln ( 1 + x ) } - \frac { 1 } { x } = k 在 ( 0,1 ) 有实根，求 k 取值范围$
+
+
+
+
+
+
+
