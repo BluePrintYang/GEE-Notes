@@ -476,6 +476,6 @@ $$
 | 2    | 1    | 9    |
 | 3    | 1    | 23   |
 
-## :bangbang: Tips
+## :heavy_exclamation_mark: Tips
 
 1. 队列入队修改队尾指针，出队修改队首指针

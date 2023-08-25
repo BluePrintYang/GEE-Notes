@@ -139,7 +139,7 @@ $$
 \lim_{\substack{x \to 0 \\ y \to 0}} f_x(x, y)  = f _ { x } ( 0,0 ) \\
 \lim_{\substack{x \to 0 \\ y \to 0}} f_y(x, y)  = f _ { y } ( 0,0 )
 $$
-:bangbang: 注意是二重极限
+:heavy_exclamation_mark: 注意是二重极限
 
 ## 偏导数与全微分的计算
 
@@ -230,7 +230,7 @@ $$
 1. $求出f(x, y)的驻点 P_1, \cdots, P_k$
 2. 利用极值的充分条件判定驻点 $P_i$ 是否为极值点
 
-:bangbang:偏导数不存在的点也可能取到极值，例如$f(x,y) = \sqrt{x^2 + y^2}$，这种点一般用极值定义判定
+:heavy_exclamation_mark:偏导数不存在的点也可能取到极值，例如$f(x,y) = \sqrt{x^2 + y^2}$，这种点一般用极值定义判定
 
 ### 条件极值及拉格朗日乘数法
 

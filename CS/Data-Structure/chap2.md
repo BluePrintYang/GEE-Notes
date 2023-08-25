@@ -14,7 +14,7 @@
 - 数据类型都==相同==（占有相同大小空间）
 - 元素具有抽象性（仅讨论元素间逻辑关系）
 
-:bangbang: 线性表是逻辑结构，表示元素一对一的相邻关系。顺序表和链表是指存储结构。
+:heavy_exclamation_mark: 线性表是逻辑结构，表示元素一对一的相邻关系。顺序表和链表是指存储结构。
 
 ### 线性表的基本操作
 
@@ -287,7 +287,7 @@ int LocateElem(SqList L, ElemType e)
 
 时间复杂度`O(n)`
 
-:bangbang: 不包括头结点
+:heavy_exclamation_mark: 不包括头结点
 
 ### 双链表
 

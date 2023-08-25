@@ -24,7 +24,7 @@ n阶矩阵的行列式记成｜**A**｜或det**A**
 
 数量乘法：k是数，**A**是矩阵，简称数乘。
 $k\boldsymbol{A} = k[a_{ij}]_{m \times n} = [ka_{ij}]_{m \times n}$
-> :bangbang: k与每一个元素相乘，行列式则是只乘一行/列
+> :heavy_exclamation_mark: k与每一个元素相乘，行列式则是只乘一行/列
 
 乘法：需满足**A**的列数=**B**的行数，若m行s列矩阵**A**乘s行n列矩阵**B**，乘积**AB**为m行n列矩阵，记为**C**，其中**C**的第i行j列元素是**A**的第i行s个元素与**B**的第j列的s个对应元素两两乘积之和，即
 $c_{ij} = \displaystyle\sum_{k=1}^{s}a_{ik}b{kj} = a_{i1}b_{1j} + a_{i2}b_{2j} + \dots a_{is}b_{sj}$
@@ -173,7 +173,7 @@ $$
 |\boldsymbol{A}^{-1}| = \cfrac{1}{|\boldsymbol{A}|}
 $$
 
-> :bangbang: 即使 $\boldsymbol{A},\boldsymbol{B},\boldsymbol{A} + \boldsymbol{B} 都可逆，一般的(\boldsymbol{A} + \boldsymbol{B})^{-1} \ne \boldsymbol{A}^{-1} + \boldsymbol{B} ^{-1}$
+> :heavy_exclamation_mark: 即使 $\boldsymbol{A},\boldsymbol{B},\boldsymbol{A} + \boldsymbol{B} 都可逆，一般的(\boldsymbol{A} + \boldsymbol{B})^{-1} \ne \boldsymbol{A}^{-1} + \boldsymbol{B} ^{-1}$
 
 ### 求逆矩阵的方法
 

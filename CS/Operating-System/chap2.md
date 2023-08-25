@@ -15,7 +15,7 @@
 
 进程映像是静态的，进程是动态的
 
-> :bangbang:PCB是进程存在的唯一标志
+> :heavy_exclamation_mark:PCB是进程存在的唯一标志
 
 #### 进程的特征
 
