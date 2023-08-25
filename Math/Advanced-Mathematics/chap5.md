@@ -169,7 +169,7 @@ $设 F(x, y, y) 有连续一阶偏导数， F'_z \ne 0, z = z(x, y) 由 F(x, y, 
 
 方法
 
-1. 公式：$\cfrac { \partial z } { \partial x } = - \cfrac{F'_x}{F'_z}, \cfrac { \partial z } { \partial y } = - \cfrac{-F'_y}{F'_z}$
+1. 公式：$\cfrac { \partial z } { \partial x } = - \cfrac{F'_x}{F'_z}, \cfrac { \partial z } { \partial y } = - \cfrac{F'_y}{F'_z}$
 2. 等式两边求导：$F'_x + F'_z \cfrac { \partial z } { \partial x } = 0, F'_y + F'_z \cfrac { \partial z } { \partial y } = 0$
 3. 利用微分形式不变性：$F'_x dx + F'_y dy + F'_z dz = 0$
 
