@@ -494,6 +494,148 @@ C. 高阶无穷小 D. 低阶无穷小
 
 
 
+### [Day 43](https://www.bilibili.com/video/BV1B44y1m7JX)
+
+$x \to 0时, \alpha (x) = k x^2 与 \beta (x) = \sqrt{1 + x arcsinx} -\sqrt{cosx} 是等价无穷小，则 k =$
+
+
+
+
+
+
+
+
+### [Day 44](https://www.bilibili.com/video/BV1XG411T7Wh)
+
+$x \to 0时, 与 \sqrt{x} 等价的无穷小量是$
+
+A. $1-e^{\sqrt{x}}$   B. $ln\cfrac{1+x}{1-\sqrt{x}}$
+
+C. $\sqrt{1+\sqrt{x}} - 1$ D. $1-cos\sqrt{x}$
+
+
+
+
+
+
+
+### [Day 45](https://www.bilibili.com/video/BV1Qe411A7oG)
+
+$\alpha_1 = x(cos\sqrt{x} - 1), \alpha_2 = \sqrt{x} ln(1 + \sqrt[3]{x}), \alpha_3 = \sqrt[3]{x+1} - 1, x \to 0^+ 时，从低阶到高阶排序$
+
+
+
+
+
+
+
+
+### [Day 46](https://www.bilibili.com/video/BV1gP4y1X7Wv)
+
+$f(x) = \cfrac{(e^{\frac{1}{x}} + e) tanx}{x (e^{\frac{1}{x}} - e)} 在 [-\pi, \pi] 上的第一类间断点是 x = $
+
+A. 0   B. 1    C. $-\frac{\pi}{2}$ D. $\frac{\pi}{2}$
+
+
+
+
+
+
+### [Day 47](https://www.bilibili.com/video/BV1184y1x7ZG)
+
+$f(x) = \cfrac{ln|x|}{|x - 1|} sinx,则 f(x) 有$
+
+A. 1个可去间断点，1个跳跃间断点
+B. 1个可去间断点，1个无穷间断点
+C. 2个跳跃间断点
+D. 2个无穷间断点
+
+
+
+
+
+
+### [Day 48](https://www.bilibili.com/video/BV1WV4y1A7nv)
+
+$f(x) = \cfrac{x^2 - x}{x^2 - 1} \sqrt{1 + \frac{1}{x^2}}的无穷间断点个数为$
+
+A. 0    B. 1    C. 2    D. 3
+
+
+
+
+
+
+### [Day 49](https://www.bilibili.com/video/BV1ng411J7mq/)
+
+$f(x) = \cfrac{|x|^x - 1}{x (x+1) lnx}的可去间断点个数为$
+
+A. 0    B. 1    C. 2    D. 3
+
+
+
+
+
+
+### [Day 50](https://www.bilibili.com/video/BV1MA411X7gY/)
+
+$f(x) = \lim \limits_{n \to \infty} \cfrac{1 + x}{1 + x^{2n}} 讨论间断点$
+
+A. 不存在间断点
+B. 存在间断点 x=1
+C. 存在间断点 x=0
+D. 存在间断点 x=-1
+
+
+
+
+
+
+### [Day 51](https://www.bilibili.com/video/BV1UK411q7TC/)
+
+$f(x)在 x=0 连续, 且 \lim \limits_{h \to 0} \cfrac{f(h^2)}{h^2} = 1$
+
+A. $f(0) = 0 且 f'_-(0) 存在$
+B. $f(0) = 1 且 f'_-(0) 存在$
+C. $f(0) = 0 且 f'_+(0) 存在$
+D. $f(0) = 1 且 f'_+(0) 存在$
+
+
+
+
+
+
+### [Day 52](https://www.bilibili.com/video/BV1vK411q75N/)
+
+$f(x)在区间(-\delta, \delta)内有定义，若当 x \in (-\delta, \delta) 时，恒有 |f(x)| \lt x^2,则 x = 0 必是 f(x)的$
+
+A. 间断点
+B. 连续而不可导的点
+C. $可导的点，且f'(0) = 0$
+D. $可导的点，且f'(0) \ne 0$
+
+
+
+
+
+
+### [Day 53](https://www.bilibili.com/video/BV198411n73L/)
+
+$$
+f(x) = \tag{$\alpha \gt 0, \beta \gt 0$}\begin{cases}
+    x^{\alpha} cos \frac{1}{x^{\beta}}, & x \gt 0,\\
+    0, & x \lt 0.
+\end{cases},若 f'(x) 在 x = 0 处连续，则
+$$
+
+A. $\alpha - \beta \gt 1$   B. $0 \lt \alpha - \beta \le 1$
+C. $\alpha - \beta \gt 2$   D. $0 \lt \alpha - \beta \le 2$
+
+
+
+
+
+
 
 ### [Day 75](https://www.bilibili.com/video/BV1KM411h7C9)
 

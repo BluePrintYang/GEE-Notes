@@ -177,7 +177,11 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+typedef struct LNode
+{
+    ElemType data;
+    struct LNode *next;
+} LNode, *LinkList;
 ```
 
 </details>
@@ -203,7 +207,23 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+LinkList List_HeadInsert(LinkList &L)
+{
+    LNode *s;
+    int x;
+    L = (LinkList)malloc(sizeof(LNode));
+    L->next = NULL;
+    scanf("%d", &x);
+    while (x != 9999)
+    {
+        s = (LNode *)malloc(sizeof(LNode));
+        s->data = x;
+        s->next = L->next;
+        L->next = s;
+        scanf("%d", &x);
+    }
+    return L;
+}
 ```
 
 </details>
@@ -218,7 +238,23 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+LinkList List_TailInsert(LinkList &L)
+{
+    int x;
+    L = (LinkList)malloc(sizeof(LNode));
+    LNode *s, *r = L;
+    scanf("%d", &x);
+    while (x != 9999)
+    {
+        s = (LNode *)malloc(sizeof(LNode));
+        s->data = x;
+        r->next = s;
+        r = s;
+        scanf("%d", &x);
+    }
+    r->next = NULL;
+    return L;
+}
 ```
 
 </details>
@@ -231,7 +267,21 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+LNode *GetElem(LinkList L, int i)
+{
+    if (i < 1)
+    {
+        return NULL;
+    }
+    int j = 1;
+    LNode *p = L->next;
+    while (p != NULL && j < i)
+    {
+        p = p->next;
+        j++;
+    }
+    return p;
+}
 ```
 
 </details>
@@ -246,7 +296,15 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+LNode *LocateElem(LinkList L, ElemType e)
+{
+    LNode *p = L->next;
+    while (p != NULL && p->data != e)
+    {
+        p = p->next;
+    }
+    return p;
+}
 ```
 
 </details>
@@ -263,7 +321,9 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+p = GetElem(L, i-1);
+s -> next = p -> next;
+p -> next = s;
 ```
 
 </details>
@@ -278,7 +338,10 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+p = GetElem(L, i-1);
+q = p -> next;
+p -> next = q -> next;
+free(p);
 ```
 
 </details>
@@ -297,7 +360,11 @@ int LocateElem(SqList L, ElemType e)
   <summary>code</summary>
 
 ```c++
-
+typedef struct DNode
+{
+    ElemType data;
+    struct DNode *prior, *next;
+} DNode, *DLinklist;
 ```
 
 </details>
@@ -305,10 +372,13 @@ int LocateElem(SqList L, ElemType e)
 #### 双链表的插入操作
 
 <details>
-  <summary>code</summary>
+  <summary>code snippet</summary>
 
 ```c++
-
+s->next = p->next;
+p->next->prior = s;
+s->prior = p;
+p->next = s;
 ```
 
 </details>
@@ -316,10 +386,12 @@ int LocateElem(SqList L, ElemType e)
 #### 双链表的删除操作
 
 <details>
-  <summary>code</summary>
+  <summary>code snippet</summary>
 
 ```c++
-
+p->next = q->next;
+q->next->prior = p;
+free(q);
 ```
 
 </details>
@@ -345,7 +417,21 @@ int LocateElem(SqList L, ElemType e)
 ### 静态链表
 
 > 借助数组来描述线性表的链式存储结构。指针为数组下标
->
+
+<details>
+  <summary>code</summary>
+
+```c++
+#define MaxSize 50
+typedef struct
+{
+    ElemType data;
+    int next;
+} SLinkList[MaxSize];
+
+```
+
+</details>
 
 ### 顺序表和链表的比较
 

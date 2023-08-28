@@ -64,9 +64,9 @@ $y = e ^ {-\int p(x) dx}[\int Q(x) e ^ {\int p(x) dx}dx + C]$
 
 > 方程$P(x,y)dx + Q(x,y)dy = 0$的左端是某个函数`u(x,y)`的全微分：
 >
-> $du(x,y) = P(x,y) + Q(x,y)dy$
+> $du(x,y) = P(x,y)dx + Q(x,y)dy$
 
-次方程的通解为$u(x,y) = C$
+此方程的通解为$u(x,y) = C$
 
 求u(x,y)的三种方法：
 

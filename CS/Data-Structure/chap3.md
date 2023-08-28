@@ -33,7 +33,12 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c
-
+#define MaxSize 50
+typedef struct
+{
+    ElemType data[MaxSize];
+    int top;
+} SqStck;
 ```
 
 </details>
@@ -51,7 +56,10 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+void InitStack(SqStck &S)
+{
+    S.top = -1;
+}
 ```
 
 </details>
@@ -62,7 +70,13 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+bool StackEmpty(SqStck S)
+{
+    if (S.top == -1)
+        return true;
+    else
+        return false;
+}
 ```
 
 </details>
@@ -73,7 +87,13 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+bool Push(SqStck &S, ElemType x)
+{
+    if (S.top == MaxSize - 1)
+        return false;
+    S.data[++S.top] = x;
+    return true;
+}
 ```
 
 </details>
@@ -84,7 +104,13 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+bool Pop(SqStck &S, ElemType &x)
+{
+    if (S.top == -1)
+        return false;
+    x = S.data[S.top--];
+    return true;
+}
 ```
 
 </details>
@@ -95,7 +121,13 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+bool GetTop(SqStck &S, ElemType &x)
+{
+    if (S.top == -1)
+        return false;
+    x = S.data[S.top];
+    return true;
+}
 ```
 
 </details>
@@ -118,7 +150,12 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+#define MaxSize 50
+typedef struct Linknode
+{
+    ElemType data;
+    struct Linknode *next;
+} *LiStack;
 ```
 
 </details>
@@ -151,7 +188,12 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+#define MaxSize 50
+typedef struct
+{
+    ElemType data[MaxSize];
+    int front, rear;
+} SqQueue;
 ```
 
 </details>
@@ -198,7 +240,10 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+void InitQueue(SqQueue &Q)
+{
+    Q.rear = Q.front = 0;
+}
 ```
 
 </details>
@@ -209,7 +254,11 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
-
+bool isEmpty(SqQueue Q)
+{
+    if (Q.rear == Q.front) return true;
+    else return false;
+}
 ```
 
 </details>
@@ -220,7 +269,13 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```C++
-
+bool EnQueue(SqQueue &Q, ElemType x)
+{
+    if ((Q.rear + 1) % MaxSize == Q.front) return false;
+    Q.data[Q.rear] = x;
+    Q.rear = (Q.rear + 1) % MaxSize;
+    return true;
+}
 ```
 
 </details>
@@ -231,7 +286,13 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```C++
-
+bool DeQueue(SqQueue &Q, ElemType &x)
+{
+    if (Q.rear == Q.front) return false;
+    x = Q.data[Q.front];
+    Q.front = (Q.front + 1) % MaxSize;
+    return true;
+}
 ```
 
 </details>
@@ -246,7 +307,16 @@ n个不同元素进栈，出栈元素不同排列个数为$\cfrac{1}{n+1}C_{2n}^
   <summary>code</summary>
 
 ```c++
+typedef struct LinkNode
+{
+    ElemType data;
+    struct LinkNode *next;
+} LinkNode;
 
+typedef struct
+{
+    LinkNode *front, *rear;
+} *LinkQueue;
 ```
 
 </details>
