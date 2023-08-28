@@ -34,9 +34,9 @@
 
 #### 原码、反码、补码、移码
 
-![IMG_0010](https://p.ipic.vip/2gzb3h.jpg)
+![几种码表示整数](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/2gzb3h.jpg)
 
-![IMG_0009](https://p.ipic.vip/gkpprl.jpg)
+![码的转换](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/gkpprl.jpg)
 
 ### 整数的表示
 

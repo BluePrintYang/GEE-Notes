@@ -405,7 +405,7 @@ typedef struct
 
 :star2: 中缀表达式转后缀表达式
 
-![image-20230821202600536](https://p.ipic.vip/edxsbm.png)
+![中缀表达式转后缀表达式](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/edxsbm.png)
 
 ### 栈在递归中的应用
 

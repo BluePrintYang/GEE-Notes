@@ -314,7 +314,7 @@ $$
 
 好比为二叉树建立了一个双向线索链表，方便从前往后或从后往前对线索二叉树进行遍历
 
-![带头结点的中序线索二叉树](https://p.ipic.vip/3sc9we.png)
+![带头结点的中序线索二叉树](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/3sc9we.png)
 
 #### 中序线索二叉树的遍历
 
@@ -390,7 +390,7 @@ $$
 
 唯一双亲性质，可以很快地得到每个结点的双亲，但是求结点的孩子时需要遍历整个结构
 
-![树的双亲表示法](https://p.ipic.vip/nndo7x.png)
+![树的双亲表示法](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/nndo7x.png)
 
 #### 孩子表示法
 
@@ -417,7 +417,7 @@ $$
 
 缺点是从当前结点查找其双亲结点比较麻烦。若为每个结点增设一个`parent`域指向其父结点，则查找结点的父结点也很方便
 
-![孩子表示法和兄弟表示法](https://p.ipic.vip/6egq92.png)
+![孩子表示法和兄弟表示法](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/6egq92.png)
 
 ### 树、森林与二叉树的转化
 
@@ -441,7 +441,7 @@ $$
 
 二叉树转森林：二叉树非空，则二叉树的根及其左子树为第一棵树的二叉树形式，故将其根的右链断开。二叉树根的右子树又可视为一个二叉树，应用同样的方法，直到最后只剩一棵没有右子树的二叉树为止，最后再将每棵二叉树转换为树，就得到了森林。
 
-![森林与二叉树对应关系](https://p.ipic.vip/ensq3e.png)
+![森林与二叉树对应关系](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/ensq3e.png)
 
 ### 树和森林的遍历
 

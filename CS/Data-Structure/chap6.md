@@ -156,9 +156,9 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 
 适合稀疏图
 
-![无向图邻接表表示法](https://p.ipic.vip/tbjyk4.png)
+![无向图邻接表表示法](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/tbjyk4.png)
 
-![有向图邻接表表示法](https://p.ipic.vip/k5vlip.png)
+![有向图邻接表表示法](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/k5vlip.png)
 
 特点
 
@@ -186,17 +186,17 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 2. firstin：指向以该顶点为弧头的第一个弧结点
 3. firstout：指向以该顶点为弧尾的第一个弧结点
 
-![结点结构](https://p.ipic.vip/3uov51.png)
+![结点结构](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/3uov51.png)
 
-![有向图的十字链表表示](https://p.ipic.vip/6c8kgz.png)
+![有向图的十字链表表示](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/6c8kgz.png)
 
 ### 邻接多重表
 
 是==无向图==的一种链式存储结构
 
-![无向图的邻接多重表表示](https://p.ipic.vip/ol0pmy.png)
+![无向图的邻接多重表表示](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/ol0pmy.png)
 
-![比较](https://p.ipic.vip/chqrf3.png)
+![比较](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/chqrf3.png)
 
 ### 图的基本操作
 

@@ -130,7 +130,7 @@ $若 f ( x , y ) 可微，则 d z = \cfrac { \partial f } { \partial x } d x + \
 
 ### 5. 连续、可导、可微的关系
 
-![image-20230824111403585](https://p.ipic.vip/x6033c.png)
+![连续、可导、可微的关系](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/x6033c.png)
 
 :star2:偏导存在只与两条线上函数值有关，而连续和可微是整个邻域
 
