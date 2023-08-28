@@ -926,3 +926,13 @@ $f(x) 在 [-2, 2]可导，且 f'(x) \gt f(x) \gt 0$
 A. $\cfrac{f(-2)}{f(-1)} \gt 1$ 	B. $\cfrac{f(0)}{f(-1)} \gt e$
 
 C. $\cfrac{f(1)}{f(-1)} \lt e^2$ 	D. $\cfrac{f(2)}{f(-1)} \lt e^3$
+
+
+
+
+
+
+
+### [Day 293](https://www.bilibili.com/video/BV1Lu4y1X74t/)
+
+$已知 k \geq ln 2 - 1, 证明 ( x - 1 ) ( x - ln ^ { 2 } x + 2 k \ln x - 1 ) \geq 0$
