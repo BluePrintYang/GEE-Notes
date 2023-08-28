@@ -919,3 +919,10 @@ $设函数 f(x) 在 (-\infty, +\infty) 上二阶可导，且f'' (x) \ne 0，\lim
 
 
 
+### [Day 292](https://www.bilibili.com/video/BV168411Q7KJ/)
+
+$f(x) 在 [-2, 2]可导，且 f'(x) \gt f(x) \gt 0$
+
+A. $\cfrac{f(-2)}{f(-1)} \gt 1$ 	B. $\cfrac{f(0)}{f(-1)} \gt e$
+
+C. $\cfrac{f(1)}{f(-1)} \lt e^2$ 	D. $\cfrac{f(2)}{f(-1)} \lt e^3$
