@@ -43,7 +43,7 @@ $$
 
 简单图与多重图的定义是相对的。<u>数据结构中仅讨论简单图</u>。
 
-#### 完全图（简单完全图）
+#### 完全图（简单完全图） :heavy_exclamation_mark:
 
 对于无向图，|E| 的取值范围为 0 到 n(n-1)/2，有 n(n-1)/2 条边的无向图称为**完全图**，完全图中任意两个顶点之间都存在边。
 
@@ -53,7 +53,7 @@ $$
 
 设有两个图 G = (V, E) 和 G‘ = (V’, E‘) ，若 V' 是 V 的子集，且 E' 是 E 的子集，则称 G' 是 G 的子集。若有满足 V(G') = V(G) 的子图 G' ，则称其为 G 的**生成子图**。
 
-#### 连通、连通图和连通分量
+#### 连通、连通图和连通分量 :heavy_exclamation_mark:
 
 无向图中，若顶点 v 到顶点 w 有路径存在，则称。v 和 w 是**连通**的。若图中任意两个顶点都是连通的，则称图      G 为**连通图**，否则为**非连通图**。无向图中的**极大连通子图**称为**连通分量**。
 
@@ -69,7 +69,7 @@ $$
 
 :heavy_exclamation_mark: 无向图中讨论连通性，有向图中讨论强连通性
 
-#### 生成树、生成森林
+#### 生成树、生成森林 :heavy_exclamation_mark:
 
 连通图的**生成树**是包含图中==全部顶点==的一个**极小连通子图**。顶点树为n，边数为n-1。
 
@@ -113,7 +113,7 @@ $$
 
 > n个顶点，大于n-1条边，一定有环
 
-#### 简单路径、简单回路
+#### 简单路径、简单回路 :heavy_exclamation_mark:
 
 **简单路径**：顶点不重复的路径
 
@@ -235,6 +235,8 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 
 邻接表不唯一，生成树不 唯一
 
+![广度优先生成树](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829154553121.png)
+
 ### :star2:深度优先搜索
 
 类似树的先序遍历
@@ -248,6 +250,8 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 邻接表表示：时间复杂度$O(|V| + ｜E｜)$
 
 #### 深度优先的生成树和生成森林
+
+![深度优先生成森林](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829154631626.png)
 
 ### 图的遍历与图的连通性
 
@@ -269,6 +273,8 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 
 #### Prim算法
 
+![Prim 算法构造最小生成树的过程](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829154921738.png)
+
 适合于==边稠密的图==
 
 时间复杂度$O(|V|^2)$
@@ -276,6 +282,8 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 #### Kruskal算法
 
 按权值的递增次序选择合适的边构造最小生成树
+
+![Kruskal算法构造最小生成树的过程](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829154951827.png)
 
 适合于==边稀疏而顶点较多==的图
 
@@ -285,11 +293,17 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 
 #### Dijkstra算法求单源最短路径问题
 
+![应用Dijkstra算法图](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829155735346.png)
+
 时间复杂度$O(|V|^2)$
 
-不适用于带负权值的图 
+==不适用于带负权值的图==
 
 #### Floyd算法求各顶点之间最短路径问题
+
+![带杈有向图G及其邻接矩阵](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829155854324.png)
+
+![Floyd 算法的执行过程](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829155921727.png)
 
 时间复杂度$O(|V|^3)$
 
@@ -297,10 +311,14 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 
 共享相同子式，节省存储空间
 
+![有向无环图](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829155957010.png)
+
 ### 拓扑排序
 
 1. 每个顶点出现且只出现一次
 2. 若A在序列中排在B前面，则不存在B到A的路径
+
+![有向无环图的拓扑排序过程](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20230829160046310.png)
 
 ### 关键路径
 
@@ -313,3 +331,8 @@ n个顶点的图的邻接矩阵是n×n的。边在图中，则对应二维数组
 #### 活动$a_i$的最迟开始时间$l(i)$
 
 #### 一个活动$a_i$的最迟开始时间$l(i)$和其最早开始时间$e(i)$的差额$d(i) = l(i) - e(i)$
+
+:heavy_exclamation_mark:Attention
+
+1. 关键路径上的所有活动都是关键活动，可以通过加快关键活动来缩短工期。但也不能任意缩短，缩短到一定程度后，关键活动可能会变成非关键活动。
+2. 关键路径不唯一，对于有几条关键路径的网，只提高一条关键路径上的关键活动并不能缩短工期，只有加快那些==包含在所有关键路径上的关键活动==才能缩短工期。

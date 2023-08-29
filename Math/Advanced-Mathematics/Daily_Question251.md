@@ -248,3 +248,17 @@ C. $\cfrac{f(1)}{f(-1)} \lt e^2$ 	D. $\cfrac{f(2)}{f(-1)} \lt e^3$
 ### [Day 293](https://www.bilibili.com/video/BV1Lu4y1X74t/)
 
 $已知 k \geq ln 2 - 1, 证明 ( x - 1 ) ( x - ln ^ { 2 } x + 2 k \ln x - 1 ) \geq 0$
+
+
+
+
+
+
+
+### [Day 294](https://www.bilibili.com/video/BV1pu411E7b3/)
+
+$$
+f ( x ) 二阶可导, f ( 0 ) = 1, f ^ { \prime } ( 0 ) = 0, 且对于任意x \geq 0 有\\
+f ^ { \prime \prime } ( x ) - 5 f ^ { \prime } ( x ) + 6 f ( x ) \geq 0, 证明不等式 f ( x ) \geq 3e ^ { 2 x } - 2e ^ { 3 x } , ( x \geq 0 )
+$$
+
