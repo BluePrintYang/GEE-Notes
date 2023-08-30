@@ -317,8 +317,11 @@ $\begin{aligned}&\text{(1994年2)设 }y=\frac{x^3+4}{x^2},\text{求}\\&\text{(1)
 在区间 $(-\infty, \infty)$ 内，方程 $\mid x\mid^{\frac{1}{4}}+\mid x\mid^{\frac{1}{2}}-\cos x=0$ ：
 
 (A) 无实根
+
 (B) 有且仅有一个实根
+
 (C) 有且仅有两个实根
+
 (D) 有无穷多个实根
 
 
@@ -459,7 +462,7 @@ $\begin{aligned}&\text{(2010年2)设函数 }f(x)\text{ 在闭区间 [0,1]上连�
 
 ### [Day 85](https://www.bilibili.com/video/BV1mv4y167SL/)
 
-$\begin{aligned}\text{设 }&f(x)\text{ 在区间 }[a,b]\text{上连续,在 }(a,b)\text{ 内可导,且 }a,b\text{ 同号,证明:存在 }\xi,\eta\in(a,b)\text{,使得 }abf^{\prime}(\xi)=\eta^2f^{\prime}(\eta).\end{aligned}$
+$\begin{aligned}\text{设 }&f(x)\text{ 在区间 }[a,b]\text{上连续,在 }(a,b)\text{ 内可导,且 }a,b\text{ 同号,\\证明:存在 }\xi,\eta\in(a,b)\text{,使得 }abf^{\prime}(\xi)=\eta^2f^{\prime}(\eta).\end{aligned}$
 
 
 
