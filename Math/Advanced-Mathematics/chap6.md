@@ -14,9 +14,9 @@ $二重积分\displaystyle\iint\limits_{D} f ( x , y ) d \sigma是一个数，�
 
 ### 不等式性质
 
-1. $若在 D 上 f ( x , y ) \leq g ( x , y )，则 \displaystyle\iint\limits_{D} f ( x , y ) d \sigma  \le \displaystyle\iint\limits_{D} g ( x , y ) d \sigma $
+1. $若在 D 上 f ( x , y ) \leq g ( x , y )，则 \displaystyle\iint\limits_{D} f ( x , y ) d \sigma  \le \displaystyle\iint\limits_{D} g ( x , y ) d \sigma$
 2. $若f ( x , y ) 在 D 上连续，则 mS \le \displaystyle\iint\limits_{D} f ( x , y ) d \sigma \le MS，其中 m 和 M 分别为 f(x, y) 在 D 上的最大值和最小值，S为积分域 D 的面积$
-3. $|\displaystyle\iint\limits_{D} f ( x , y ) d \sigma |  \lt \displaystyle\iint\limits_{D} |f ( x , y )| d \sigma $
+3. $|\displaystyle\iint\limits_{D} f ( x , y ) d \sigma |  \lt \displaystyle\iint\limits_{D} |f ( x , y )| d \sigma$
 
 ### 积分中值定理
 
