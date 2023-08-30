@@ -262,3 +262,15 @@ f ( x ) 二阶可导, f ( 0 ) = 1, f ^ { \prime } ( 0 ) = 0, 且对于任意x \g
 f ^ { \prime \prime } ( x ) - 5 f ^ { \prime } ( x ) + 6 f ( x ) \geq 0, 证明不等式 f ( x ) \geq 3e ^ { 2 x } - 2e ^ { 3 x } , ( x \geq 0 )
 $$
 
+
+
+
+
+
+
+### [Day 295](https://www.bilibili.com/video/BV1Dj411q78d/)
+
+$$
+证明 | \frac { \sin x - \sin y } { x - y } - \cos y | \leq \frac { 1 } { 2 } | x - y | , ( x \neq y )
+$$
+
