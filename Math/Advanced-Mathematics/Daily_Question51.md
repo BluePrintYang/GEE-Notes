@@ -314,11 +314,12 @@ $\begin{aligned}&\text{(1994年2)设 }y=\frac{x^3+4}{x^2},\text{求}\\&\text{(1)
 
 ### [Day 73](https://www.bilibili.com/video/BV1F84y1Y73L/)
 
-$$
-\begin{aligned}(\text{1996年}1,2)&\text{在区间 }(-\infty,+\infty)\text{ 内,方程 }\mid x\mid^{\frac14}+\mid x\mid^{\frac12}-\cos x=0\\(\mathrm{A})&\text{无实根}&\text{(B)有且仅有一个实根}\\(\mathrm{C})&\text{有且仅有两个实根}&\text{(D)有无穷多个实根}\end{aligned}
-$$
+在区间 $(-\infty, \infty)$ 内，方程 $\mid x\mid^{\frac{1}{4}}+\mid x\mid^{\frac{1}{2}}-\cos x=0$ ：
 
-
+(A) 无实根
+(B) 有且仅有一个实根
+(C) 有且仅有两个实根
+(D) 有无穷多个实根
 
 
 
@@ -326,7 +327,7 @@ $$
 
 ### [Day 74](https://www.bilibili.com/video/BV1w8411T7fe/)
 
-$\begin{array}\text{(2011年2)函数 } & f(x)=\ln|(x-1)(x-2)(x-3)| & \text{ 的驻点个数为()}\\\text{(A)0.}&(B)1.&(C)2.&(D)3.\end{array}$
+$\begin{array}{ccc}(\text{2011年2})\text{函数}&f(x)=\ln|(x-1)(x-2)(x-3)|&\text{的驻点个数为}()\\(\mathrm{A})0.&(B)1.&(C)2.&(D)3.\end{array}$
 
 
 
