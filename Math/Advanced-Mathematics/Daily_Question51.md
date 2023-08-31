@@ -133,6 +133,10 @@ $y = \cfrac{1}{x^2 - 1}, y^{(n)} = $
 
 
 
+
+
+
+
 ### [Day 61](https://www.bilibili.com/video/BV1ov4y1z7g2/)
 
 $f(x) 具有任意阶导数，且f'(x) = [f(x)]^2, 则当 n 为大于2的正整数时，f(x) 的n阶导数 f^{(n)} (x) 是$
@@ -140,6 +144,8 @@ $f(x) 具有任意阶导数，且f'(x) = [f(x)]^2, 则当 n 为大于2的正整�
 A. $n![f(x)]^{n+1}$		B. $n[f(x)]^{n+1}$
 
 C. $[f(x)]^{2n}$			  D. $n![f(x)]^{2n}$
+
+
 
 
 
@@ -165,12 +171,20 @@ D. $-f(-x) 单调增加$
 
 
 
+
+
+
+
 ### [Day 63](https://www.bilibili.com/video/BV1wD4y177Uw/)
 
 $f(x),g(x) 是恒大于零的可导函数，且 f^{\prime}(x)g(x)-f(x)g^{\prime}(x)<0, 则当 a<x<b 时，有$
 $$
 \begin{aligned}&\mathrm{(A)~}f(x)g(b)>f(b)g(x)\quad&\mathrm{(B)~}f(x)g(a)>f(a)g(x)\\&\mathrm{(C)~}f(x)g(x)>f(b)g(b)\quad&\mathrm{(D)~}f(x)g(x)>f(a)g(a)\end{aligned}
 $$
+
+
+
+
 
 
 
@@ -242,6 +256,8 @@ $$
 
 
 
+
+
 ### [Day 68](https://www.bilibili.com/video/BV1b84y1Y7yJ/)
 
 $$
@@ -254,6 +270,10 @@ $$
 &\text{(D) }f(0)\text{ 不是 }f(x)\text{ 的极值, }(0,f(0))\text{ 也不是曲线 }y=f(x)\text{ 的拐点}.
 \end{aligned}
 $$
+
+
+
+
 
 
 

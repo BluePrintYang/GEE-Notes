@@ -58,8 +58,7 @@ $f(x) = \begin{dcases}
 
 
 
-
-### [Day 5](https://www.bilibili.com/video/BV1xv4y1U7PK)
+### [Day 5 :star2:](https://www.bilibili.com/video/BV1xv4y1U7PK)
 
 证明：定义在区间[-a,a]上的任意一个函数f(x)，都可以表示成一个奇函数与一个偶函数之和
 
@@ -265,8 +264,7 @@ $\lim \limits_{x \to 0} [\cfrac{1}{ln(1+x^2)}-\cfrac{1}{ln(1+tanx^2)}]$
 
 
 
-
-### [Day 23](https://www.bilibili.com/video/BV1Ev4y127gy)
+### [Day 23](https://www.bilibili.com/video/BV1Ev4y127gy) :star2:
 
 $\lim \limits_{x \to 0} [\cfrac{1}{ln(1+x^2)}-\cfrac{1}{sin^2x)}]$
 
