@@ -274,3 +274,18 @@ $$
 证明 | \frac { \sin x - \sin y } { x - y } - \cos y | \leq \frac { 1 } { 2 } | x - y | , ( x \neq y )
 $$
 
+
+
+
+
+
+
+
+
+### [Day 296](https://www.bilibili.com/video/BV18r4y1R7Fu/)
+
+$\begin{aligned}
+&(2020\text{年数二)设函数}f(x)=\int_1^xe^{t^2}dt \\
+&\text{(I)证明:存在 }\xi\in\mathbf{(1,2)},\text{ 使 }f(\xi)=(2-\xi)e^{\xi^2}.&   \\
+&\text{(II)证明:存在 }\eta\in\text{(1,2), 使 }f(2)=\ln2\cdot\eta e^{\eta^2}.
+\end{aligned}$

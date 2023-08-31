@@ -656,4 +656,4 @@ $\int_{\sqrt{c}}^{c^{\frac 34}}\cfrac{\mathrm{d}x}{x\sqrt{\ln x(1-\ln x)}}=$
 
 ### [Day 100](https://www.bilibili.com/video/BV16M411P7Ff/)
 
-$\int_0^1\frac{\arcsin\sqrt{x}}{\sqrt{x(1-x)}}dx=$
+$\int_0^1\cfrac{\arcsin\sqrt{x}}{\sqrt{x(1-x)}}dx=$
