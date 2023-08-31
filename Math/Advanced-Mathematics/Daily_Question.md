@@ -222,8 +222,7 @@ $\lim \limits_{x \to 0} \cfrac{cosx-cos(sinx)}{x^4}$
 
 
 
-
-### [Day 19](https://www.bilibili.com/video/BV1G84y117nn)
+### [Day 19](https://www.bilibili.com/video/BV1kY411o7uB/)
 
 $\lim \limits_{x \to +\infty} x^2[arctan(x+1)-arctanx]$
 
