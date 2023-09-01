@@ -321,7 +321,7 @@ $\lim \limits_{x \to 0} (\cfrac{arctanx}{x})^{\cfrac{1}{1-cosx}}$
 
 ### [Day 28](https://www.bilibili.com/video/BV1rD4y1s7oy)
 
-$\lim \limits_{x \to \infty} (ntan\cfrac{1}{n})^{n^2}$
+$\lim \limits_{n \to \infty} (ntan\cfrac{1}{n})^{n^2}$
 
 
 
@@ -332,7 +332,7 @@ $\lim \limits_{x \to \infty} (ntan\cfrac{1}{n})^{n^2}$
 
 ### [Day 29](https://www.bilibili.com/video/BV1524y1y7YX)
 
-$\lim \limits_{x \to \infty} tan^n(\cfrac{\pi}{4} + \cfrac{1}{n})$
+$\lim \limits_{n \to \infty} tan^n(\cfrac{\pi}{4} + \cfrac{1}{n})$
 
 
 
