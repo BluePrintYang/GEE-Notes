@@ -307,3 +307,40 @@ $\begin{aligned}
 &(2)\text{ 存在 }\eta\in(0,1),\text{使 }f^{\prime\prime}(\eta)\leq-2.
 \end{aligned}$
 
+
+
+
+
+
+
+
+
+
+
+
+
+### [Day 298](https://www.bilibili.com/video/BV1QP411Y7Df/)
+
+$\begin{aligned}
+&\text{设 }f(x)\text{ 在 [0,1] 上二阶可导,且 }\lim_{x\to0^+}\frac{f(x)}x=2,\int_0^1f(x)dx=1 \\
+&\text{试证:} 1\text{)存在 }\xi\in(0,1)\text{,使 }f^{\prime}(\xi)=f(\xi)-2\xi+2;  \\
+&2\text{)存在 }\eta\in(0{,}1)\text{,使 }f^{\prime\prime}(\eta)=0; \\
+&\text{3)存在}\zeta\in(0,1),\text{使}\int_{0}^{\zeta}f(t)dt+\zeta f(\zeta)=2\zeta; \\
+&4\text{)存在}\mu\in(0,1)_{,\text{使}}\mu f ( \mu ) = 2 \int _ 0 ^ \mu f ( t ) d t 
+\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 299](https://www.bilibili.com/video/BV1Aj411m7gG/)
+
+$\begin{aligned}
+&\text{设}f(\mathrm{x})\text{在 [0,l] 上连续,在 (0,l)内可导,且 }f(0)=1,f(1)=0\\
+&\text{证明:(1)存在两个不同的点 }\xi_1,\xi_2\in(0,1), \text{使得 }f^{\prime}(\xi_1)+f^{\prime}(\xi_2)=-2.\\& \quad\quad (2)\text{存在两个不同的点 }\eta,\zeta\in(0,1),\text{使得 }f^{\prime}(\eta)f^{\prime}(\zeta)=1\end{aligned}$
