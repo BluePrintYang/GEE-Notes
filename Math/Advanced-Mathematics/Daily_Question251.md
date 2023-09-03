@@ -289,3 +289,21 @@ $\begin{aligned}
 &\text{(I)证明:存在 }\xi\in\mathbf{(1,2)},\text{ 使 }f(\xi)=(2-\xi)e^{\xi^2}.&   \\
 &\text{(II)证明:存在 }\eta\in\text{(1,2), 使 }f(2)=\ln2\cdot\eta e^{\eta^2}.
 \end{aligned}$
+
+
+
+
+
+
+
+
+
+### [Day 297](https://www.bilibili.com/video/BV1Gp4y1E7ih/)
+
+$\begin{aligned}
+&\text{(2019年2)已知函数 f(x)在 [0,1] 上具有二阶导数,且} \\
+&f(0)=0,f(1)=1,\int_{0}^{1}f(x)dx=1, \\
+&\text{证明:(1)存在 }\xi\in(0,1),\text{ 使 }f^{\prime}(\xi)=0; \\
+&(2)\text{ 存在 }\eta\in(0,1),\text{使 }f^{\prime\prime}(\eta)\leq-2.
+\end{aligned}$
+
