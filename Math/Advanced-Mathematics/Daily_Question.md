@@ -420,7 +420,7 @@ $\lim \limits_{x \to +\infty} (sin\cfrac{1}{x}+cos\cfrac{1}{x})^x$
 
 ### [Day 37](https://www.bilibili.com/video/BV1UV4y1A72Y)
 
-$\lim \limits_{n \to \infty} [e(1+\cfrac{1}{n})^{-n}-1]$
+$\lim \limits_{n \to \infty} n [e(1+\cfrac{1}{n})^{-n}-1]$
 
 
 
