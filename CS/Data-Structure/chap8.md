@@ -16,6 +16,8 @@
 
 > 从第二个元素开始，将其插入到==前面已排好序==的序列中的合适位置
 
+![insertion sort](https://upload.wikimedia.org/wikipedia/commons/4/42/Insertion_sort.gif)
+
 - 空间效率：O(1)
 - 时间效率：比较关键词和移动元素
   - 最好：O(n)
@@ -39,6 +41,8 @@
 
 > 按间隔分割为几个子表，子表直接插入排序，再对全体直接插入
 
+![shell sort](https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif)
+
 - 空间效率：O(1)
 - 时间效率：依赖于增量序列的函数
   - 最坏：$O(n^2)$
@@ -51,6 +55,8 @@
 
 > 相邻比较，逆序交换，最多 n - 1 趟
 
+![Bubble-sort](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+
 - 空间效率：O(1)
 - 时间效率：
   - 最好：O(n)
@@ -62,6 +68,8 @@
 ### 快速排序
 
 > 选取主元，从左找第一个大于主元，从右找第一个小于主元，交换，左右指针重合后与主元交换，使主元左边都比主元小，右边都比主元大。再对左边和右边分别进行快速排序。
+
+![quick sort](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 
 每次快排能确定主元大最终位置
 
@@ -81,6 +89,8 @@
 
 > 选出最小的元素与==前面已排好序==的最后一个元素交换
 
+![selection sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
+
 - 空间效率：O(1)
 - 时间效率：$O(n^2)$
 - 时间复杂度：$O(n^2)$
@@ -89,6 +99,8 @@
 ### 堆排序
 
 > 建堆，取堆顶，调整堆
+
+![heapsort](https://upload.wikimedia.org/wikipedia/commons/1/1b/Sorting_heapsort_anim.gif)
 
 - 空间效率：O(1)
 - 时间效率：建堆时间 O(n)，调整时间 O(h)
@@ -103,6 +115,8 @@
 ### 归并排序
 
 > 将两个或以上==有序表==合并为新的有序表
+
+![merge sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
 - 空间效率：O(n)
 - 时间效率：每趟归并 O(n), 共需 $\lceil\log_2n\rceil$ 趟
