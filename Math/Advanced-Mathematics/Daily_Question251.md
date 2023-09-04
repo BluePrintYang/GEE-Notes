@@ -344,3 +344,17 @@ $\begin{aligned}
 $\begin{aligned}
 &\text{设}f(\mathrm{x})\text{在 [0,l] 上连续,在 (0,l)内可导,且 }f(0)=1,f(1)=0\\
 &\text{证明:(1)存在两个不同的点 }\xi_1,\xi_2\in(0,1), \text{使得 }f^{\prime}(\xi_1)+f^{\prime}(\xi_2)=-2.\\& \quad\quad (2)\text{存在两个不同的点 }\eta,\zeta\in(0,1),\text{使得 }f^{\prime}(\eta)f^{\prime}(\zeta)=1\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 300](https://www.bilibili.com/video/BV1vh4y1N7D7/)
+
+$\begin{aligned}&\text{设 }f(x)\text{ 在 [0,1] 上连续,且 }I=\int_0^1f(x)dx\neq0.\\&\text{证明:存在两个不同的点 }\xi,\eta\in(0,1)\text{,使得 }\frac1{f(\xi)}+\frac1{f(\eta)}=\frac2I.\end{aligned}$
