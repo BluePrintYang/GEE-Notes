@@ -1,5 +1,5 @@
 ---
-itle: 每日一题 201-250
+title: 每日一题 201-250
 ---
 
 ## [Daily Question](https://www.icourse163.org/learn/kaopei-1468540169?tid=1469800465#/learn/content)
@@ -759,3 +759,4 @@ $\begin{aligned}
 &\text{中,正确的个数是} \\
 &\text{(A) 1 (B) 2 (C) 3 (D) 4}
 \end{aligned}$
+
