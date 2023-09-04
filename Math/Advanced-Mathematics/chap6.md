@@ -50,7 +50,7 @@ $f ( \sqrt { x ^ { 2 } + y ^ { 2 } } ) , f ( \cfrac { y } { x } ) , f ( \cfrac{x
 
 $x ^ { 2 } + y ^ { 2 } \leq R ^ { 2 } ; r ^ { 2 } \leq x ^ { 2 } + y ^ { 2 } \leq R ^ { 2 } ; x ^ { 2 } + y ^ { 2 } \leq 2 a x ; x ^ { 2 } + y ^ { 2 } \leq 2 b y$
 
-### 利用对称性和奇偶性计算
+### :star2:利用对称性和奇偶性计算
 
 #### 积分域关于 y 轴对称，f(x, y) 关于 x 有奇偶性
 
@@ -70,7 +70,7 @@ $$
 \end{cases}
 $$
 
-### 利用变量对称性计算
+### :star2:利用变量对称性计算
 
 $$
 \displaystyle\iint\limits_{D_{(x, y)}} f ( x , y ) d \sigma  = \displaystyle\iint\limits_{D_{(y, x)}} f ( y , x ) d \sigma

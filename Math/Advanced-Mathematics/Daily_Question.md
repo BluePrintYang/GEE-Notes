@@ -537,8 +537,7 @@ A. 0   B. 1    C. $-\frac{\pi}{2}$ D. $\frac{\pi}{2}$
 
 
 
-
-### [Day 47](https://www.bilibili.com/video/BV1184y1x7ZG)
+### [Day 47 :star2:](https://www.bilibili.com/video/BV1184y1x7ZG)
 
 $f(x) = \cfrac{ln|x|}{|x - 1|} sinx,则 f(x) 有$
 
@@ -565,7 +564,7 @@ A. 0    B. 1    C. 2    D. 3
 
 ### [Day 49](https://www.bilibili.com/video/BV1ng411J7mq/)
 
-$f(x) = \cfrac{|x|^x - 1}{x (x+1) lnx}的可去间断点个数为$
+$f(x) = \cfrac{|x|^x - 1}{x (x+1) ln|x|}的可去间断点个数为$
 
 A. 0    B. 1    C. 2    D. 3
 
@@ -573,8 +572,7 @@ A. 0    B. 1    C. 2    D. 3
 
 
 
-
-### [Day 50](https://www.bilibili.com/video/BV1MA411X7gY/)
+### [Day 50 :star2:](https://www.bilibili.com/video/BV1MA411X7gY/)
 
 $f(x) = \lim \limits_{n \to \infty} \cfrac{1 + x}{1 + x^{2n}} 讨论间断点$
 
