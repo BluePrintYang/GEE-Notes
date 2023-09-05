@@ -37,7 +37,7 @@ D. $可导的点，且f'(0) \ne 0$
 $$
 f(x) = \tag{$\alpha \gt 0, \beta \gt 0$}\begin{cases}
     x^{\alpha} cos \frac{1}{x^{\beta}}, & x \gt 0,\\
-    0, & x \lt 0.
+    0, & x \le 0.
 \end{cases},若 f'(x) 在 x = 0 处连续，则
 $$
 
