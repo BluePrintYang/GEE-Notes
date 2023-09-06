@@ -752,10 +752,10 @@ $\begin{aligned}
 
 $\begin{aligned}
 &\text{设 }x\to a\text{ 时},f(x)\text{ 与 }g(x)\text{ 分别是 }x-a\text{ 的 }n\text{ 阶与 }m\text{ 阶无穷小,则下列命题} \\
-&\textcircled{1}f(x)g(x)\text{ 是 }x-a\text{的 }n+m\text{阶无穷小}. \\
-&\textcircled{2}\text{ 若 }n>m,\text{ 则 }\frac{f(x)}{g(x)}\text{ 是 }x-a\text{ 的 }n-m\text{ 阶无穷小}. \\
-&\textcircled{3}\text{ 若 }n\leq m,\text{ 则 }f(x)+g(x)\text{ 是 }x-a\text{ 的 }n\text{阶无穷小}. \\
-&\textcircled{4}\text{ 若 }f(x)\text{ 连续,则 }\int_a^xf(t)dt\text{ 是 }x-a\text{ 的 }n+1\text{ 阶无穷小}. \\
+&1.~f(x)g(x)\text{ 是 }x-a\text{的 }n+m\text{阶无穷小}. \\
+&2.~\text{ 若 }n>m,\text{ 则 }\frac{f(x)}{g(x)}\text{ 是 }x-a\text{ 的 }n-m\text{ 阶无穷小}. \\
+&3.~\text{ 若 }n\leq m,\text{ 则 }f(x)+g(x)\text{ 是 }x-a\text{ 的 }n\text{阶无穷小}. \\
+&4.~\text{ 若 }f(x)\text{ 连续,则 }\int_a^xf(t)dt\text{ 是 }x-a\text{ 的 }n+1\text{ 阶无穷小}. \\
 &\text{中,正确的个数是} \\
 &\text{(A) 1 (B) 2 (C) 3 (D) 4}
 \end{aligned}$

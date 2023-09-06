@@ -456,12 +456,12 @@ $\begin{aligned}
 
 $\begin{aligned}
 &\text{(2004年)设有以下命题:} \\
-&\textcircled{1}\text{若}\sum_{n=1}^{\infty}(u_{2n-1}+u_{2n})\text{ 收敛,则 }\sum_{n=1}^{\infty}u_{n}\text{ 收敛} \\
-&\textcircled{2}\text{若}\sum_{n=1}^{\infty}u_{n}\text{ 收敛,则 }\sum_{n=1}^{\infty}u_{n+1000}\text{ 收敛} \\
-&\textcircled{3}\text{若}\lim_{n\to\infty}\frac{u_{n+1}}{u_{n}}>1,\text{则}\quad\sum_{n=1}^{\infty}u_{n}\text{发散} \\
-&\textcircled{4}\text{若}\sum_{n=1}^{\infty}(u_{n}+\nu_{n})\text{收敛},\text{则 }\sum_{n=1}^{\infty}u_{n},\sum_{n=1}^{\infty}\nu_{n}\text{都收敛}. \\
+&1.~\text{若}\sum_{n=1}^{\infty}(u_{2n-1}+u_{2n})\text{ 收敛,则 }\sum_{n=1}^{\infty}u_{n}\text{ 收敛} \\
+&2.~\text{若}\sum_{n=1}^{\infty}u_{n}\text{ 收敛,则 }\sum_{n=1}^{\infty}u_{n+1000}\text{ 收敛} \\
+&3.~\text{若}\lim_{n\to\infty}\frac{u_{n+1}}{u_{n}}>1,\text{则}\quad\sum_{n=1}^{\infty}u_{n}\text{发散} \\
+&4.~\text{若}\sum_{n=1}^{\infty}(u_{n}+\nu_{n})\text{收敛},\text{则 }\sum_{n=1}^{\infty}u_{n},\sum_{n=1}^{\infty}\nu_{n}\text{都收敛}. \\
 & \text{则以上命题中正确的是( )}  \\
-&(A)\textcircled{1}\textcircled{2}\quad(B)\textcircled{2}\textcircled{3}\quad(C)\textcircled{3}\textcircled{4}\quad(D)\textcircled{1}\textcircled{4}
+&(A)1~2\quad(B)2~3\quad(C)3~4\quad(D)1~4
 \end{aligned}$
 
 
