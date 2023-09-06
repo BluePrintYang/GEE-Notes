@@ -31,8 +31,7 @@ D. $可导的点，且f'(0) \ne 0$
 
 
 
-
-### [Day 53](https://www.bilibili.com/video/BV198411n73L/)
+### [Day 53:star2:](https://www.bilibili.com/video/BV198411n73L/)
 
 $$
 f(x) = \tag{$\alpha \gt 0, \beta \gt 0$}\begin{cases}
@@ -60,7 +59,7 @@ $x + y + e^{2xy} = 0 在 (0, -1) 处切线方程$
 
 
 
-### [Day 55](https://www.bilibili.com/video/BV19R4y167Ee/)
+### [Day 55:star2:](https://www.bilibili.com/video/BV19R4y167Ee/)
 
 $$
 (1) u(x), v(v) 可导，利用导数定义证明\\
@@ -75,7 +74,7 @@ $$
 
 
 
-### [Day 56](https://www.bilibili.com/video/BV1Lv4y167F7/)
+### [Day 56:star2:](https://www.bilibili.com/video/BV1Lv4y167F7/)
 
 $$
 f(x) = \begin{cases}
@@ -90,7 +89,7 @@ $$
 
 
 
-### [Day 57](https://www.bilibili.com/video/BV1BV4y1F7di/)
+### [Day 57:star2:](https://www.bilibili.com/video/BV1BV4y1F7di/)
 
 $xy + e^y = x + 1, \cfrac{d^2y}{dx^2}|_{x=0} =$
 
@@ -117,7 +116,7 @@ $$
 
 ### [Day 59](https://www.bilibili.com/video/BV1xd4y1a7Zs/)
 
-$y = x^2 2 ^x, y^{(n)} = $
+$y = x^2 2 ^x, y^{(n)} =$
 
 
 
@@ -127,7 +126,7 @@ $y = x^2 2 ^x, y^{(n)} = $
 
 ### [Day 60](https://www.bilibili.com/video/BV1TD4y1j72n/)
 
-$y = \cfrac{1}{x^2 - 1}, y^{(n)} = $
+$y = \cfrac{1}{x^2 - 1}, y^{(n)} =$
 
 
 
@@ -190,9 +189,7 @@ $$
 
 
 
-
-### [Day 64](https://www.bilibili.com/video/BV1VM41127fA/)
-
+### [Day 64:star2:](https://www.bilibili.com/video/BV1VM41127fA/)
 $$
 \begin{aligned}
 &\text{设 }\lim_{x\to a}\frac{f(x)-f(a)}{\left(x-a\right)^n}=-1,\text{其中 }n\text{ 为大于1的整数,则在点 }x=a\text{ 处()}. \\
