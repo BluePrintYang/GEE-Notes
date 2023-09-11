@@ -479,7 +479,7 @@ $\begin{aligned}&\text{(2010年2)设函数 }f(x)\text{ 在闭区间 [0,1]上连�
 
 ### [Day 85](https://www.bilibili.com/video/BV1mv4y167SL/)
 
-$\begin{aligned}\text{设 }&f(x)\text{ 在区间 }[a,b]\text{上连续,在 }(a,b)\text{ 内可导,且 }a,b\text{ 同号,\\证明:存在 }\xi,\eta\in(a,b)\text{,使得 }abf^{\prime}(\xi)=\eta^2f^{\prime}(\eta).\end{aligned}$
+$\begin{aligned}\text{设 }&f(x)\text{ 在区间 }[a,b]\text{上连续,在 }(a,b)\text{ 内可导,且 }a,b\text{ 同号,证明:存在 }\xi,\eta\in(a,b)\text{,使得 }abf^{\prime}(\xi)=\eta^2f^{\prime}(\eta).\end{aligned}$
 
 
 

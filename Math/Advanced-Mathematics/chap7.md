@@ -102,7 +102,7 @@ $$
 
 1. 绝对收敛与条件收敛概念
    1. $\text{若级数}\displaystyle\sum_{n=1}^\infty|u_n\mid\text{收敛,则}\sum_{n=1}^\infty u_n\textbf{ 必收敛,此时称级数}\sum_{n=1}^\infty u_n\text{ 绝对收敛;}$
-   2. $\text{若级数}\displaystyle\sum_{n=1}^\infty u_n\text{ 收敛,但}\sum_{n=1}^\infty|u_n|\textbf{发散,此时称级数}\sum_{n=1}^\infty u_n\text{ 条件收敛}. $
+   2. $\text{若级数}\displaystyle\sum_{n=1}^\infty u_n\text{ 收敛,但}\sum_{n=1}^\infty|u_n|\textbf{发散,此时称级数}\sum_{n=1}^\infty u_n\text{ 条件收敛}.$
 
 2. 绝对收敛与条件收敛基本结论
    1. 绝对收敛的级数一定收敛
