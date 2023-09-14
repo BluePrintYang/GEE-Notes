@@ -467,7 +467,7 @@ $\begin{aligned}&\text{设 }f(x)\text{ 在 [0,1] 上连续,在 (0,1) 内可导,�
 
 
 
-### [Day 84](https://www.bilibili.com/video/BV1kv4y167w2/)
+### [Day 84:star2:](https://www.bilibili.com/video/BV1kv4y167w2/)
 
 $\begin{aligned}&\text{(2010年2)设函数 }f(x)\text{ 在闭区间 [0,1]上连续,在开区间(0,1) 内可导,且}\\&f(0)=0,f(1)=\frac13,\text{证明:存在 }\xi\in\left(0,\frac12\right),\eta\in\left(\frac12,1\right)\text{ 使得 }f^{\prime}(\xi)+f^{\prime}(\eta)=\xi^2+\eta^2.\end{aligned}$
 
@@ -477,7 +477,7 @@ $\begin{aligned}&\text{(2010年2)设函数 }f(x)\text{ 在闭区间 [0,1]上连�
 
 
 
-### [Day 85](https://www.bilibili.com/video/BV1mv4y167SL/)
+### [Day 85:star2:](https://www.bilibili.com/video/BV1mv4y167SL/)
 
 $\begin{aligned}\text{设 }&f(x)\text{ 在区间 }[a,b]\text{上连续,在 }(a,b)\text{ 内可导,且 }a,b\text{ 同号,证明:存在 }\xi,\eta\in(a,b)\text{,使得 }abf^{\prime}(\xi)=\eta^2f^{\prime}(\eta).\end{aligned}$
 
@@ -499,7 +499,7 @@ $\int\cfrac{x+\ln(1-x)}{x^2}\mathrm{d}x$
 
 
 
-### [Day 87](https://www.bilibili.com/video/BV1M341197ZJ/)
+### [Day 87:star2:](https://www.bilibili.com/video/BV1M341197ZJ/)
 
 $1)\int\cfrac{x+1}{x(1+xe^x)}dx\quad\quad\quad2)\int(1+\ln x)(\ln x+\ln\ln x)dx$
 
@@ -511,7 +511,7 @@ $1)\int\cfrac{x+1}{x(1+xe^x)}dx\quad\quad\quad2)\int(1+\ln x)(\ln x+\ln\ln x)dx$
 
 
 
-### [Day 88](https://www.bilibili.com/video/BV1pA411r7Uc/)
+### [Day 88:star2:](https://www.bilibili.com/video/BV1pA411r7Uc/)
 
 $1)\int\cfrac{1+x}{1+x^3}dx\quad\quad\quad2)\int\cfrac{1-x}{1+x^3}dx$
 
@@ -521,7 +521,7 @@ $1)\int\cfrac{1+x}{1+x^3}dx\quad\quad\quad2)\int\cfrac{1-x}{1+x^3}dx$
 
 
 
-### [Day 89](https://www.bilibili.com/video/BV1id4y1H7Wk/)
+### [Day 89:star2:](https://www.bilibili.com/video/BV1id4y1H7Wk/)
 
 $1)\int\cfrac{dx}{1+x^3} \quad\quad\quad2)\int\cfrac x{1+x^3}dx$
 
@@ -533,7 +533,7 @@ $1)\int\cfrac{dx}{1+x^3} \quad\quad\quad2)\int\cfrac x{1+x^3}dx$
 
 
 
-### [Day 90](https://www.bilibili.com/video/BV1934y1f7ke/)
+### [Day 90:star2:](https://www.bilibili.com/video/BV1934y1f7ke/)
 
 $\text{已知 }f(x)\text{ 的一个原函数为 }\ln^2x\text{,则}\int xf^{\prime}(x)\mathrm{d}x=\_\_\_\_\_\_\_\_\_\_.$
 
