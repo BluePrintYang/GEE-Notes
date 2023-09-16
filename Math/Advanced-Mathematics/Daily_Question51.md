@@ -553,7 +553,7 @@ $\text{设}f(\ln x)=\cfrac{\ln(1+x)}{x},\text{求}\int f(x)\mathsf{d}x.$
 
 
 
-### [Day 92](https://www.bilibili.com/video/BV16y4y1X7QS/)
+### [Day 92:star2:](https://www.bilibili.com/video/BV16y4y1X7QS/)
 
 $\int\max(1,x^2)dx$
 
@@ -582,7 +582,7 @@ $\begin{aligned}
 
 
 
-### [Day 94](https://www.bilibili.com/video/BV1FT411Q77G/)
+### [Day 94:star2:](https://www.bilibili.com/video/BV1FT411Q77G/)
 
 $\begin{aligned}
 (\text{2018年1,2,3)设}M=\int_{-\frac\pi2}^{\frac\pi2}\frac{(1+x)^2}{1+x^2}dx,N=\int_{-\frac\pi2}^{\frac\pi2}\frac{1+x}{e^x}dx, \\
@@ -597,7 +597,7 @@ K=\int_{-\frac{\pi}{2}}^{\frac{\pi}{2}}(1+\sqrt{\cos x})dx,\quad\text{则} \\
 
 
 
-### [Day 95](https://www.bilibili.com/video/BV1jD4y1K7rN/)
+### [Day 95:star2:](https://www.bilibili.com/video/BV1jD4y1K7rN/)
 
 $\begin{aligned}\text{设}\quad I_1&=\int_0^{\frac\pi4}\frac{\tan x}x\mathrm{d}x,&I_2=\int_0^{\frac\pi4}\frac x{\tan x}\mathrm{d}x,&\text{则}\\\\
 \text{(A)}\quad I_1>I_2&>1.&
@@ -621,19 +621,9 @@ $\int_{-2}^2[\ln(x+\sqrt{1+x^2})+\sqrt{1-\frac{x^2}4}]\operatorname{d}x=$
 
 
 
-### [Day 97](https://www.bilibili.com/video/BV1yM4y1D7h3/)
+### [Day 97:star2:](https://www.bilibili.com/video/BV1yM4y1D7h3/)
 
-$\int_{-x}^x|x|[x^3+\sin^2x]\cos^2x\operatorname{d}x=$
-
-
-
-
-
-
-
-### [Day 98](https://www.bilibili.com/video/BV1iY411i7qn/)
-
-$\int_0^x\sqrt{1-\sin x}\operatorname{d}x=$
+$\int_{-\pi}^{\pi}|x|[x^3+\sin^2x]\cos^2x\operatorname{d}x=$
 
 
 
@@ -641,15 +631,25 @@ $\int_0^x\sqrt{1-\sin x}\operatorname{d}x=$
 
 
 
-### [Day 99](https://www.bilibili.com/video/BV1Fv4y1x7mM/)
+### [Day 98:star2:](https://www.bilibili.com/video/BV1iY411i7qn/)
 
-$\int_{\sqrt{c}}^{c^{\frac 34}}\cfrac{\mathrm{d}x}{x\sqrt{\ln x(1-\ln x)}}=$
-
-
+$\int_0^{\pi}\sqrt{1-\sin x}\operatorname{d}x=$
 
 
 
 
+
+
+
+### [Day 99:star2:](https://www.bilibili.com/video/BV1Fv4y1x7mM/)
+
+$\int_{\sqrt{e}}^{e^{\frac 34}}\cfrac{\mathrm{d}x}{x\sqrt{\ln x(1-\ln x)}}=$
+
+
+
+
+
+ 
 
 ### [Day 100](https://www.bilibili.com/video/BV16M411P7Ff/)
 

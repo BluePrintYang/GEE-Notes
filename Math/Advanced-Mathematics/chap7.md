@@ -238,3 +238,48 @@ $$
 
 直接展开法分两步，但这两步都比较困难，主要用于一开始推导一些基本展开式；有了基本展开式后，主要用间接展开法
 
+## 傅里叶级数
+
+### 傅立叶系数与傅里叶级数
+
+$\textbf{设函数 }f(x)\text{ 是周期为 }2\pi\text{ 的周期函数,且在}[-\pi,\pi]\text{ 上可积},\text{则称}$
+$$
+a_{n}=\frac{1}{\pi}{\int}_{-\pi}^{\pi}f(x)\cos nx\mathrm{d}x\quad(n=0,1,2,\cdots)\\
+b_{n}=\frac{1}{\pi}{\int}_{-\pi}^{\pi}f(x)\sin nx\mathrm{d}x\quad(n=1,2,\cdots)
+$$
+$\text{为 }f(x\text{)的傅里叶系数},\textbf{称级数}$
+$$
+\frac{a_{0}}{2}+\sum_{n=1}^{\infty}\left(a_{n}\cos nx+b_{n}\sin nx\right)
+$$
+$\text{为 }f(x)\text{ 以 2 为周期的 傅里叶级数,记作}$
+$$
+f(x)\sim\frac{a_{0}}{2}+\sum_{n=1}^{\infty}(a_{n}\cos nx+b_{n}\sin nx).
+$$
+
+### 收敛定理
+
+$$
+\text{设 }f(x)\text{ 是}[-\pi,\pi]\text{上的分段单调函数},\textbf{除有限个第一类间断点外都是连续的,则 }\\
+f(x)\text{的傅里叶级数在}[-\pi,\pi]\text{上处处收敛},\text{且收敛于}\\
+\begin{aligned}
+&\left(1\right)f\left(x\right),&& \text{当 }x\text{ 为 }f(x\text{)的连续点}.  \\
+&(2)\frac{f(x^{-})+f(x^{+})}2,&& \text{当 }x\text{ 为 }f(x\textbf{)的间断点}.  \\
+&(3)\frac{f(-\pi^{+})+f(\pi^{-})}2,&& \text{当 }x=\pm\pi. 
+\end{aligned}
+$$
+
+### 周期为2𝜋的函数的展开
+
+#### [-𝜋, 𝜋] 上展开
+
+#### [-𝜋, 𝜋] 上奇偶函数展开
+
+#### [0, 𝜋] 上展为正弦或余弦
+
+### 周期为2l的函数的展开
+
+#### [-l, l] 上展开
+
+#### [-l, l] 上奇偶函数展开
+
+#### [0, l] 上展为正弦或余弦
