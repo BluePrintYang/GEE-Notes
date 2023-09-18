@@ -272,14 +272,107 @@ $$
 
 #### [-𝜋, 𝜋] 上展开
 
+$$
+\begin{aligned}a_n&=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\cos nx\mathrm{d}x,\quad n=0,1,2,\cdots,\\\\b_n&=\frac{1}{\pi}\int_{-\pi}^{\pi}f(x)\sin nx\mathrm{d}x,\quad n=1,2,\cdots.\end{aligned}
+$$
+
+
+
 #### [-𝜋, 𝜋] 上奇偶函数展开
 
+##### f(x) 为奇函数
+
+$$
+\begin{aligned}
+a_{n}&=0,\quad&n=0,1,2,\cdots.\\\\
+b_{n}&=\frac{2}{\pi}{\int}_{0}^{\pi}f(x)\sin nx\mathrm{d}x,\quad&n=1,2,\cdots,
+\end{aligned}
+$$
+
+##### f(x) 为偶函数
+
+$$
+\begin{aligned}a_{n}&=\frac{2}{\pi}{\int}_{0}^{\pi}f(x)\cos nx\mathrm{d}x,\quad&n=0,1,2,\cdots,\\\\
+b_{n}&=0,\quad&n=1,2,\cdots.\end{aligned}
+$$
+
 #### [0, 𝜋] 上展为正弦或余弦
+
+##### 展为正弦
+
+$$
+\begin{aligned}
+a_{n}&=0,\quad&n=0,1,2,\cdots.\\\\
+b_{n}&=\frac{2}{\pi}{\int}_{0}^{\pi}f(x)\sin nx\mathrm{d}x,\quad&n=1,2,\cdots,
+\end{aligned}
+$$
+
+
+
+##### 展为余弦
+
+$$
+\begin{aligned}
+a_{n}&=\frac{2}{\pi}{\int}_{0}^{\pi}f(x)\cos nx\mathrm{d}x,\quad&n=0,1,2,\cdots,\\\\
+b_{n}&=0,\quad&n=1,2,\cdots.
+\end{aligned}
+$$
 
 ### 周期为2l的函数的展开
 
 #### [-l, l] 上展开
 
+$$
+\begin{aligned}
+a_n&=\frac{1}{l}\int_{-l}^{l}f(x)\cos \frac{n\pi x}{l} \mathrm{d}x,\quad n=0,1,2,\cdots,\\\\
+b_n&=\frac{1}{l}\int_{-l}^{l}f(x)\sin \frac{n\pi x}{l} \mathrm{d}x,\quad n=1,2,\cdots.
+\end{aligned}
+$$
+
+
+
 #### [-l, l] 上奇偶函数展开
 
+##### f(x) 为奇函数
+
+$$
+\begin{aligned}
+a_{n}&=0,\quad&n=0,1,2,\cdots.\\\\
+b_{n}&=\frac{2}{l}{\int}_{0}^{l}f(x)\sin \frac{n\pi x}{l} \mathrm{d}x,\quad&n=1,2,\cdots,
+\end{aligned}
+$$
+
+##### f(x) 为偶函数
+
+$$
+\begin{aligned}
+a_{n}&=\frac{2}{l}{\int}_{0}^{l}f(x)\cos \frac{n\pi x}{l} \mathrm{d}x,\quad&n=0,1,2,\cdots,\\\\
+b_{n}&=0,\quad&n=1,2,\cdots.
+\end{aligned}
+$$
+
+#### 
+
 #### [0, l] 上展为正弦或余弦
+
+##### 展为正弦
+
+$$
+\begin{aligned}
+a_{n}&=0,\quad&n=0,1,2,\cdots.\\\\
+b_{n}&=\frac{2}{l}{\int}_{0}^{l}f(x)\sin \frac{n\pi x}{l} \mathrm{d}x,\quad&n=1,2,\cdots,
+\end{aligned}
+$$
+
+
+
+##### 展为余弦
+
+$$
+\begin{aligned}
+a_{n}&=\frac{2}{l}{\int}_{0}^{l}f(x)\cos \frac{n\pi x}{l} \mathrm{d}x,\quad&n=0,1,2,\cdots,\\\\
+b_{n}&=0,\quad&n=1,2,\cdots.
+\end{aligned}
+$$
+
+### 
