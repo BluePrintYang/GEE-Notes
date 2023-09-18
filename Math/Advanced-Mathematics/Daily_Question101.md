@@ -144,7 +144,7 @@ $\int_0^{+\infty}\cfrac{\ln(1+x)}{\left(1+x\right)^2}dx=$
 
 ### [Day 112](https://www.bilibili.com/video/BV1Yj411G7M1/)
 
-$\begin{aligned}&\text{已知一抛物线通过 }x\text{ 轴上的两点 }A(\mathbf{1}),B(\mathbf{3},\mathbf{0}).\\&(1)\text{ 求证}:\text{两坐标轴与该抛物线所围图形的面积等于 x 轴与该抛物线所围图形的面积}.\\&(2)\text{计算上述两平面图形绕 }x\text{ 轴旋转一周所产生两个旋转体体积之比}.\end{aligned}$
+$\begin{aligned}&\text{已知一抛物线通过 }x\text{ 轴上的两点 }A(\mathbf{1},\mathbf{0}),B(\mathbf{3},\mathbf{0}).\\&(1)\text{ 求证}:\text{两坐标轴与该抛物线所围图形的面积等于 x 轴与该抛物线所围图形的面积}.\\&(2)\text{计算上述两平面图形绕 }x\text{ 轴旋转一周所产生两个旋转体体积之比}.\end{aligned}$
 
 
 
