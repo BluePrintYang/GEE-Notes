@@ -11,6 +11,13 @@
 
 ## 积分相关
 
+### 不定积分
+
+### 定积分
+
+1. $\int_0^\pi xf(sinx)dx=\frac{\pi}{2}\int_0^\pi f(sinx)dx$
+2. $\int_0^\pi sin^nxdx=2\int_0^\frac{\pi}{2} sin^nxdx$
+
 ## Tips
 
 $\int ln(x+1) dx = \int ln(x+1) d (x+1) = (x+1)ln(x+1) - x$

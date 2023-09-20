@@ -256,7 +256,7 @@ $\int\cfrac{x\ln x+x\ln^2x}{2+x\ln x}dx=$
 
 
 
-### [Day 121](https://www.bilibili.com/video/BV1WM4y1k7bd/)
+### [Day 121:star2:](https://www.bilibili.com/video/BV1WM4y1k7bd/)
 
 $\int\cfrac{\sin2x\sin^2x}{2+\cos^4x}dx=$
 
@@ -268,7 +268,7 @@ $\int\cfrac{\sin2x\sin^2x}{2+\cos^4x}dx=$
 
 
 
-### [Day 122](https://www.bilibili.com/video/BV11X4y1U7S8/)
+### [Day 122:star2:](https://www.bilibili.com/video/BV11X4y1U7S8/)
 
 $\int\cfrac{\sin x}{\sin x+\cos x}dx=$
 
@@ -280,7 +280,7 @@ $\int\cfrac{\sin x}{\sin x+\cos x}dx=$
 
 
 
-### [Day 123](https://www.bilibili.com/video/BV1Zs4y1V7dV/)
+### [Day 123:star2:](https://www.bilibili.com/video/BV1Zs4y1V7dV/)
 
 $\int\cfrac{\cos2x}{\cos^2x(1+\sin^2x)}dx=$
 
@@ -316,7 +316,7 @@ $\int\cfrac{2+x}{(1+x^2)^2}dx=$
 
 
 
-### [Day 126](https://www.bilibili.com/video/BV1Uv4y1b7XY/)
+### [Day 126:star2:](https://www.bilibili.com/video/BV1Uv4y1b7XY/)
 
 $\int\cfrac{\arcsin\sqrt{x}+\ln x}{\sqrt{x}}\operatorname{d}x$
 
@@ -364,9 +364,9 @@ $\int_0^{\frac\pi2}x\sin^2x\cos^2xdx=$
 
 
 
-### [Day 130](https://www.bilibili.com/video/BV1oP411o7Sm/)
+### [Day 130:star2:](https://www.bilibili.com/video/BV1oP411o7Sm/)
 
-$\int_0^{x^2}\sqrt{x}\cos\sqrt{x}dx=$
+$\int_0^{\pi^2}\sqrt{x}\cos\sqrt{x}dx=$
 
 
 
