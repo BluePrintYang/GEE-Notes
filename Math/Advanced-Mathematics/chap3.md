@@ -118,7 +118,7 @@ $dV=2\pi r(x,y)d\sigma$
 
 其中r(x,y)为点(x,y)到直线L距离，即$r(x,y)=\cfrac{|ax+by+c|}{\sqrt{a^2+b^2}}$，则
 
-$V=2\pi \iint\limits_Dr(x,y)d\sigma$
+:star2::star2::star2:$V=2\pi \iint\limits_Dr(x,y)d\sigma$
 
 特别地
 
