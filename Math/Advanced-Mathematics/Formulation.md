@@ -13,6 +13,8 @@
 
 ### 不定积分
 
+1. $\displaystyle{\frac{\mathrm{d}x}{\sqrt{x^{2}\pm a^{2}}}}=\ln\mid x+\sqrt{x^{2}\pm a^{2}}\mid+C$
+
 ### 定积分
 
 1. $\int_0^\pi xf(sinx)dx=\frac{\pi}{2}\int_0^\pi f(sinx)dx$

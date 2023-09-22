@@ -412,7 +412,7 @@ $\int_1^2(x-1)^2(x-2)^2dx$
 
 
 
-### [Day 134](https://www.bilibili.com/video/BV1jM411W72R/)
+### [Day 134:star2:](https://www.bilibili.com/video/BV1jM411W72R/)
 
 $\int_{-2}^2x\ln(1+e^x)dx=$
 
@@ -436,7 +436,7 @@ $\text{设 D 是由曲线 xy+1=0 与直线 y+x=0 及 y=2 围成的有界区域,�
 
 
 
-### [Day 136](https://www.bilibili.com/video/BV1J24y1J7hR/)
+### [Day 136:star2:](https://www.bilibili.com/video/BV1J24y1J7hR/)
 
 $\begin{aligned}&\text{设区域 }D\text{ 由曲线 }y=x^2\text{ 和 }y=x\text{ 所围成,求区域 }D\text{分别绕直线} \\& y=0,x=0,x=1,y=2\text{ 旋转所得旋转体的体积}\end{aligned}$
 
@@ -448,7 +448,7 @@ $\begin{aligned}&\text{设区域 }D\text{ 由曲线 }y=x^2\text{ 和 }y=x\text{ 
 
 
 
-### [Day 137](https://www.bilibili.com/video/BV11Y4y1D7Ks/)
+### [Day 137:star2:](https://www.bilibili.com/video/BV11Y4y1D7Ks/)
 
 $\text{方程 }y^{\prime\prime}+4y^{\prime}+4y=\mathrm{e}^{-2x}\text{ 满足条件 }y(0)=0,y^{\prime}(0)=1\text{ 的特解为}$
 
@@ -460,7 +460,7 @@ $\text{方程 }y^{\prime\prime}+4y^{\prime}+4y=\mathrm{e}^{-2x}\text{ 满足条�
 
 
 
-### [Day 138](https://www.bilibili.com/video/BV1Mv4y15711/)
+### [Day 138:star2:](https://www.bilibili.com/video/BV1Mv4y15711/)
 
 $\begin{aligned}\text{具有特解 }&y_1=\mathrm{e}^{-x},y_2=2x\mathrm{e}^{-x},y_3=3\mathrm{e}^{x}\\\\&(\mathrm{A})\quad y^{\prime\prime\prime}-y^{\prime\prime}-y^{\prime}+y=0;\quad(\mathrm{B})\quad y^{\prime\prime\prime}+y^{\prime\prime}-y^{\prime}-y=0;\\\\&(\mathrm{C})\quad y^{\prime\prime\prime}-6y^{\prime\prime}+11y^{\prime}-6y=0;\quad(\mathrm{D})\quad y^{\prime\prime\prime}-2y^{\prime\prime}-y^{\prime}+2y=0.\end{aligned}$
 
@@ -520,7 +520,7 @@ $\begin{aligned}&\text{设函数 }f(x)\text{ 具有连续的一阶导数,且满�
 
 
 
-### [Day 142](https://www.bilibili.com/video/BV14X4y1d7pa/)
+### [Day 142:star2:](https://www.bilibili.com/video/BV14X4y1d7pa/)
 
 $\begin{aligned}
 &\text{设 L 是一条平面曲线,其上任意一点 P(x,y) (x>0) 到坐标原点的距离} \\& \text{恒等于该点处的切线在 y轴上的截距,且 }L\text{ 经过点}\left(\frac12,0\right),\text{则求曲线}L\text{ 的方程为}\_\_\_\_.
@@ -548,7 +548,7 @@ $\begin{aligned}
 
 
 
-### [Day 144](https://www.bilibili.com/video/BV1zs4y1D7Fd/)
+### [Day 144:star2:](https://www.bilibili.com/video/BV1zs4y1D7Fd/)
 
 $\begin{aligned}&\text{二元函数 }f(x,y)\text{在点}\left(x_0,y_0\right){\text{处两个偏导数}} f_0^{\prime}(x_0,y_0),f_y^{\prime}(x_0,y_0){\text{存在,}} \\ &\text{是 }f(x,y)\text{ 在该点连续的()}\\&\text{(A)充分而非必要条件}\quad\text{(B)必要条件而非充分条件}\\&\text{(C)充分必要条件}\quad\mathrm{(D)}\text{既非充分条件又非必要条件}\end{aligned}$
 
@@ -560,7 +560,7 @@ $\begin{aligned}&\text{二元函数 }f(x,y)\text{在点}\left(x_0,y_0\right){\te
 
 
 
-### [Day 145](https://www.bilibili.com/video/BV1MN411N7qa/)
+### [Day 145:star2:](https://www.bilibili.com/video/BV1MN411N7qa/)
 
 $\begin{aligned}
 &&\text{已知 }f(x,y)=\sin\sqrt{x^4+y^2}\text{,则} \\
@@ -588,9 +588,9 @@ $\text{设 }f(x,y)=\cfrac{2x+y^2}{1+y^2\sqrt{1+x^2+y^2}},\text{ 则 }\operatorna
 
 
 
-### [Day 147](https://www.bilibili.com/video/BV1E84y1M7No/)
+### [Day 147:star2:](https://www.bilibili.com/video/BV1E84y1M7No/)
 
-$\begin{aligned}&\text{已知}dF(x,y)=xye^xdx+(f(x)+y^2)dy\text{,且}f(x)\text{有连续一阶导数},\\&f^{\prime}(0)=0,\text{则}F(x,y)=\_\_\_\_\_\_\_\_.\end{aligned}$
+$\begin{aligned}&\text{已知}dF(x,y)=xye^xdx+(f(x)+y^2)dy\text{,且}f(x)\text{有连续一阶导数},\\&f(0)=0,\text{则}F(x,y)=\_\_\_\_\_\_\_\_.\end{aligned}$
 
 
 
