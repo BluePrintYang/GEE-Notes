@@ -4,16 +4,6 @@ title: 每日一题 151-200
 
 ## [Daily Question](https://www.icourse163.org/learn/kaopei-1468540169?tid=1469800465#/learn/content)
 
-### [Day 150](https://www.bilibili.com/video/BV1SX4y1k74w/)
-
-$\begin{aligned}\text{设函数 }&z=z(x,y)\text{ 由方程(}x+1)z+y\ln z-\arctan(2xy)=1\\\text{确定,则 }&\left.\frac{\partial z}{\partial x}\right|_{(0,2)}=\_\_\_\_\_\_\_\_.\end{aligned}$
-
-
-
-
-
-
-
 ### [Day 151](https://www.bilibili.com/video/BV1YV4y1S73f/)
 
 $\begin{aligned}&\text{设}f(x,y,z)=\mathbf{e}^x+y^2z\text{,其中 }z=z(x,y)\text{ 是由方程}\\&x+y+z+xyz=0\text{ 所确定的隐函数,则 }f_x^{\prime}(0,1,-1)=\_\_\_\_\_\_\_\_\_\_\_\_\_.\end{aligned}$
