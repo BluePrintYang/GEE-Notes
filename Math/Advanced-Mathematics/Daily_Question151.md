@@ -92,7 +92,7 @@ $\begin{aligned}&\text{已知函数 }z=f(x,y)\text{ 的全微分 }dz=(ay-x^2)dx+
 
 ### [Day 157](https://www.bilibili.com/video/BV1hV4y1Z7AB/)
 
-$\begin{aligned}(\text{2011年}1,2)&\text{ 设函数 }z=f(xy,yg(x)),\text{其中函数 }f\text{ 具有二阶连续偏导数,}\\\text{函数 }g(x)&\text{ 可导且在 }x=1\text{ 处取得极值 }g(1)=1,\text{ 求 }\frac{\partial^2z}{\partial x\partial y}\end{aligned}$
+$\begin{aligned}(\text{2011年}1,2)&\text{ 设函数 }z=f(xy,yg(x)),\text{其中函数 }f\text{ 具有二阶连续偏导数,}\\\text{函数 }g(x)&\text{ 可导且在 }x=1\text{ 处取得极值 }g(1)=1,\text{ 求 }\frac{\partial^{2}x}{\partial x\partial y}\Bigg|_{\begin{array}{c}x=1\\y=1\end{array}}\end{aligned}$
 
 
 
@@ -166,7 +166,7 @@ $\begin{aligned}
 
 
 
-### [Day 162](https://www.bilibili.com/video/BV1Rv4y1J7LY/)
+### [Day 162:star2:](https://www.bilibili.com/video/BV1Rv4y1J7LY/)
 
 $\begin{aligned}
 &(\text{2012年3)设函数 }f(t)\text{ 连续,则二次积分 }\int_{0}^{\frac\pi2}d\theta\int_{2\cos\theta}^{2}f(r^{2})rdr=(\quad) \\
@@ -212,7 +212,7 @@ $\int_{\frac{1}{4}}^{\frac{1}{2}}\mathbf{d}y\int_{\frac{1}{2}}^{\sqrt{y}}\mathbf
 
 
 
-### [Day 165](https://www.bilibili.com/video/BV19s4y1w767/)
+### [Day 165:star2:](https://www.bilibili.com/video/BV19s4y1w767/)
 
 $\int_{0}^{1}dy\int_{y}^{1}\sqrt{x^{2}-y^{2}}dx=$
 
