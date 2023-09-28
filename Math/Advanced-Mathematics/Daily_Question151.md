@@ -521,7 +521,7 @@ $\text{幂级数 }\displaystyle\sum_{n=1}^{\infty}(-1)^n\frac{\ln n}{2^n}(x+1)^{
 
 ### [Day 183](https://www.bilibili.com/video/BV1DP41127Jy/)
 
-$\begin{aligned}&\text{设幂级数 }\sum_{n=1}^\infty a_nx^n\text{ 的收敛半径为3, 则幂级数,}\sum_{n=1}^\infty na_n(x-1)^{n+1}\text{ 的收敛区间为}\end{aligned}$
+$\displaystyle\begin{aligned}&\text{设幂级数 }\sum_{n=1}^\infty a_nx^n\text{ 的收敛半径为3, 则幂级数,}\sum_{n=1}^\infty na_n(x-1)^{n+1}\text{ 的收敛区间为}\end{aligned}$
 
 
 
@@ -533,7 +533,7 @@ $\begin{aligned}&\text{设幂级数 }\sum_{n=1}^\infty a_nx^n\text{ 的收敛半
 
 ### [Day 184](https://www.bilibili.com/video/BV1uX4y1m74B/)
 
-$\text{幂级数}\sum_{n=1}^{\infty}\frac{3^n+(-2)^n}n(x-1)^n\text{ 的收敛域为}$
+$\displaystyle\text{幂级数}\sum_{n=1}^{\infty}\frac{3^n+(-2)^n}n(x-1)^n\text{ 的收敛域为}$
 
 
 
@@ -549,7 +549,7 @@ $\text{幂级数}\sum_{n=1}^{\infty}\frac{3^n+(-2)^n}n(x-1)^n\text{ 的收敛域
 
 $\begin{aligned}
 &\text{设幂级数 }\sum_{n=1}^\infty a_nx^n\text{ 与 }\sum_{n=1}^\infty b_nx^n\text{ 的收敛半径分别为}\\
-&\frac{\sqrt{5}}3\text{ 与 }\frac13,\text{ 则幂级数 }\sum_{n=1}^\infty\frac{a_n^2}{b_n^n}x^n\text{ 的收半径为()}.\\
+&\frac{\sqrt{5}}3\text{ 与 }\frac13,\text{ 则幂级数 }\sum_{n=1}^\infty\frac{a_n^2}{b_n^2}x^n\text{ 的收敛半径为()}.\\
 &\text{(A)~ 5 } \quad \mathrm{(B)~}\frac{\sqrt{5}}3 \quad \mathrm{(C)~}\frac13 \quad \mathrm{(D)~}\frac15
 \end{aligned}$
 
