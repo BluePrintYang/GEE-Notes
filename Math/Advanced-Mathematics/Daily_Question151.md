@@ -563,7 +563,7 @@ $\begin{aligned}
 
 
 
-### [Day 186](https://www.bilibili.com/video/BV1Cs4y1D73K/)
+### [Day 186:star2:](https://www.bilibili.com/video/BV1Cs4y1D73K/)
 
 $\begin{aligned}
 &\text{设数列 }\{a_n\}\text{ 单调减少, }\lim_{n\to\infty}a_n=0,S_n=\sum_{k=1}^na_k(n=1,2,\cdots) \\
@@ -610,7 +610,7 @@ $\text{将函数 }y=\ln(1-x-2x^2)\text{ 展成 }x\text{ 的幂级数,并指出�
 
 
 
-### [Day 189](https://www.bilibili.com/video/BV1Jo4y157p5/)
+### [Day 189:star2:](https://www.bilibili.com/video/BV1Jo4y157p5/)
 
 $\text{将 }f(x)=\arctan\cfrac{1+x}{1-x}\text{展开为 x 的幂级数。}$
 
@@ -638,9 +638,9 @@ $\text{ 求幂级数 }\displaystyle\sum_{n=0}^\infty(2n+1)x^n\text{ 的收敛域
 
 
 
-### [Day 191](https://www.bilibili.com/video/BV1NM4y1q7DL/)
+### [Day 191:star2:](https://www.bilibili.com/video/BV1NM4y1q7DL/)
 
-$\text{求幂级数 }\displaystyle\sum_{n=1}^\infty\left(\frac1{2n+1}-1\right)^{x^{2n}}\text{在区间 }(-1,1)\text{ 内的和函数 }S(x).$
+$\text{求幂级数 }\displaystyle\sum_{n=1}^\infty\left(\frac1{2n+1}-1\right){x^{2n}}\text{在区间 }(-1,1)\text{ 内的和函数 }S(x).$
 
 
 
