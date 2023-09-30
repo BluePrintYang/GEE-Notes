@@ -668,7 +668,7 @@ $\text{求级数}\displaystyle\sum_{n=2}^\infty\cfrac1{(n^2-1)2^{n}}$
 
 ### [Day 193](https://www.bilibili.com/video/BV16X4y117Ap/)
 
-$\text{已知 }f(x)=\lim\limits_{x\to\infty}\sqrt[n]{2+(2x)^n+x^{2n}}(x\geq0),g(x)=\lim\limits_{n\to\infty}\cfrac{1-x^{2n+1}}{1+x^{2n}},\text{则 }f(g(x))=$
+$\text{已知 }f(x)=\lim\limits_{n\to\infty}\sqrt[n]{2+(2x)^n+x^{2n}}(x\geq0),g(x)=\lim\limits_{n\to\infty}\cfrac{1-x^{2n+1}}{1+x^{2n}},\text{则 }f(g(x))=$
 
 
 
@@ -687,7 +687,7 @@ $\begin{aligned}
 &\mathrm{(A)~}\tan f(x)\text{在}(-\infty,+\infty)\text{上单调增加}; \\
 &\mathrm{(B)~} f^{\prime}(x)>0,x\in(-\infty,+\infty) \\
 &(\mathrm{C}~)\int_{-1}^{x}\frac{f(t)}{1+f^{2}(t)}dt\text{在 }(-\infty,+\infty)\text{上单调增加}; \\
-&\mathrm{(D)~}\int_{-1}^{\epsilon^x}\frac1{1+f^2(t)}dt\text{ 在 }(-\infty,+\infty) \text{ 上单调增加;}
+&\mathrm{(D)~}\int_{-1}^{e^x}\frac1{1+f^2(t)}dt\text{ 在 }(-\infty,+\infty) \text{ 上单调增加;}
 \end{aligned}$
 
 
