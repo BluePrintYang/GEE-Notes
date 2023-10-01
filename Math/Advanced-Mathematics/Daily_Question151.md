@@ -666,7 +666,7 @@ $\text{求级数}\displaystyle\sum_{n=2}^\infty\cfrac1{(n^2-1)2^{n}}$
 
 
 
-### [Day 193](https://www.bilibili.com/video/BV16X4y117Ap/)
+### [Day 193:star2::star2:](https://www.bilibili.com/video/BV16X4y117Ap/)
 
 $\text{已知 }f(x)=\lim\limits_{n\to\infty}\sqrt[n]{2+(2x)^n+x^{2n}}(x\geq0),g(x)=\lim\limits_{n\to\infty}\cfrac{1-x^{2n+1}}{1+x^{2n}},\text{则 }f(g(x))=$
 
@@ -731,7 +731,7 @@ $\begin{aligned}&\text{设 }f(x)\text{ 连续且为偶函数,则下列函数中�
 
 
 
-### [Day 197](https://www.bilibili.com/video/BV1hm4y187As/)
+### [Day 197:star2:](https://www.bilibili.com/video/BV1hm4y187As/)
 
 $\begin{aligned}
 &\text{设函数 }f(x)\text{ 连续,且对任意的 }x\in(-\infty,+\infty)\text{,恒有 }f(x+1)=-f(x),\text{则下列结论不正确的是()} \\
@@ -762,7 +762,7 @@ $\begin{aligned}
 
 
 
-### [Day 199](https://www.bilibili.com/video/BV1fN411y7z1/)
+### [Day 199:star2:](https://www.bilibili.com/video/BV1fN411y7z1/)
 
 $\begin{aligned}
 &设函数  f(x)\text{ 连续且以T为周期,则下列函数中以T为周期的函数为()} \\

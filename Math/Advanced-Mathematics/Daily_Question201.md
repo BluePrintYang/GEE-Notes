@@ -66,7 +66,7 @@ $\begin{aligned}
 
 
 
-### [Day 204](https://www.bilibili.com/video/BV1qu411s7vn/)
+### [Day 204:star2:](https://www.bilibili.com/video/BV1qu411s7vn/)
 
 $\begin{aligned}
 &\text{当 }n\text{ 充分大时}\quad a-\frac1n<a_n<a+\frac1n\quad\text{是数列 }\{a_n\}\text{ 收敛于 }a\text{ 的()}\\
@@ -83,7 +83,7 @@ $\begin{aligned}
 
 
 
-### [Day 205](https://www.bilibili.com/video/BV1p8411f7sJ/)
+### [Day 205:star2:](https://www.bilibili.com/video/BV1p8411f7sJ/)
 
 $\begin{aligned}
 &设  f(x)\text{ 可积,则下列结论正确的是(}) \\
@@ -121,7 +121,7 @@ $\begin{aligned}
 
 
 
-### [Day 207](https://www.bilibili.com/video/BV14o4y1M7S4/)
+### [Day 207:star2:](https://www.bilibili.com/video/BV14o4y1M7S4/)
 
 $\begin{aligned}
 &\text{已知数列 }\{x_n\},\text{ 且 }\lim_{n\to\infty}\frac{x_n}{x_{n+1}}=\int_0^1e^{-x^2}dx,\text{ 则(}\quad).\\
