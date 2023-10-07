@@ -152,7 +152,7 @@ $\begin{aligned}
 
 
 
-### [Day 209](https://www.bilibili.com/video/BV1BX4y1h7Ew/)
+### [Day 209:star2:](https://www.bilibili.com/video/BV1BX4y1h7Ew/)
 
 $\begin{aligned}
 &\lim_{n\to\infty}\sin^2(\pi\sqrt{n^2+3n})=(\quad)\\
@@ -172,7 +172,7 @@ $\begin{aligned}
 
 
 
-### [Day 210](https://www.bilibili.com/video/BV1tu4y1f72e/)
+### [Day 210:star2:](https://www.bilibili.com/video/BV1tu4y1f72e/)
 
 $\lim\limits_{n\to\infty}\cfrac1{\sqrt[n]{n!}}[\cfrac1{n+\ln1}+\cfrac2{n+\ln2}+\cdots+\cfrac n{n+\ln n}]=$
 
@@ -186,7 +186,7 @@ $\lim\limits_{n\to\infty}\cfrac1{\sqrt[n]{n!}}[\cfrac1{n+\ln1}+\cfrac2{n+\ln2}+\
 
 
 
-### [Day 211](https://www.bilibili.com/video/BV1ms4y1T7S2/)
+### [Day 211:star2:](https://www.bilibili.com/video/BV1ms4y1T7S2/)
 
 $\text{设}\quad x_n=(1+\frac1{n^2})(1+\frac2{n^2})\cdots(1+\frac n{n^2}),\quad\text{则}\lim\limits_{n\to\infty}x_n=$
 
@@ -200,7 +200,7 @@ $\text{设}\quad x_n=(1+\frac1{n^2})(1+\frac2{n^2})\cdots(1+\frac n{n^2}),\quad\
 
 
 
-### [Day 212](https://www.bilibili.com/video/BV1Tu411x7b6/)
+### [Day 212:star2:](https://www.bilibili.com/video/BV1Tu411x7b6/)
 
 $\text{设 }x_0=0,x_n=\cfrac{1+2x_{n-1}}{1+x_{n-1}},n=1,2,\cdots\text{证明数列 }\{x_n\}\text{ 收敛,并求极限 }\lim\limits_{n\to\infty}x_n.$
 
@@ -214,7 +214,7 @@ $\text{设 }x_0=0,x_n=\cfrac{1+2x_{n-1}}{1+x_{n-1}},n=1,2,\cdots\text{证明数�
 
 
 
-### [Day 213](https://www.bilibili.com/video/BV1o24y1A7zG/)
+### [Day 213:star2:](https://www.bilibili.com/video/BV1o24y1A7zG/)
 
 $\text{设 }2x_1=1,2x_{n+1}=1-x_n^2,n=1,2,\cdots.\text{证明数列}\left\{x_n\right\}\text{收敛,并求极限}\lim\limits_{n\to\infty}x_n.$
 
@@ -230,7 +230,7 @@ $\text{设 }2x_1=1,2x_{n+1}=1-x_n^2,n=1,2,\cdots.\text{证明数列}\left\{x_n\r
 
 
 
-### [Day 214](https://www.bilibili.com/video/BV1pm4y1q7Q3/)
+### [Day 214:star2:](https://www.bilibili.com/video/BV1pm4y1q7Q3/)
 
 $\begin{aligned}\text{设 }&f(x)=1-\cos x\text{,则}\\\\&\lim_{x\to0}\frac{(1-\sqrt{\cos x})(1-\sqrt[3]{\cos x})(1-\sqrt[4]{\cos x})(1-\sqrt[5]{\cos x})}{f\left\{f[f(x)]\right\}}=\end{aligned}$
 
@@ -244,7 +244,7 @@ $\begin{aligned}\text{设 }&f(x)=1-\cos x\text{,则}\\\\&\lim_{x\to0}\frac{(1-\s
 
 
 
-### [Day 215](https://www.bilibili.com/video/BV1HN411y7jq/)
+### [Day 215:star2:](https://www.bilibili.com/video/BV1HN411y7jq/)
 
 $\lim\limits_{x\to0}\cfrac{\tan(\sin x)-x}{\arctan x-\arcsin x}=$
 
@@ -270,7 +270,7 @@ $\lim\limits_{x\to0}\cfrac{\sqrt[4]{1-\sqrt[3]{1-\sqrt{1-x}}}-1}{(1+x)^{\frac1{\
 
 
 
-### [Day 217](https://www.bilibili.com/video/BV1J8411Z7hH/)
+### [Day 217:star2:](https://www.bilibili.com/video/BV1J8411Z7hH/)
 
 $\lim\limits_{x\to0}\cfrac{(3+\sin x^2)^x-3^{\sin x}}{x^3}=$
 
@@ -298,7 +298,7 @@ $\lim\limits_{x\to1}\cfrac{x-x^x}{1-x+\ln x}$
 
 
 
-### [Day 219](https://www.bilibili.com/video/BV15o4y1T7nR/)
+### [Day 219:star2:](https://www.bilibili.com/video/BV15o4y1T7nR/)
 
 $\lim\limits_{x\to0}\cfrac{(1+x)^{\frac2x}-e^2[1-\ln(e^x+\sin x)]}x$
 
@@ -312,7 +312,7 @@ $\lim\limits_{x\to0}\cfrac{(1+x)^{\frac2x}-e^2[1-\ln(e^x+\sin x)]}x$
 
 
 
-### [Day 220](https://www.bilibili.com/video/BV1cu4y1o7Km/)
+### [Day 220:star2:](https://www.bilibili.com/video/BV1cu4y1o7Km/)
 
 $\lim\limits_{x\to0}\cfrac{(1+x)^{\frac1x}-(1+2x)^{\frac1{2x}}}{\sin x}$
 
@@ -340,7 +340,7 @@ $\lim\limits_{x\to0}\cfrac{1+\frac{x^2}2-\sqrt{1+x^2}}{(\cos x-e^{x^2})\sin x^2}
 
 
 
-### [Day 222](https://www.bilibili.com/video/BV1gh4y1V7UT/)
+### [Day 222:star2:](https://www.bilibili.com/video/BV1gh4y1V7UT/)
 
 $\lim\limits_{x\to0}\cfrac{x\sin x^2-2(1-\cos x)\sin x}{x^5}$
 
@@ -368,7 +368,7 @@ $\text{设 }f^{\prime}(0)=0,f^{\prime\prime}(0)\text{ 存在,求极限 }\lim\lim
 
 
 
-### [Day 224](https://www.bilibili.com/video/BV1wc411g7qN/)
+### [Day 224:star2:](https://www.bilibili.com/video/BV1wc411g7qN/)
 
 $\lim\limits_{x\to0^+}\frac1{x\sqrt{x}}(\sqrt{a}\arctan\sqrt{\frac xa}-\sqrt{b}\arctan\sqrt{\frac xb})$
 
@@ -382,7 +382,7 @@ $\lim\limits_{x\to0^+}\frac1{x\sqrt{x}}(\sqrt{a}\arctan\sqrt{\frac xa}-\sqrt{b}\
 
 
 
-### [Day 225](https://www.bilibili.com/video/BV1xh4y137d3/)
+### [Day 225:star2:](https://www.bilibili.com/video/BV1xh4y137d3/)
 
 $\text{设函数 }f(x)\text{ 连续,且 }f(0)\neq0,\text{求极限}\lim\limits_{x\to0}\cfrac{x\int_0^xf(x-t)dt}{\int_0^xtf(x-t)dt}$
 
@@ -396,7 +396,7 @@ $\text{设函数 }f(x)\text{ 连续,且 }f(0)\neq0,\text{求极限}\lim\limits_{
 
 
 
-### [Day 226](https://www.bilibili.com/video/BV1iW4y1S75P/)
+### [Day 226:star2:](https://www.bilibili.com/video/BV1iW4y1S75P/)
 
 $\text{设函数}f(x)\text{ 连续,且}\lim\limits_{x\to0}\frac{f(x)}x=2,\text{求极限 }\lim\limits_{x\to0}\cfrac{\int_0^xe^{xt}\arctan(x-t)^2dt}{\int_0^xtf(x-t)dt}$
 
@@ -410,7 +410,7 @@ $\text{设函数}f(x)\text{ 连续,且}\lim\limits_{x\to0}\frac{f(x)}x=2,\text{�
 
 
 
-### [Day 227](https://www.bilibili.com/video/BV17j411Q75L/)
+### [Day 227:star2:](https://www.bilibili.com/video/BV17j411Q75L/)
 
 $\text{设函数 }f(x)\text{一阶连续可导,且}f(0)=0,f^{\prime}(0)\neq0,\text{则}\lim\limits_{x\to0}\cfrac{\int_0^{x^2}f(t)dt}{x^2\int_0^xf(t)dt}=$
 
@@ -422,7 +422,7 @@ $\text{设函数 }f(x)\text{一阶连续可导,且}f(0)=0,f^{\prime}(0)\neq0,\te
 
 
 
-### [Day 228](https://www.bilibili.com/video/BV1Uj411U7zt/)
+### [Day 228:star2::star2:](https://www.bilibili.com/video/BV1Uj411U7zt/)
 
 $\lim\limits_{x\to0^+}\cfrac{\int_{0}^{x}[\int_{u}^{x}u^2\arctan(1+tu)dt]du}{\left(\int_{0}^{x}\ln(1+t)dt\right)^2}.$
 
@@ -436,7 +436,7 @@ $\lim\limits_{x\to0^+}\cfrac{\int_{0}^{x}[\int_{u}^{x}u^2\arctan(1+tu)dt]du}{\le
 
 
 
-### [Day 229](https://www.bilibili.com/video/BV11k4y1M7B2/)
+### [Day 229:star2::star2:](https://www.bilibili.com/video/BV11k4y1M7B2/)
 
 $\lim\limits_{x\to+\infty}\cfrac1{x^2}\int_0^xt|\sin t|dt$
 
@@ -450,11 +450,9 @@ $\lim\limits_{x\to+\infty}\cfrac1{x^2}\int_0^xt|\sin t|dt$
 
 
 
-### [Day 230](https://www.bilibili.com/video/BV1oP411v7x3/)
+### [Day 230:star2:](https://www.bilibili.com/video/BV1oP411v7x3/)
 
-$\lim\limits_{x\to+\infty}\sin\frac1x\cdot\int_x^{x^2}(1+\frac1{2t})^{\prime}\sin\frac1{\sqrt{t}}dt$
-
-
+$\lim\limits_{x\to+\infty}\sin\frac1x\cdot\int_x^{x^2}(1+\frac1{2t})^{t}\sin\frac1{\sqrt{t}}dt$
 
 
 
@@ -464,7 +462,9 @@ $\lim\limits_{x\to+\infty}\sin\frac1x\cdot\int_x^{x^2}(1+\frac1{2t})^{\prime}\si
 
 
 
-### [Day 231](https://www.bilibili.com/video/BV1mj411U7Jn/)
+
+
+### [Day 231:star2::star2:](https://www.bilibili.com/video/BV1mj411U7Jn/)
 
 $\lim\limits_{x\to+\infty}x(1-\frac{\ln x}x)^x$
 
@@ -492,7 +492,7 @@ $\lim\limits_{x\to0}\left(\cfrac{1+\int_0^xe^{t^2}dt}{e^x-1}-\cfrac1{\sin x}\rig
 
 
 
-### [Day 233](https://www.bilibili.com/video/BV1n14y1m73u/)
+### [Day 233](https://www.bilibili.com/video/BV1n14y1m73u/):star2::star2:
 
 $\lim\limits_{x\to0}[\cfrac1{\ln(x+\sqrt{1+x^2})}-\cfrac1{\ln(1+x)+\int_0^xt(1+t)^{\frac1t}dt}]$
 
@@ -504,7 +504,7 @@ $\lim\limits_{x\to0}[\cfrac1{\ln(x+\sqrt{1+x^2})}-\cfrac1{\ln(1+x)+\int_0^xt(1+t
 
 
 
-### [Day 234](https://www.bilibili.com/video/BV1zg4y1N7ge/)
+### [Day 234:star2::star2:](https://www.bilibili.com/video/BV1zg4y1N7ge/)
 
 $\lim\limits_{x\to+\infty}[(x^3-x^2+\frac x2+1)e^{\frac1x}-\sqrt{x^6+x^2+x+1}]$
 
@@ -518,7 +518,7 @@ $\lim\limits_{x\to+\infty}[(x^3-x^2+\frac x2+1)e^{\frac1x}-\sqrt{x^6+x^2+x+1}]$
 
 
 
-### [Day 235](https://www.bilibili.com/video/BV1dV4y1h77V/)
+### [Day 235:star2:](https://www.bilibili.com/video/BV1dV4y1h77V/)
 
 $\lim\limits_{x\to0}\frac1{x^4}[\ln(1+\sin^2x)-6(\sqrt[3]{2-\cos x}-1)]$
 
@@ -546,7 +546,7 @@ $\lim\limits_{x\to0}\int_{0}^{x}(\cfrac{\arctan t}t)^{\frac1{\int_{0}^{t}\ln(1+u
 
 
 
-### [Day 237](https://www.bilibili.com/video/BV1N14y1m7Wh/)
+### [Day 237:star2::star2:](https://www.bilibili.com/video/BV1N14y1m7Wh/)
 
 $\lim\limits_{x\to+\infty}[\cfrac{\ln(x+\sqrt{x^2+1})}{\ln(x+\sqrt{x^2-1})}]^{x^2\ln x}$
 
@@ -558,7 +558,7 @@ $\lim\limits_{x\to+\infty}[\cfrac{\ln(x+\sqrt{x^2+1})}{\ln(x+\sqrt{x^2-1})}]^{x^
 
 
 
-### [Day 238](https://www.bilibili.com/video/BV14k4y1T7BQ/)
+### [Day 238:star2:](https://www.bilibili.com/video/BV14k4y1T7BQ/)
 
 $\text{设 }f(x)\text{ 连续, }\lim\limits_{x\to0}\frac{f(x)}x=1.\text{ 求极限}\lim\limits_{x\to0}[1+\int_0^xtf(x^2-t^2)dt]^{\frac1{(\tan x-x)\ln(1+x)}}$
 
@@ -572,7 +572,7 @@ $\text{设 }f(x)\text{ 连续, }\lim\limits_{x\to0}\frac{f(x)}x=1.\text{ 求极�
 
 
 
-### [Day 239](https://www.bilibili.com/video/BV1oN411D7jv/)
+### [Day 239:star2:](https://www.bilibili.com/video/BV1oN411D7jv/)
 
 $\lim\limits_{x\to+\infty}(x^{\frac1x}-1)^{\frac1{\ln x}}$
 
