@@ -649,7 +649,7 @@ $\begin{aligned}\text{若}&\lim_{x\to0}\left(\frac{\ln(x+\sqrt{x^2+1})+ax^2+bx^3
 
 
 
-### [Day 244](https://www.bilibili.com/video/BV1zP411e7wj/)
+### [Day 244:star2:](https://www.bilibili.com/video/BV1zP411e7wj/)
 
 $\text{已知常数}a>0,bc\neq0\text{,使得}\lim\limits_{x\to+\infty}[x^a\ln(1+\frac bx)-x]=c,\text{ 求 }a,b,c.$
 
@@ -694,7 +694,7 @@ $\begin{aligned}&\text{(2020年1,2)当 }x\to0^+\text{时,下列无穷小量中�
 
 
 
-### [Day 247](https://www.bilibili.com/video/BV19h4y1Z7mX/)
+### [Day 247:star2:](https://www.bilibili.com/video/BV19h4y1Z7mX/)
 
 $\begin{aligned}&\text{(2020年3) 已知 }a,b\text{ 为常数,若 }\left(1+\frac1n\right)^n-e\text{ 与 } \frac b{n^a} \text{在} \\&n\to\infty\text{ 时是等价无穷小,求 }a,b.\end{aligned}$
 
@@ -728,7 +728,7 @@ $\begin{aligned}
 
 
 
-### [Day 249](https://www.bilibili.com/video/BV1KN411U766/)
+### [Day 249:star2:](https://www.bilibili.com/video/BV1KN411U766/)
 
 $\begin{aligned}
 &\text{当}x\to0^+\text{时,下列无穷小量中最高阶的是()} \\
@@ -748,7 +748,7 @@ $\begin{aligned}
 
 
 
-### [Day 250](https://www.bilibili.com/video/BV1pF41197E4/)
+### [Day 250:star2::star2:](https://www.bilibili.com/video/BV1pF41197E4/)
 
 $\begin{aligned}
 &\text{设 }x\to a\text{ 时},f(x)\text{ 与 }g(x)\text{ 分别是 }x-a\text{ 的 }n\text{ 阶与 }m\text{ 阶无穷小,则下列命题} \\
