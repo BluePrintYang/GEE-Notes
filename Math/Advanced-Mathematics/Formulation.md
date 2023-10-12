@@ -5,9 +5,14 @@
 1. $arcsinx+arccosx=\cfrac{\pi}{2}$
 2. $arctanx+arccotx=\cfrac{\pi}{2}(x \gt 0)$
 
+## 极限相关
+
+1. $\operatorname*{lim}_{n\rightarrow\infty}x^{n}=\begin{cases}0,&|x|<1\\\infty,&|x|>1\\1,&x=1\\不存在,&x=-1\end{cases}$
+
 ## 导数相关
 
 1. $\tan^{\prime}x=sec^{2}x$
+1. 
 
 ## 积分相关
 

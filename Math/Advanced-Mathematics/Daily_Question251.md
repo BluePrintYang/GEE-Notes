@@ -21,7 +21,7 @@ $\begin{aligned}
 
 
 
-### [Day 252](https://www.bilibili.com/video/BV1G8411S7Wc/)
+### [Day 252](https://www.bilibili.com/video/BV1G8411S7Wc/):star2:
 
 $\begin{aligned}
 &\text{当}x\to0\text{时,2}\arctan x-\ln\frac{1+x}{1-x}\text{是}x\text{ 的}n\text{阶无穷小，则 n = ()}\\
@@ -35,7 +35,7 @@ $\begin{aligned}
 
 
 
-### [Day 253](https://www.bilibili.com/video/BV1rN411272V/)
+### [Day 253:star2:](https://www.bilibili.com/video/BV1rN411272V/)
 
 $\begin{aligned}\text{当}&\quad x\to0^+\text{ 时,}(1+x)^{\frac1x}-(e+ax+bx^2)\text{ 是比 }x^2\text{ 高阶的无穷小,则(()}\\(\mathrm{A})&\quad a=\frac e2,b=-\frac{11}{24}e.\quad(\mathrm{B})\quad a=-\frac e2,b=\frac{11}{24}e.\\(\mathrm{C})&\quad a=e,b=\frac e2.\quad\quad\quad(\mathrm{D})\quad a=e,b=-\frac e2.\end{aligned}$
 
@@ -47,10 +47,10 @@ $\begin{aligned}\text{当}&\quad x\to0^+\text{ 时,}(1+x)^{\frac1x}-(e+ax+bx^2)\
 
 
 
-### [Day 254](https://www.bilibili.com/video/BV1AP411C7Ua/)
+### [Day 254:star2:](https://www.bilibili.com/video/BV1AP411C7Ua/)
 
 $\begin{aligned}&(\text{2021年1)设函数 }f(\mathbf{x})=\frac{\sin x}{1+x^2}\text{ 在 }x=0\text{ 处的3次秦勒多项式为 }a\mathbf{x}+b\mathbf{x}^2+c\mathbf{x}^3,\text{则(})\\
-&(\mathbf{A})\quad a=\mathbf{1},b=\mathbf{0},c=-\frac76 \quad\quad (\mathbf{B})\quad a=\mathbf{1},b=\mathbf{0},c=-\frac76\\&(\mathbf{C})\quad a=-\mathbf{1},b=-\mathbf{1},c=-\frac76\quad(\mathbf{D})\quad a=-\mathbf{1},b=-\mathbf{1},c=\frac76\end{aligned}$
+&(\mathbf{A})\quad a=\mathbf{1},b=\mathbf{0},c=-\frac76 \quad\quad (\mathbf{B})\quad a=\mathbf{1},b=\mathbf{0},c=\frac76\\&(\mathbf{C})\quad a=-\mathbf{1},b=-\mathbf{1},c=-\frac76\quad(\mathbf{D})\quad a=-\mathbf{1},b=-\mathbf{1},c=\frac76\end{aligned}$
 
 
 
@@ -80,7 +80,7 @@ $\begin{aligned}
 
 
 
-### [Day 256](https://www.bilibili.com/video/BV1GW4y1d7q4/)
+### [Day 256:star2:](https://www.bilibili.com/video/BV1GW4y1d7q4/)
 
 $\begin{aligned}
 &\text{函数 } f(x)=\cfrac{(x+1)|x-1|}{e^{\frac1{x-2}}\ln|x|} \text{的可去间断点的个数为(})\\
@@ -122,7 +122,7 @@ $\begin{aligned}
 ### [Day 258](https://www.bilibili.com/video/BV1NV411K7GD/)
 
 $\begin{aligned}
-&\text{设 } f(x)=\lim_{x\to\infty}\cfrac{x^{n+2}}{\sqrt{2^{2n}+x^{2n}}},\text{则 }f(x)\text{在其定义域内()}\\
+&\text{设 } f(x)=\lim_{n\to\infty}\cfrac{x^{n+2}}{\sqrt{2^{2n}+x^{2n}}},\text{则 }f(x)\text{在其定义域内()}\\
 &\text{A. 连续.} \quad\quad\quad\quad\quad\quad\quad\text{B. 有1个可去间断点}\\
 &\text{C. 有1个跳跃间断点}.\quad\quad\text{D. 有1个第二类间断点}.\end{aligned}$
 
