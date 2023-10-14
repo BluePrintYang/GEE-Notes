@@ -224,7 +224,7 @@ $\begin{aligned}
 
 ### [Day 264](https://www.bilibili.com/video/BV14h4y127Xb/)
 
-$\begin{aligned}&\text{已知 }f(x)\text{ 在 }x=0\quad\text{的某邻域有定义,且}\lim_{x\to0}\varphi(x)=0,\text{则}\\&\lim_{x\to0}\frac{f(\varphi(x)]-f(0)}{\varphi(x)}\text{ 存在是 }f(x)\text{ 在 }x=0\quad\text{处可导的()}\\&\quad\text{(A)充分必要条件}\quad\quad\quad\quad\quad\text{(B)必要条件但非充分条件}\\&\quad\text{(C)充分条件但非必要条件\quad\quad\quad(D)既非必要也非充分条件}\end{aligned}$
+$\begin{aligned}&\text{已知 }f(x)\text{ 在 }x=0\quad\text{的某邻域有定义,且}\lim_{x\to0}\varphi(x)=0,\text{则}\\&\lim_{x\to0}\frac{f[\varphi(x)]-f(0)}{\varphi(x)}\text{ 存在是 }f(x)\text{ 在 }x=0\quad\text{处可导的()}\\&\quad\text{(A)充分必要条件}\quad\quad\quad\quad\quad\text{(B)必要条件但非充分条件}\\&\quad\text{(C)充分条件但非必要条件\quad\quad\quad(D)既非必要也非充分条件}\end{aligned}$
 
 
 

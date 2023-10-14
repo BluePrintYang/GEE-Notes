@@ -160,8 +160,11 @@ $m \times n 矩阵 \boldsymbol{A} 中，任取k行k列，按原来位置构成�
 $\boldsymbol{A} 是 m \times n 阶矩阵，若 \boldsymbol{A} 中存在r阶子式不等于0，r阶以上子式均等于0，则称矩阵 \boldsymbol{A} 的秩为r，记成 r(\boldsymbol{A})，零矩阵的秩规定为0$
 
 $秩 r(\boldsymbol{A}) = r \Leftrightarrow 矩阵\boldsymbol{A} 中非零子式的最高阶数是r$
+
 $r(\boldsymbol{A}) \lt r \Leftrightarrow \boldsymbol{A} 中每一个r阶子式全为0$
+
 $r(\boldsymbol{A}) \ge r \Leftrightarrow \boldsymbol{A} 中有r阶子式不为0$
+
 $特别地，r(\boldsymbol{A}) = 0 \Leftrightarrow \boldsymbol{A} = \boldsymbol{0}, \\
 r(\boldsymbol{A}) \ne 0 \Leftrightarrow r(\boldsymbol{A}) \ge 1$
 
