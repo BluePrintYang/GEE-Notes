@@ -345,4 +345,4 @@ $\begin{bmatrix}
 - 伴随除以行列式的值为逆矩阵
 - $(\bold{AB})^*=\bold{B}^*\bold{A}^*$
 - $r(\mathbf{A}^*)=\begin{cases}n\text{,}&\text{若 }r(\mathbf{A})=n,\\1,&\text{若 }r(\mathbf{A})=n-1,\\0\text{,}&\text{若 }r(\mathbf{A})<n-1.\end{cases}$
-- 
+- $\begin{bmatrix}A&C\\O&B\end{bmatrix}^{-1}=\begin{bmatrix}A^{-1}&-A^{-1}CB^{-1}\\O&B^{-1}\end{bmatrix}$
