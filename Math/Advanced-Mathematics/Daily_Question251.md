@@ -222,7 +222,7 @@ $\begin{aligned}
 
 
 
-### [Day 264](https://www.bilibili.com/video/BV14h4y127Xb/)
+### [Day 264:star2:](https://www.bilibili.com/video/BV14h4y127Xb/)
 
 $\begin{aligned}&\text{已知 }f(x)\text{ 在 }x=0\quad\text{的某邻域有定义,且}\lim_{x\to0}\varphi(x)=0,\text{则}\\&\lim_{x\to0}\frac{f[\varphi(x)]-f(0)}{\varphi(x)}\text{ 存在是 }f(x)\text{ 在 }x=0\quad\text{处可导的()}\\&\quad\text{(A)充分必要条件}\quad\quad\quad\quad\quad\text{(B)必要条件但非充分条件}\\&\quad\text{(C)充分条件但非必要条件\quad\quad\quad(D)既非必要也非充分条件}\end{aligned}$
 
@@ -234,7 +234,7 @@ $\begin{aligned}&\text{已知 }f(x)\text{ 在 }x=0\quad\text{的某邻域有定�
 
 
 
-### [Day 265](https://www.bilibili.com/video/BV1MW4y1o7Rj/)
+### [Day 265:star2:](https://www.bilibili.com/video/BV1MW4y1o7Rj/)
 
 $已知 f(x) 为奇函数,则 f_+^{\prime}(0) 存在是 f(x) 在 x = 0 处可导的( ) \\
 (A) 充分必要条件 \quad\quad\quad\quad\quad  (B) 必要条件但非充分条件 \\ 
@@ -265,10 +265,10 @@ $\begin{aligned}
 
 
 
-### [Day 267](https://www.bilibili.com/video/BV1DX4y1j7kt/)
+### [Day 267:star2:](https://www.bilibili.com/video/BV1DX4y1j7kt/)
 
 $\begin{aligned}
-&\text{设函数 }f(x)\neq x=x_0\text{ 的某个邻域有定义,则下列命题} \\
+&\text{设函数 }f(x) \text{在} x=x_0\text{ 的某个邻域有定义,则下列命题} \\
 &1.~ \text{ 若 }f^{\prime}(x_0)\text{ 存在,则 }f(x)\text{ 在 }x=x_0\text{ 处连续}. \\
 &2.~ \text{ 若 }f_-^{\prime}(x_0),f_+^{\prime}(x_0)\text{ 都存在,则 }f(x)\text{ 在 }x=x_0\text{ 处连续}. \\
 &3.~ \text{若}\lim_{x\to x_{0}^{-}}f^{\prime}(x),\lim_{x\to x_{0}^{\prime}}f^{\prime}(x)\text{都存在},\text{则}f(x)\text{在}x=x_{0}\text{处连续}. \\
@@ -285,7 +285,7 @@ $\begin{aligned}
 
 
 
-### [Day 268](https://www.bilibili.com/video/BV1LP411478a/)
+### [Day 268:star2:](https://www.bilibili.com/video/BV1LP411478a/)
 
 $\begin{aligned}&\text{设曲线 }y=f(x)\text{与}y=\sqrt{\frac{(1+x^2)\sqrt{x}}{e^{x-1}}}+\arctan\frac{x^2-1}{\sqrt{1+x^2}}\\&(1,\sqrt{2})\text{处相切,则}\lim_{x\to1}(f(x)+1-\sqrt{2})^{\frac1{\ln x}}=\_\_\_\_\_\_\_\_\_\_\_\_\_.\end{aligned}\text{在点}$
 
@@ -297,7 +297,7 @@ $\begin{aligned}&\text{设曲线 }y=f(x)\text{与}y=\sqrt{\frac{(1+x^2)\sqrt{x}}
 
 
 
-### [Day 269](https://www.bilibili.com/video/BV1Wx4y1X7Vn/)
+### [Day 269:star2:](https://www.bilibili.com/video/BV1Wx4y1X7Vn/)
 
 $\text{确定函数 }g(x)=\mid x^3-x-\sin x\mid\text{不可导的点的个数}.$
 
