@@ -326,7 +326,7 @@ $\begin{aligned}
 
 
 
-### [Day 271](https://www.bilibili.com/video/BV1L14y1B7hK/)
+### [Day 271](https://www.bilibili.com/video/BV1L14y1B7hK/):star2:
 
 $\text{设}\varphi(x)=\begin{cases}x^3\sin\frac1x,&x\neq0\\0,&x=0,\end{cases}\text{函数}f(x)\text{ 可导,求}F(x)=f[\varphi(x)]\text{ 的导数}.$
 
@@ -338,7 +338,7 @@ $\text{设}\varphi(x)=\begin{cases}x^3\sin\frac1x,&x\neq0\\0,&x=0,\end{cases}\te
 
 
 
-### [Day 272](https://www.bilibili.com/video/BV1DV4y1v7pc/)
+### [Day 272:star2:](https://www.bilibili.com/video/BV1DV4y1v7pc/)
 
 $\begin{aligned}&\text{设函数 }f(x)\text{ 在 }(\frac12,+\infty)\text{ 上可导,且}\lim_{h\to0}\frac{f[(x+h)^2]-f(x^2+h)}h=1,f(1)=1\\&\text{则 }f(x)=\_\_\_\_\_\_.\end{aligned}$
 
@@ -364,8 +364,7 @@ $可导函数y=y(x)由方程 sinx - \int_x^y\varphi(u)du = 0所确定，其中�
 
 
 
-
-### [Day 274](https://www.bilibili.com/video/BV1u94y1C7ut)
+### [Day 274:star2:](https://www.bilibili.com/video/BV1u94y1C7ut)
 
 $设 x = x(y) 是函数 y = lnx + e^x 的反函数，则\cfrac{d^2x}{dy^2}=$
 
