@@ -374,8 +374,7 @@ $设 x = x(y) 是函数 y = lnx + e^x 的反函数，则\cfrac{d^2x}{dy^2}=$
 
 
 
-
-### [Day 275](https://www.bilibili.com/video/BV1xV411G7NR)
+### [Day 275:star2:](https://www.bilibili.com/video/BV1xV411G7NR)
 
 $设 y = y(x) 由 e^ysint -y + 1 = 0 和x = \begin{dcases}
     \cfrac{e^t-1}{t}, & t \ne 1, \\
@@ -399,8 +398,7 @@ $f(x)=x^2ln(1-x),当n \ge 3时，f^{(n)}(0)=$
 
 
 
-
-### [Day 277](https://www.bilibili.com/video/BV1Qu4y1R7kP)
+### [Day 277:star2:](https://www.bilibili.com/video/BV1Qu4y1R7kP)
 
 $f(x)=\cfrac{1}{1+2x+4x^2},则f^{(100)}(0)=$
 
@@ -410,13 +408,11 @@ $f(x)=\cfrac{1}{1+2x+4x^2},则f^{(100)}(0)=$
 
 
 
-
-### [Day 278](https://www.bilibili.com/video/BV1zj411z71E)
+### [Day 278:star2:](https://www.bilibili.com/video/BV1zj411z71E)
 
 $设y=\cfrac{arcsinx}{\sqrt{1-x^2}}\\
-(1)证明(1-x^2)y^{(n+1)}-(2n+1)xy^{(n)-n^2y^{(n-1)}}=0(n \ge 1); \\
+(1)证明(1-x^2)y^{(n+1)}-(2n+1)xy^{(n)}-n^2y^{(n-1)}=0(n \ge 1); \\
 (2)求y^{(n)}(0)$
-
 
 
 
@@ -441,8 +437,7 @@ C. 可导点，非极值点 D. 不可导点，非极值点
 
 
 
-
-### [Day 280](https://www.bilibili.com/video/BV1x14y1v7Uj)
+### [Day 280:star2:](https://www.bilibili.com/video/BV1x14y1v7Uj)
 
 $设f(x)=\int_{-1}^{x}tln|t|dt,则x=0是f(x)的$
 
