@@ -452,7 +452,7 @@ C. 可导点，非极值点 D. 不可导点，非极值点
 
 
 
-### [Day 281](https://www.bilibili.com/video/BV1cN411h7GM)
+### [Day 281:star2:](https://www.bilibili.com/video/BV1cN411h7GM)
 
 $f(x)=(x+1)|x^2-1|$
 
@@ -466,8 +466,7 @@ C. 2个驻点，1个极值点 D. 2个驻点，2个极值点
 
 
 
-
-### [Day 282](https://www.bilibili.com/video/BV1nz4y1g7mX)
+### [Day 282:star2:](https://www.bilibili.com/video/BV1nz4y1g7mX)
 
 $f(x)具有二阶连续导数，且f'(0) = 0,\lim \limits_ { x \rightarrow 0 } \cfrac { f ^ { \prime \prime } ( x ) + f ( x ) - f ( - x ) } { | x | } = 1,则$
 
@@ -481,8 +480,7 @@ C. (0,f(0))是曲线y=f(x)拐点 D. f(0)是f(x)极值，(0,f(0))不是曲线y=f(
 
 
 
-
-### [Day 283](https://www.bilibili.com/video/BV1fV41137oy)
+### [Day 283:star2:](https://www.bilibili.com/video/BV1fV41137oy)
 
 $f ( x ) = \cfrac { x | x | } { 1 + x }$求凹凸区间及渐近线
 
@@ -503,8 +501,7 @@ $y = x ( 1 + \arcsin \cfrac { 2 } { x } )$斜渐近线方程
 
 
 
-
-### [Day 285](https://www.bilibili.com/video/BV1Uu4y197uP/)
+### [Day 285:star2:](https://www.bilibili.com/video/BV1Uu4y197uP/)
 
 $y = e ^ { \frac {1} {x} } \sqrt { 1 + x ^ { 2 } }$的渐近线所围区域面积为
 
