@@ -704,3 +704,37 @@ $\begin{aligned}\text{下列级数中收敛的是()}\\\text{A.}&\sum_{n=2}^{\inf
 
 $\begin{aligned}&\text{下列级数中条件收敛的是()}\\
 &\mathrm{A.}\quad\sum_{n=1}^{\infty}\ln(1+\frac{(-1)^n}{\sqrt{n}}).&&\mathrm{B.}&&\sum_{n=1}^{\infty}\frac{(-1)^n}{\sqrt{n}}\ln(1+\frac1n).\\&\mathrm{C.}\quad\sum_{n=1}^{\infty}\frac{(-1)^n[(-1)^n+\ln n]}n.&&\mathrm{D.}&&\sum_{n=2}^{\infty}\frac{(-1)^n}{n\ln n}.\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 344](https://www.bilibili.com/video/BV1S8411k73h/)
+
+$\begin{aligned}\text{级数 }&\sum_{n=1}^{\infty}\frac n{1^{\alpha}+2^{\alpha}+\cdots+n^{\alpha}},(\alpha>0),\text{()}\\\\
+&\mathrm{A.~}\alpha=1\text{ 时收敛 }&\mathrm{B.~}\alpha=2\text{ 时发散}\\
+&\mathrm{C.~}\alpha<2\text{ 时发散 }&\mathrm{D.~}\alpha>1\text{ 时收敛}\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+
+
+### [Day 345](https://www.bilibili.com/video/BV1qN411b7SA/)
+
+$\begin{aligned}&\text{已知级数}\sum_{n=1}^{\infty}a_n\text{ 绝对收敛,级数 }\sum_{n=1}^{\infty}(b_{n+1}-b_n)\text{ 条件收敛,则级数 }\sum_{n=1}^{\infty}b_na_n^2\text{()}\\
+&\text{A.条件收敛} \quad \text{B.绝对收敛;}\\
+&\text{C.发散} \quad\quad \text{D.敛散性无法判断}\end{aligned}$
