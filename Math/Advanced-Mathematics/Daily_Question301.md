@@ -738,3 +738,95 @@ $\begin{aligned}\text{级数 }&\sum_{n=1}^{\infty}\frac n{1^{\alpha}+2^{\alpha}+
 $\begin{aligned}&\text{已知级数}\sum_{n=1}^{\infty}a_n\text{ 绝对收敛,级数 }\sum_{n=1}^{\infty}(b_{n+1}-b_n)\text{ 条件收敛,则级数 }\sum_{n=1}^{\infty}b_na_n^2\text{()}\\
 &\text{A.条件收敛} \quad \text{B.绝对收敛;}\\
 &\text{C.发散} \quad\quad \text{D.敛散性无法判断}\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 346](https://www.bilibili.com/video/BV1K84y1d7Lb/)
+
+$\begin{aligned}
+&\text{已知正项级数}\sum_{n=1}^{\infty}a_n\text{ 发散,则下列级数一定收敛的是( )} \\
+&\text{A. }\sum_{n=1}^{\infty}\frac{(-1)^na_n}n \quad\quad\quad  \quad \text{B. }\sum_{n=1}^{\infty}\frac{a_n}{n^n}. \\
+&\mathbf{C}.\sum_{n=2}^{\infty}\frac{a_n}{a_1+a_2+\cdots+a_n}.  \quad  \quad \mathsf{D}.\sum_{n=1}^{\infty}\frac{a_{n}}{n^{3}+a_{n}^{2}}. 
+\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 347](https://www.bilibili.com/video/BV1MH4y1d7WX/)
+
+$\begin{aligned}
+&\text{已知级数 }\sum_{n=1}^\infty a_n\text{ 收敛,则下列4个级数} \\
+&1. \quad\sum_{n=1}^{\infty}a_n^2 \quad\quad\quad\quad 2. \sum_{n=1}^{\infty}\ln(1+a_n)  \\
+&3. \quad\sum_{n=1}^{\infty}(a_{2n}-a_{2n-1})\quad\quad\quad\quad 4. \sum_{n=1}^{\infty}(a_{n+1}^2-a_n^2) \\
+&\text{必收敛的个数为()}\\
+&A. 0 \quad B. 1 \quad C. 2 \quad D. 3
+\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+
+
+### [Day 348](https://www.bilibili.com/video/BV1xp4y1T7YJ/)
+
+$\begin{aligned}
+&\text{ 设 }a_n\text{ 为曲线 } y=\sin x,(0\leq x\leq n\pi)\text{ 与 }x\text{ 轴所围区域绕 }x\\
+&\text{轴旋转所得旋转体的体积,则级数 } \sum_{n=1}^n\frac{(-1)^n\pi^2}{2a_{n+1}}\text{ 的和为()}\\
+&\text{A.1 \quad B.2 } \quad \text{C.1}-\ln2 \quad \text{D.}\ln2-1
+\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 349](https://www.bilibili.com/video/BV1wj411473n/)
+
+$\displaystyle \text{证明级数}\sum_{n=1}^{\infty}\frac{1+\frac12+\cdots+\frac1n}{(n+1)(n+2)}\text{ 收敛并求其和}.$
+
+
+
+
+
+
+
+
+
+
+
+
+
+### [Day 350](https://www.bilibili.com/video/BV11h4y1q7xg/)
+
+$\begin{gathered}
+\text{设 }I_n=\int_0^{\pi/4}\tan^nxdx,\text{其中 }n\text{ 为正整数}. \\
+(1)\text{ 若 }n\geq2,\text{计算 }I_n+I_{n-2}; \\
+\text{2)设 }p\text{ 为实数,讨论级数 }\sum_{n=1}^{\infty}(-1)^{n}I_n^p\text{ 的绝对收敛性和条件收敛性}. 
+\end{gathered}$
