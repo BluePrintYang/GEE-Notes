@@ -158,14 +158,21 @@ $当Z=g(X,Y)为连续型随机变量时，其密度函数为f_Z(z) = F'_Z(z)$
 #### 公式法
 
 1. $$
-   U = max\set{X, Y}的分布函数 \\
-   F_U(x) = P\set{max(X, Y) \le x} \\
-   =P\set{X \leq x, Y \leq x} \xlongequal{若X,Y独立}P\set{X \le x}P\set{Y \le x} =  F_X(x)F_Y(x) \xlongequal{若X,Y同分布} F_X^2(x)
+   \begin{aligned}
+   &U = max\set{X, Y}的分布函数 \\
+   &F_U(x) = P\set{max(X, Y) \le x} \\
+   &=P\set{X \leq x, Y \leq x}\\
+   &\xlongequal{若X,Y独立}P\set{X \le x}P\set{Y \le x} = F_X(x)F_Y(x)\\ &\xlongequal{若X,Y同分布} F_X^2(x)
+   \end{aligned}
    $$
 2. $$
-   V = min\set{X, Y}的分布函数\\
-   F_V(x) = P\set{min(X, Y) \le x} = 1 - P\set{min(X, Y) \gt x}\\
-   =1 - P\set{X \gt x, Y \gt x} \xlongequal{若X,Y独立} 1 - P\set{X \gt x, Y \gt x} = 1 - [1 - F_X(x)] [1 - F_Y(x)] \xlongequal{若X,Y同分布} 1 - [1 - F_X(x)]^2
+   \begin{aligned}
+   &V = min\set{X, Y}的分布函数\\
+   &F_V(x) = P\set{min(X, Y) \le x} = 1 - P\set{min(X, Y) \gt x}\\
+   &=1 - P\set{X \gt x, Y \gt x} \\
+   &\xlongequal{若X,Y独立} 1 - P\set{X \gt x, Y \gt x} = 1 - [1 - F_X(x)] [1 - F_Y(x)] \\
+   &\xlongequal{若X,Y同分布} 1 - [1 - F_X(x)]^2
+   \end{aligned}
    $$
 
 $如果随机变量X_1,X_2,\cdots,X_n相互独立，X_i的密度函数为f_i(x),分布函数为F_i(x),i=1,2,\cdots,n,记$

@@ -59,6 +59,8 @@ $X \sim B(n,p): P\set{X=k}=C_n^kp^k(1-p)^{n-k}, k=0,1,...,n$
 
 #### 泊松分布
 
+> 单位时间稀有事件发生次数
+
 $X \sim P(\lambda): P\set{X=k}= \cfrac{\lambda^k}{k!}e^{-\lambda}, k = 0,1,2,...,\lambda > 0$
 
 #### 几何分布
