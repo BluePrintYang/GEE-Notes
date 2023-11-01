@@ -51,11 +51,15 @@ $$X \sim B(1,p) 或 X \sim
 
 $P\set{X=k}=p^k(1-p)^{1-k}, k=0,1...$
 
+$EX=p \quad DX=p(1-p)$
+
 #### 二项分布
 
 > n次独立重复实验中事件A发生的次数X，P(A)=p
 
 $X \sim B(n,p): P\set{X=k}=C_n^kp^k(1-p)^{n-k}, k=0,1,...,n$
+
+$EX=np \quad DX=np(1-p)$
 
 #### 泊松分布
 
@@ -63,11 +67,15 @@ $X \sim B(n,p): P\set{X=k}=C_n^kp^k(1-p)^{n-k}, k=0,1,...,n$
 
 $X \sim P(\lambda): P\set{X=k}= \cfrac{\lambda^k}{k!}e^{-\lambda}, k = 0,1,2,...,\lambda > 0$
 
+$EX=DX=\lambda$
+
 #### 几何分布
 
 > 独立重复实验中事件A首次发生时进行的实验次数X服从几何分布
 
 $P\set{X=k}=(1-p)^{k-1}p, k=1,2...,0 \lt p \lt 1$
+
+$EX=\frac1p \quad DX=\frac{1-p}{p^2}$
 
 #### 超几何分布
 
@@ -113,6 +121,8 @@ $$分布函数为F(x)=
   1, & x \geq b
 \end{dcases}$$
 
+$EX=\frac{a+b}2 \quad DX=\frac{(a+b)^2}{12}$
+
 #### 指数分布
 
 $X \sim E(\lambda)$
@@ -131,6 +141,8 @@ $$分布函数F(x)=
   1 - e^{-\lambda x}, & x \geq 0
 \end{dcases}$$
 
+$EX=\frac1\lambda \quad DX=\frac1{\lambda^2}$
+
 #### 正态分布
 
 $X \sim N(\mu,\sigma^2)$
@@ -138,6 +150,8 @@ $X \sim N(\mu,\sigma^2)$
 $$密度函数f(x)=\cfrac{1}{\sqrt{2\pi}\sigma}e^{-\cfrac{(x-\mu)^2}{2\sigma^2}}$$
 
 $$分布函数F(x)=\int_{-\infty}^x\cfrac{1}{\sqrt{2\pi}\sigma}e^{-\cfrac{(t-\mu)^2}{2\sigma^2}}dt$$
+
+$EX=\mu \quad DX=\sigma^2$
 
 性质
 

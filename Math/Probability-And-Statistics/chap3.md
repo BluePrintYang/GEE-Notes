@@ -87,13 +87,13 @@ $P\set{(X, Y) \in D} = \displaystyle\iint\limits_{D}f(x,y)dxdy$
 
 #### 二维连续型随机变量的边缘密度函数
 
-$f_X(x) = \int_{-\infty}^{+\infty}f(x,y)dy, -\infty \lt x \lt +\infty$
-$f_Y(y) = \int_{-\infty}^{+\infty}f(x,y)dx, -\infty \lt y \lt +\infty$
+$f_X(x) = \int_{-\infty}^{+\infty}f(x,y)dy, -\infty \lt x \lt +\infty\\
+f_Y(y) = \int_{-\infty}^{+\infty}f(x,y)dx, -\infty \lt y \lt +\infty$
 
 #### 二维连续型随机变量的条件概率密度
 
-$在Y=y(f_Y(y) \gt 0) 的条件下，X的条件概率密度为$
-$f_{X|Y}(x|y) = \cfrac{f(x,y)}{f_Y(y)}, -\infty \lt x \lt +\infty$
+$在Y=y(f_Y(y) \gt 0) 的条件下，X的条件概率密度为\\
+f_{X|Y}(x|y) = \cfrac{f(x,y)}{f_Y(y)}, -\infty \lt x \lt +\infty$
 
 ## 随机变量的独立性及不相关性
 
@@ -191,6 +191,9 @@ $f_N(x) = F'_N(x)$
 
 $如果随机变量X_1,X_2,\cdots,X_n相互独立且同分布,且f_i(x) = f(x),F_i(x) = F(x), i = 1,2,\cdots , n,则$
 
-$F_M(x) = [F_(x)]^n, f_M(x) = n[F_(x)]^{n-1}f(x)$
-
-$F_N(x) = 1 - [1 - F_(x)]^n, f_N(x) = n[1 - F_(x)]^{n-1}f(x)$
+$$
+\begin{aligned}
+&F_M(x) = [F(x)]^n, & f_M(x) = n[F(x)]^{n-1}f(x) \\
+&F_N(x) = 1 - [1 - F(x)]^n, & f_N(x) = n[1 - F(x)]^{n-1}f(x)
+\end{aligned}
+$$
