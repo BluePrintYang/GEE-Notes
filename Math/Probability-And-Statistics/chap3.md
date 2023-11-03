@@ -107,7 +107,7 @@ $P\set{X \le x, Y \lt y} = P\set{X \le x}P\set{Y \le y} 即 F(x,y) = F_X(x)F_Y(y
 
 ### 关于独立的两个结论
 
-1. $Y与Y相互独立 \Leftrightarrow 对任意实数集合 L_1,L_2,有 P\set{X \in L_1, Y \in L_2} = P\set{X \in L_1}P\set{Y \in L_2}$
+1. $X与Y相互独立 \Leftrightarrow 对任意实数集合 L_1,L_2,有 P\set{X \in L_1, Y \in L_2} = P\set{X \in L_1}P\set{Y \in L_2}$
 2. 设随机变量X与Y相互独立，若g(x)，h(y)是连续函数，则g(X)与h(Y)也相互独立
    $特别地，若X与Y相互独立，则X^2与Y^2相互独立，反之未必$
 
