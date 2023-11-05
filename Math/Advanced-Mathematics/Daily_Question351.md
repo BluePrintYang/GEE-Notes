@@ -95,3 +95,45 @@ $\begin{aligned}
 ### [Day 357](https://www.bilibili.com/video/BV1uM41197YN/)
 
 $\displaystyle\begin{aligned}&\text{设 Σ 是由平面曲线 }\begin{cases}4y^2+z^2=4,\\x=0&\end{cases}(z\geq0)\text{绕 z 轴旋转一周形成的空间曲面,}\\&\text{取上侧,计算曲面积分}\quad I=\iint\limits_\Sigma\frac{x^2ydydz+y^2zdzdx+(z^2+1)dxdy}{\sqrt{x^2+y^2+(\frac z2)^2+3}}.\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 358](https://www.bilibili.com/video/BV1Yw411q7ZW/)
+
+$\begin{aligned}&\text{设函数 }f(x,y,z)\text{ 在区域 }\Omega=\left\{(x,y,z)|x^2+y^2+z^2\leq1\right\}\text{上具有连续一阶偏导数,}\\&\text{且满足 }\frac{\partial^2f}{\partial x^2}+\frac{\partial^2f}{\partial y^2}+\frac{\partial^2f}{\partial z^2}=\sqrt{x^2+y^2+z^2}.\text{ 计算 }I=\iiint\limits_\Omega(x\frac{\partial f}{\partial x}+y\frac{\partial f}{\partial y}+z\frac{\partial f}{\partial z})dxdydz.\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 359](https://www.bilibili.com/video/BV1yH4y1r7t9/)
+
+$\begin{aligned}&\text{已知 }\lim_{x\to0}\frac{e^xf(x)+\sin x}{x^2}=1,\text{则 }\lim_{x\to0}\frac{f(x)+\sin x}{x^2}=(\quad)\\\\&\text{(A) 1}\quad(B)\quad2\quad(C)\quad\frac12\quad(D)\quad e\end{aligned}$
+
+
+
+
+
+
+
+
+
+
+
+### [Day 360](https://www.bilibili.com/video/BV1xu4y1h7LW/)
+
+$\begin{aligned}&\lim_{x\to0^+}\left(\frac x{(e^x-1)\cos\sqrt{x}}\right)^{\frac1{(1+\sin x^2)^{1/x}-1}}=()\\\\&(A)\quad e^{\frac12}\quad\quad\quad(B)\quad e^{-\frac12}\quad\quad\quad(C)\quad e\quad\quad\quad(D)\quad1\end{aligned}$
