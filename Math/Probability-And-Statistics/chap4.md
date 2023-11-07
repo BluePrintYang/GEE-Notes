@@ -65,7 +65,7 @@ $D(X)=E(X^2)-\begin{bmatrix}E(X)\end{bmatrix}^2$
 
 ### 矩
 
-$E(X^k),\quad k=1,2,\cdotp\cdotp\cdotp $
+$E(X^k),\quad k=1,2,\cdotp\cdotp\cdotp$
 
 若存在，称之为 X 的 k阶原点矩，简称 k阶矩
 
@@ -91,7 +91,7 @@ $\mathrm{Cov}(X,Y)=E(\begin{bmatrix}X-E(X)\end{bmatrix}[Y-E(Y)])$
 2. $D(X\pm Y)=D(X)+D(Y)\pm2\mathrm{Cov}(X,Y)$
 3. $\mathrm{Cov}(X,Y)=\mathrm{Cov}(Y,X) \quad  \text{ 特别地 } \mathrm{Cov}(X,X)=D(X)$
 4. $\operatorname{Cov}(aX,bY)=ab\operatorname{Cov}(X,Y)$
-5. :star2: $\mathrm{Cov}(X_{1}+X_{2},Y)=\mathrm{Cov}(X_{1},Y)+\mathrm{Cov}(X_{2},Y)$****
+5. :star2: $\mathrm{Cov}(X_{1}+X_{2},Y)=\mathrm{Cov}(X_{1},Y)+\mathrm{Cov}(X_{2},Y)$
 
 ### 相关系数
 
@@ -102,7 +102,7 @@ $D(X)D(Y) = 0 \Rightarrow \rho_{xy}=0$
 #### 性质
 
 1. $\mid\rho_{XY}\mid\leqslant1$
-2. $\mid\rho_{XY}\mid = 1 \Leftrightarrow \exist a \ne 0, P\langle Y=aX+b\rangle=1$
+2. $\mid\rho_{XY}\mid = 1 \Leftrightarrow \exist a \ne 0, P\set{ Y=aX+b}=1$
    1. $\rho = 1 \Rightarrow a \gt 0$
    2. $\rho = -1 \Rightarrow a \lt 0$
 
