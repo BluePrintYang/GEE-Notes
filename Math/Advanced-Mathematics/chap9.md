@@ -67,7 +67,7 @@ $$
 
 #### 定义
 
-$\int_{L}f(x,y)\mathrm{d}s=\lim_{\lambda\to0}\sum_{i=1}^{n}f(\xi_{i},\eta_{i})\Delta s_{i}.$
+$\displaystyle\int_{L}f(x,y)\mathrm{d}s=\lim_{\lambda\to0}\sum_{i=1}^{n}f(\xi_{i},\eta_{i})\Delta s_{i}.$
 
 #### 性质
 
@@ -161,6 +161,63 @@ $\oint_{L}P\mathrm{d}x+\mathrm{Q}\mathrm{d}y=\oint_{L}\left(P\cos\alpha+\mathrm{
 
 ##### 直接法
 
+$\int_{L}P(x,y,z)\mathrm{d}x+Q(x,y,z)\mathrm{d}y+R(x,y,z)\mathrm{d}z=\int_{\alpha}^{\beta}\set{ P[x(t),y(t),z(t)]x^{\prime}(t)+{Q}[x(t),y(t),z(t)]y^{\prime}(t)+{R}[x(t),y(t),z(t)]z^{\prime}(t)}\mathrm{d}t.$
+
 ##### 斯托克斯公式
 
+$\begin{aligned}
+&\oint_{L}P(x,y,z)\mathrm{d}x+Q(x,y,z)\mathrm{d}y+R(x,y,z)\mathrm{d}z \\
+&\left.=\iint\limits_{\Sigma}\left|\begin{array}{ccc}\cos\alpha&\cos\beta&\cos\gamma\\\frac{\partial}{\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\P&Q&R\end{array}\right.\right|\mathrm{dS} \\
+&=\iint_{\Sigma}\left(\frac{\partial R}{\partial y}-\frac{\partial Q}{\partial z}\right)\mathrm{d}y\mathrm{d}z+\left(\frac{\partial P}{\partial z}-\frac{\partial R}{\partial x}\right)\mathrm{d}z\mathrm{d}x+\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm{d}x\mathrm{d}y.
+\end{aligned}$
+
 转为平面（区域为平面投影）
+
+### 对面积的面积分（第一类面积分）
+
+#### 定义
+
+$\displaystyle\iint\limits_{\Sigma}f(x,y,z)\mathrm{d}S=\lim_{\lambda\rightarrow0}\sum_{i=1}^{n}f(\xi_{i},\eta_{i},\xi_{i})\Delta S_{i}$
+
+#### 性质
+
+$\iint\limits_{\Sigma}f(x,y,z)\mathrm{dS}=\iint\limits_{-\Sigma}f(x,y,z)\mathrm{dS}\quad\text{(与积分曲面的方向无关)}$
+
+#### 计算
+
+##### 直接法
+
+$\iint\limits_{\Sigma}f(x,y,z)\mathrm{dS}=\iint\limits_{D_{xy}}f\Bigl[x,y,z(x,y)\Bigr]\sqrt{1+z_{x}^{\prime2}+z_{y}^{\prime2}}\mathrm{d}x\mathrm{d}y.$
+
+#### 利用奇偶性
+
+$\begin{aligned}
+&\text{若曲面 Σ 关于 xOy 面对称,则} \\
+&\left.\iint\limits_{\Sigma}f\left(x,y,z\right)\mathrm{d}S=\left\{\begin{matrix}{2}&{\iint\limits_{\Sigma_z\geqslant0}f(x,y,z)\mathrm{d}S,}&{\text{当 }f(x,y,z)\text{ 关于 }z\text{ 为偶函数,}} \\ & { 0 ,}&{\text{当 }f(x,y,z)\text{ 关于 }z\textbf{ 为奇函数}.}\\\end{matrix}\right.\right.
+\end{aligned}$
+
+### 对坐标的面积分（第二类面积分）
+
+#### 定义
+
+$\iint\limits_{\Sigma}R\left(x,y,z\right)\mathrm{d}x\mathrm{d}y=\lim_{\lambda\to0}\sum_{i=1}^{n}R\left(\xi_{i},\eta_{i},\xi_{i}\right)\left(\Delta S_{i}\right)_{xy}.$
+
+#### 性质
+
+$\iint\limits_{\Sigma}P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}z\mathrm{d}x+R\mathrm{d}x\mathrm{d}y=-\iint\limits_{-\Sigma}P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}x\mathrm{d}x+R\mathrm{d}x\mathrm{d}y(\text{与积分曲面的方向有关}).$
+
+#### 计算
+
+##### 直接法
+
+$\iint\limits_{\Sigma}R\left(x,y,z\right)\mathrm{d}x\mathrm{d}y=\pm\iint\limits_{D_{xy}}R\left[x,y,z(x,y)\right]\mathrm{d}x\mathrm{d}y.$
+
+##### 高斯公式
+
+$\iint\limits_{\Sigma_{\text{外}}}P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}z\mathrm{d}x+R\mathrm{d}x\mathrm{d}y=\iiint\limits_{\Omega}\left(\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}\right)\mathrm{d}v.$
+
+##### 补面用高斯公式
+
+#### 两类面积分联系
+
+$\iint\limits_{\Sigma}(P\cos a+Q\cos\beta+R\cos\gamma)\mathrm{d}S=\iint\limits_{\Sigma}(P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}z\mathrm{d}x+R\mathrm{d}x\mathrm{d}y).$

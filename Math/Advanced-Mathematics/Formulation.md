@@ -44,12 +44,14 @@ $\int ln(x+1) dx = \int ln(x+1) d (x+1) = (x+1)ln(x+1) - x$
 
 2. 质心：$\displaystyle\overline{x}=\frac{\int_a^bx\rho\left(x\right)dx}{\int_a^b\rho\left(x\right)dx}$
 
-3. 方向导数：$\displaystyle\left.\frac{\partial f}{\partial\boldsymbol{l}}\right|_{(x_0,y_0)}=\lim_{t\to0^+}\frac{f(x_0+t\cos\alpha,y_0+t\cos\beta)-f(x_0,y_0)}{t}$
+3. 形心：区域对x积分除以面积
+
+4. 方向导数：$\displaystyle\left.\frac{\partial f}{\partial\boldsymbol{l}}\right|_{(x_0,y_0)}=\lim_{t\to0^+}\frac{f(x_0+t\cos\alpha,y_0+t\cos\beta)-f(x_0,y_0)}{t}$
 
    $\displaystyle\left.\frac{\partial f}{\partial\boldsymbol{l}}\right|_{(x_0,y_0)}=f'_x(x_0,y_0)\cos\alpha+f'_y(x_0,y_0)\cos\beta$
 
-4. 梯度（偏导向量）：$\mathbf{grad}f(x_0,y_0)=f_x^{\prime}(x_0,y_0)\boldsymbol{i}+f_y^{\prime}(x_0,y_0)\boldsymbol{j}$
+5. 梯度（偏导向量）：$\mathbf{grad}f(x_0,y_0)=f_x^{\prime}(x_0,y_0)\boldsymbol{i}+f_y^{\prime}(x_0,y_0)\boldsymbol{j}$
 
-5. 散度（偏导和）：$\displaystyle\operatorname{div}\boldsymbol{A}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}$
+6. 散度（偏导和）：$\displaystyle\operatorname{div}\boldsymbol{A}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}$
 
-6. 旋度（行列式）：$\displaystyle\text{rot }A=\begin{vmatrix}i&\boldsymbol{j}&\boldsymbol{k}\\\frac{\partial}{\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\P&Q&R\end{vmatrix}$
+7. 旋度（行列式）：$\displaystyle\text{rot }A=\begin{vmatrix}i&\boldsymbol{j}&\boldsymbol{k}\\\frac{\partial}{\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\P&Q&R\end{vmatrix}$
