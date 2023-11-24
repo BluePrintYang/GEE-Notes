@@ -115,6 +115,39 @@ sub bx, ax 是 bx - ax 然后存到bx中
 
 ### 复杂指令系统计算机（CISC）
 
+[Complex instruction set computer](https://en.wikipedia.org/wiki/Complex_instruction_set_computer)
+
+特点
+
+1. 指令系统复杂庞大，指令数目200条以上
+2. 指令长度不固定，指令格式多，寻址方式多
+3. 可以访存的指令不受限制
+4. 各种指令使用频率相差很大
+5. 各种指令的执行时间相差很大
+6. 控制器大多采用微程序控制。指令复杂无法采用硬布线
+7. 难以用优化编译生成高效的目标代码
+
 ### 精简指令系统计算机（RISC）
 
+[Reduced instruction set computer](https://en.wikipedia.org/wiki/Reduced_instruction_set_computer)
+
+特点
+
+1. 选取使用频率最高的一些简单指令，复杂指令由简单指令组合实现
+2. 指令长度固定，指令种类少，寻址方式少
+3. 只有 Load/Store 指令访存
+4. CPU 中通用寄存器的数量相当多
+5. 一定采用指令流水线技术，大部分指令在一个时钟周期内完成
+6. 以硬布线控制为主，不用或少用微程序控制
+7. 特别重视编译优化工作
+
+从指令兼容性来看，CISC 大多能实现软件兼容；RISC 简化了指令系统，大多数 RISC 不能与老机器兼容
+
 ### CISC和RISC的比较
+
+1. RISC 更能充分利用 VLSI 芯片的面积
+2. RISC 更能提高运算速度
+3. RISC 便于设计，可降低成本，提高可靠性
+4. RISC 有利于编译程序代码优化
+
+![CISC和RISC的比较](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20231123164928215.png)

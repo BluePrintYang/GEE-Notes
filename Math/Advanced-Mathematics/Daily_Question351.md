@@ -1,5 +1,5 @@
 ---
-title: 每日一题 351-4000
+title: 每日一题 351-400
 ---
 
 ## [Daily Question](https://www.icourse163.org/learn/kaopei-1468540169?tid=1469800465#/learn/content)
