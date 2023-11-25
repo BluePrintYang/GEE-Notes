@@ -273,7 +273,7 @@ m阶B树或为空树，或满足以下特性的m叉树：
 
 2. 若根结点不是叶结点，则至少有两棵子树
 
-3. 除根结点外的所有非叶结点至少有$\left\lceil m/2\right\rceil$棵子树
+3. 除根结点外的所有非叶结点至少有$\left\lceil m/2\right\rceil$棵子树，即至少有$\left\lceil m/2\right\rceil - 1$ 个关键字
 
 4. 所有非叶结点的结构如下
 
