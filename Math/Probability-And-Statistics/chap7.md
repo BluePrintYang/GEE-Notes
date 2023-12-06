@@ -4,7 +4,7 @@
 
 ### 点估计
 
-**点估计**：$\text{用样本 }X_1,X_2,\cdotp\cdotp\cdotp,X_n\text{构造的统计量}\hat{\theta}(X_1,X_2,\cdotp\cdotp\cdotp,X_n)\text{来估计未知参数}\theta $
+**点估计**：$\text{用样本 }X_1,X_2,\cdotp\cdotp\cdotp,X_n\text{构造的统计量}\hat{\theta}(X_1,X_2,\cdotp\cdotp\cdotp,X_n)\text{来估计未知参数}\theta$
 
 **估计量**：$\text{统计量 }\hat{\theta}(X_1,X_2,\cdots,X_n)$
 
@@ -22,7 +22,7 @@ $\text{设 }\hat{\theta}_1\text{ 和 }\hat{\theta}_2\text{ 都是 }\theta\text{ 
 
 ### 一致估计量
 
-${\text{设}\hat\theta}(X_1,X_2,\cdotp\cdotp\cdotp,X_n)\text{ 是 }\theta\text{的估计量,如果 }\hat{\theta}\text{依概率收敛于}\theta $
+${\text{设}\hat\theta}(X_1,X_2,\cdotp\cdotp\cdotp,X_n)\text{ 是 }\theta\text{的估计量,如果 }\hat{\theta}\text{依概率收敛于}\theta$
 
 ## 估计量的求法和区间估计
 
