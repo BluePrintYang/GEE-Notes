@@ -221,3 +221,7 @@ $\iint\limits_{\Sigma_{\text{外}}}P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}z\mathrm{d
 #### 两类面积分联系
 
 $\iint\limits_{\Sigma}(P\cos a+Q\cos\beta+R\cos\gamma)\mathrm{d}S=\iint\limits_{\Sigma}(P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}z\mathrm{d}x+R\mathrm{d}x\mathrm{d}y).$
+
+### 多元积分应用
+
+![多元积分应用](https://raw.githubusercontent.com/BluePrintYang/PicHub/master/premaster/image-20231206222944061.png)
