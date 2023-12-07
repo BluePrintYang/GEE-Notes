@@ -54,6 +54,6 @@ $\int ln(x+1) dx = \int ln(x+1) d (x+1) = (x+1)ln(x+1) - x$
 
 6. 散度（偏导和）：$\displaystyle\operatorname{div}\boldsymbol{A}=\frac{\partial P}{\partial x}+\frac{\partial Q}{\partial y}+\frac{\partial R}{\partial z}$
 
-7. 旋度（行列式）：$\displaystyle\text{rot }A=\begin{vmatrix}i&\boldsymbol{j}&\boldsymbol{k}\\\frac{\partial}{\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\P&Q&R\end{vmatrix}$
+7. 旋度（行列式，向量）：$\displaystyle\text{rot }A=\begin{vmatrix}i&\boldsymbol{j}&\boldsymbol{k}\\\frac{\partial}{\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\P&Q&R\end{vmatrix}$
 
-8. 转动惯量：平面域 $\displaystyle I_{x}=\iint\limits_{D}y^{2}\rho(x,y)\mathrm{d}\sigma $
+8. 转动惯量：平面域 $\displaystyle I_{x}=\iint\limits_{D}y^{2}\rho(x,y)\mathrm{d}\sigma$

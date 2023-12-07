@@ -75,7 +75,7 @@ $\int_{L(\widehat{AB})}f(x,y)ds=\int_{L(\widehat{BA})}f(x,y)ds\quad(\text{与积
 
 #### 计算（平面）
 
-##### 直接法
+##### :star2:直接法
 
 1. 参数方程 $\left.L:\left\{\begin{matrix}{x=x(t),}\\{y=y(t)}\\\end{matrix}\right.\right.(\alpha\leqslant t\leqslant\beta)$
 
@@ -114,7 +114,7 @@ $$
 
 #### 定义
 
-$\int_{L}P(x,y)\mathrm{d}x+Q(x,y)\mathrm{d}y=\lim_{\lambda\to0}\sum_{i=1}^{n}\bigl[P(\xi_{i},\eta_{i})\Delta x_{i}+Q(\xi_{i},\eta_{i})\Delta y_{i}\bigr].$
+$\displaystyle\int_{L}P(x,y)\mathrm{d}x+Q(x,y)\mathrm{d}y=\lim_{\lambda\to0}\sum_{i=1}^{n}\bigl[P(\xi_{i},\eta_{i})\Delta x_{i}+Q(\xi_{i},\eta_{i})\Delta y_{i}\bigr].$
 
 #### 性质
 
@@ -122,7 +122,7 @@ $\int_{L(\widehat{AB})}P\mathrm{d}x+Q\mathrm{d}y=-\int_{L(\widehat{BA})}P\mathrm
 
 #### 计算方法（平面）
 
-##### 直接法
+##### :star2:直接法
 
 $$
 \left.L:\left\{\begin{matrix}{x=x(t),}\\{y=y(t)}\\\end{matrix}\right.\right. t\in\begin{bmatrix}a,\beta\end{bmatrix},\text{其起点和终点分别对应参数 }t=\alpha\text{ 和}t=\beta,\\
@@ -135,7 +135,7 @@ $$
 
 $\oint_{L}P\mathrm{d}x+Q\mathrm{d}y=\iint\limits_{D}\left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)\mathrm{d}\sigma,$
 
-L 为 D 取正向的边界曲线
+L 为 D 取正向的边界曲线，区域在方向左侧为正向
 
 ##### 补线用格林公式
 
@@ -165,6 +165,8 @@ $\int_{L}P(x,y,z)\mathrm{d}x+Q(x,y,z)\mathrm{d}y+R(x,y,z)\mathrm{d}z=\int_{\alph
 
 ##### 斯托克斯公式
 
+右手法则
+
 $\begin{aligned}
 &\oint_{L}P(x,y,z)\mathrm{d}x+Q(x,y,z)\mathrm{d}y+R(x,y,z)\mathrm{d}z \\
 &\left.=\iint\limits_{\Sigma}\left|\begin{array}{ccc}\cos\alpha&\cos\beta&\cos\gamma\\\frac{\partial}{\partial x}&\frac{\partial}{\partial y}&\frac{\partial}{\partial z}\\P&Q&R\end{array}\right.\right|\mathrm{dS} \\
@@ -185,7 +187,7 @@ $\iint\limits_{\Sigma}f(x,y,z)\mathrm{dS}=\iint\limits_{-\Sigma}f(x,y,z)\mathrm{
 
 #### 计算
 
-##### 直接法
+##### :star2:直接法
 
 $\iint\limits_{\Sigma}f(x,y,z)\mathrm{dS}=\iint\limits_{D_{xy}}f\Bigl[x,y,z(x,y)\Bigr]\sqrt{1+z_{x}^{\prime2}+z_{y}^{\prime2}}\mathrm{d}x\mathrm{d}y.$
 
@@ -200,7 +202,7 @@ $\begin{aligned}
 
 #### 定义
 
-$\iint\limits_{\Sigma}R\left(x,y,z\right)\mathrm{d}x\mathrm{d}y=\lim_{\lambda\to0}\sum_{i=1}^{n}R\left(\xi_{i},\eta_{i},\xi_{i}\right)\left(\Delta S_{i}\right)_{xy}.$
+$\displaystyle\iint\limits_{\Sigma}R\left(x,y,z\right)\mathrm{d}x\mathrm{d}y=\lim_{\lambda\to0}\sum_{i=1}^{n}R\left(\xi_{i},\eta_{i},\xi_{i}\right)\left(\Delta S_{i}\right)_{xy}.$
 
 #### 性质
 
@@ -208,9 +210,11 @@ $\iint\limits_{\Sigma}P\mathrm{d}y\mathrm{d}z+Q\mathrm{d}z\mathrm{d}x+R\mathrm{d
 
 #### 计算
 
-##### 直接法
+##### :star2:直接法
 
 $\iint\limits_{\Sigma}R\left(x,y,z\right)\mathrm{d}x\mathrm{d}y=\pm\iint\limits_{D_{xy}}R\left[x,y,z(x,y)\right]\mathrm{d}x\mathrm{d}y.$
+
+曲面Z的法线向量与z轴正向夹角为锐角，取正号，否则取负号.
 
 ##### 高斯公式
 
