@@ -176,7 +176,7 @@ $若\boldsymbol{A}是 m \times n 阶矩阵，则 r(\boldsymbol{A}) \le min(m,n)$
 
 经初等变换矩阵的秩不变
 
-**矩阵秩的公式**
+:star2:**矩阵秩的公式**
 
 $r(\boldsymbol{A}) = r(\boldsymbol{A}^T); r(\boldsymbol{A}^T\boldsymbol{A}) = r(\boldsymbol{A})$
 $当k \ne 0时，r(k\boldsymbol{A}) = r(\boldsymbol{A}); r(\boldsymbol{A} + \boldsymbol{B}) \le r(\boldsymbol{A}) + r(\boldsymbol{B})，r(\boldsymbol{A}\boldsymbol{B}) \le min(r(\boldsymbol{A}), r(\boldsymbol{B})),max(r(\boldsymbol{A}), r(\boldsymbol{B})) \le r(\boldsymbol{A},\boldsymbol{B}) \le r(\boldsymbol{A}) + r(\boldsymbol{B})$

@@ -346,3 +346,23 @@ $\begin{bmatrix}
 - $(\bold{AB})^*=\bold{B}^*\bold{A}^*$
 - $r(\mathbf{A}^*)=\begin{cases}n\text{,}&\text{若 }r(\mathbf{A})=n,\\1,&\text{若 }r(\mathbf{A})=n-1,\\0\text{,}&\text{若 }r(\mathbf{A})<n-1.\end{cases}$
 - $\begin{bmatrix}A&C\\O&B\end{bmatrix}^{-1}=\begin{bmatrix}A^{-1}&-A^{-1}CB^{-1}\\O&B^{-1}\end{bmatrix}$
+
+### :star2:矩阵秩的公式
+
+$$
+r(\boldsymbol{A}) = r(\boldsymbol{A}^T);\quad r(\boldsymbol{A}^T\boldsymbol{A}) = r(\boldsymbol{A})\\
+当k \ne 0时，r(k\boldsymbol{A}) = r(\boldsymbol{A}); \\
+r(\boldsymbol{A} + \boldsymbol{B}) \le r(\boldsymbol{A}) + r(\boldsymbol{B})，\\
+r(\boldsymbol{A}\boldsymbol{B}) \le min(r(\boldsymbol{A}), r(\boldsymbol{B})),\\
+max(r(\boldsymbol{A}), r(\boldsymbol{B})) \le r(\boldsymbol{A},\boldsymbol{B}) \le r(\boldsymbol{A}) + r(\boldsymbol{B})
+$$
+
+$若 \boldsymbol{A} 可逆，则r(\boldsymbol{A}\boldsymbol{B}) = r(\boldsymbol{B}), r(\boldsymbol{B}\boldsymbol{A}) = r(\boldsymbol{B}).$
+$若 \boldsymbol{A} 是 m \times n 矩阵，\boldsymbol{B} 是 n \times s 矩阵，\boldsymbol{AB} = \boldsymbol{0}，则 r(\boldsymbol{A}) + r(\boldsymbol{B}) \le n.$
+
+$分块矩阵
+r\begin{pmatrix}
+    \boldsymbol{A} & \boldsymbol{0} \\
+    \boldsymbol{0} & \boldsymbol{B}
+\end{pmatrix}
+=r(\boldsymbol{A}) + r(\boldsymbol{B})$
