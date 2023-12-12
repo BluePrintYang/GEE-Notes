@@ -41,9 +41,9 @@ $代数余子式(记为\boldsymbol{A_{ij}})：(-1)^{(i+j)}M_{ij}$
 
 1. 上（下）三角行列式的值等于主对角线元素的乘积
 
-2. 副对角线行列式=$(-1)^{\frac{n(n-1)}{2}}a_{1n}a_{2.n-1} \dots a_{n1}$
+2. :star2:副对角线行列式=$(-1)^{\frac{n(n-1)}{2}}a_{1n}a_{2.n-1} \dots a_{n1}$
 
-3. 两个特殊的拉普拉斯展开式
+3. :star2::star2:两个特殊的拉普拉斯展开式
    如果*A*和*B*分别是m阶和n阶矩阵，则
    $\begin{vmatrix} \boldsymbol{A} & \boldsymbol{*}\\ \boldsymbol{0} & \boldsymbol{B}\end{vmatrix} =
     \begin{vmatrix} \boldsymbol{A} & \boldsymbol{0}\\ \boldsymbol{*} & \boldsymbol{B} \end{vmatrix} = (-1)^{mn}
