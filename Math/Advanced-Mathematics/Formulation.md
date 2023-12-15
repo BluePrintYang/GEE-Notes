@@ -25,7 +25,7 @@
 1. $\int\tan x\mathrm{d}x=-\ln\mid\cos x\mid+C$
 1. $\int\cot x\mathrm{d}x=\ln\mid\sin x\mid+C$
 1. $\int\sec x\mathrm{d}x=\ln\mid\sec x+\tan x\mid+C$
-1. $\int\csc x\mathrm{d}x=\ln\mid\csc x-\cot x\mid+C$
+1. :heavy_exclamation_mark:$\int\csc x\mathrm{d}x=\ln\mid\csc x-\cot x\mid+C$
 1. $\displaystyle\int{\frac{\mathrm{d}x}{\sqrt{x^{2}\pm a^{2}}}}=\ln\mid x+\sqrt{x^{2}\pm a^{2}}\mid+C$
 1. $\displaystyle\int\frac{1}{a^{2}-x^{2}}\mathrm{d}x=\frac{1}{2a}{\ln\mid\frac{a+x}{a-x}}\mid+C$
 
@@ -33,6 +33,10 @@
 
 1. $\int_0^\pi xf(sinx)dx=\frac{\pi}{2}\int_0^\pi f(sinx)dx$
 2. $\int_0^\pi sin^nxdx=2\int_0^\frac{\pi}{2} sin^nxdx$
+
+## 麦克劳林公式（级数）
+
+1. $\displaystyle(1+x)^m=1+mx+\frac{m(m-1)}{2!}x^2+\cdots+\frac{m(m-1)\cdots(m-n+1)}{n!}x^n+o\left(x^n\right).$
 
 ## Tips
 
