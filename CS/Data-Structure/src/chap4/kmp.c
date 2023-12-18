@@ -21,6 +21,32 @@ void get_next(char *pattern, int *next)
     }
 }
 
+void get_nextval(char *pattern, int *nextval)
+{
+    int i = 0, j = -1;
+    int len = strlen(pattern);
+    nextval[0] = -1;
+
+    while (i < len - 1)
+    {
+        if (j == -1 || pattern[i] == pattern[j])
+        {
+            i++;
+            j++;
+
+            // 修改的部分
+            if (pattern[i] != pattern[j])
+                nextval[i] = j;
+            else
+                nextval[i] = nextval[j];
+        }
+        else
+        {
+            j = nextval[j];
+        }
+    }
+}
+
 int kmp_match(char *text, char *pattern)
 {
     int n = strlen(text);
@@ -50,7 +76,7 @@ int kmp_match(char *text, char *pattern)
     }
 }
 
-int main()
+void test_kmp()
 {
     char text[] = "abababsdba";
     char pattern[] = "absdb";
@@ -62,6 +88,24 @@ int main()
     else
     {
         printf("未找到模式串在文本串中的位置\n");
+    }
+}
+
+int main()
+{
+    char pattern[] = "ababaaaba";
+    int m = strlen(pattern);
+    int next[m];
+    get_next(pattern, next);
+    for (int i = 0; i < m; i++)
+    {
+        printf("%d ", next[i] + 1);
+    }
+    printf("\n");
+    get_nextval(pattern, next);
+    for (int i = 0; i < m; i++)
+    {
+        printf("%d ", next[i] + 1);
     }
     return 0;
 }
